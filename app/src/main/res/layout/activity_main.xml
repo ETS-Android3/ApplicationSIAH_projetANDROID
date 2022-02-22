@@ -39,7 +39,7 @@
         android:id="@+id/button_demarrer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="&quot;Continuer&quot; "
+        android:text="@string/quot_continuer_quot"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
