@@ -3,11 +3,13 @@
     <string name="siah">SIAH</string>
     <string name="todo">TODO</string>
     <string name="quot_continuer_quot">\"Continuer\"</string>
-</resources>
-<string-array name="tab_sports">
-<item>Football</item>
-<item>Rugby</item>
-<item>Basket</item>
-<item>Handball</item>
 
-</string-array>
+    <string-array name="tab_sports">
+        <item>SPORTS</item>
+        <item>Football</item>
+        <item>Rugby</item>
+        <item>Basket</item>
+        <item>Handball</item>
+
+    </string-array>
+</resources>
