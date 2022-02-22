@@ -2,52 +2,42 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:scaleX="@android:dimen/system_app_widget_inner_radius"
-    android:scaleY="2"
-    android:visibility="visible"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="64dp"
         android:text="@string/siah"
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.36" />
+        app:layout_constraintTop_toBottomOf="@+id/logo_siah" />
 
     <ImageView
         android:id="@+id/logo_siah"
-        android:layout_width="234dp"
-        android:layout_height="131dp"
+        android:layout_width="248dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="38dp"
         android:contentDescription="@string/todo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.535"
         app:srcCompat="@drawable/logo_siah" />
 
     <Button
         android:id="@+id/button_demarrer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="47dp"
         android:text="@string/quot_continuer_quot"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.923"
-        tools:visibility="visible" />
+        app:layout_constraintTop_toBottomOf="@+id/title" />
 
 </android.support.constraint.ConstraintLayout>
