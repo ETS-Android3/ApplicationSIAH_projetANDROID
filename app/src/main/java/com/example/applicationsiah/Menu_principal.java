@@ -6,7 +6,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
 public class Menu_principal extends AppCompatActivity {
-
+/*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,4 +21,5 @@ public class Menu_principal extends AppCompatActivity {
         // 4) Association de adapter au spinner
         monSpinner.setAdapter(monAdapter);
     }
+    /*/
 }
