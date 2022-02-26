@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -31,11 +32,24 @@ public class Menu_principal extends AppCompatActivity {
                 visualiser_podo();
             }
         });
-    }
+
+        ImageButton button_sports = (ImageButton) findViewById(R.id.sport_buttton);
+        button_sports.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                visualiser_sports();
+            }
+        });
+
+        }
 
 
 
 
+private void visualiser_sports(){
+        Intent intent1 = new Intent(this, Menu_sport.class);
+        startActivity(intent1);
+}
 
 
 
