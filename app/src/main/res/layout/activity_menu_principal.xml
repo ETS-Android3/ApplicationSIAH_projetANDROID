@@ -6,16 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".Menu_principal">
 
-    <Spinner
-        android:id="@+id/menu_sports"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="148dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="559dp"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="187dp"
+        android:layout_height="154dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@drawable/logo_siah" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="145dp"
+        android:layout_height="62dp"
+        android:text="Bienvenu ! "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.296"
+        tools:text="Bienvenu ! " />
+
+    <ImageButton
+        android:id="@+id/sport_buttton"
+        android:layout_width="122dp"
+        android:layout_height="105dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.791"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icone_appsiah" />
+
+    <ImageButton
+        android:id="@+id/sante_button"
+        android:layout_width="122dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sport_buttton"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icone2_siahapp" />
+
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="99dp"
+        android:layout_height="63dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294" />
+
 </android.support.constraint.ConstraintLayout>

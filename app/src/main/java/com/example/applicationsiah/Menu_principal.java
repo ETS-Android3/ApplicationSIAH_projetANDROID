@@ -1,16 +1,25 @@
 package com.example.applicationsiah;
 
 import android.support.v7.app.AppCompatActivity;
+
+import java.text.DateFormat;
+import java.util.Calendar;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 public class Menu_principal extends AppCompatActivity {
-/*/
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_principal);
+        setContentView(R.layout.activity_menu_principal); //affiche l'acran
+        Calendar calendar = Calendar.getInstance(); // on crée un calndrier on récupère la date du jour
+        String currentDate= DateFormat.getDateInstance().format(calendar.getTime());
+        TextView textViewDate = findViewById(R.id.text_date);
+        textViewDate.setText(currentDate);
+ /*/
         // 1) creation d’un objet-reference spinner vers le spinner de l’activite
         Spinner monSpinner = (Spinner) findViewById(R.id.menu_sports);
         // 2) creation d’un ArrayAdapter à partir de tab_pokemon et mise en forme par defaut
@@ -22,4 +31,5 @@ public class Menu_principal extends AppCompatActivity {
         monSpinner.setAdapter(monAdapter);
     }
     /*/
+    }
 }
