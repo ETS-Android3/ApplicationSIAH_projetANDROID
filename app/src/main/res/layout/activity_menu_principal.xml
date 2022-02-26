@@ -40,7 +40,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.791"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/icone_appsiah" />
+        app:srcCompat="@drawable/icone_appsiah"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/sante_button"
@@ -52,7 +53,8 @@
         app:layout_constraintEnd_toStartOf="@+id/sport_buttton"
         app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/icone2_siahapp" />
+        app:srcCompat="@drawable/icone2_siahapp"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/text_date"
@@ -65,5 +67,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.294" />
+
+    <Button
+        android:id="@+id/acces_podometre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Depart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

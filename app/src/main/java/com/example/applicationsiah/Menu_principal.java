@@ -1,11 +1,14 @@
 package com.example.applicationsiah;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 
 import java.text.DateFormat;
 import java.util.Calendar;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -16,9 +19,31 @@ public class Menu_principal extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_principal); //affiche l'acran
         Calendar calendar = Calendar.getInstance(); // on crée un calndrier on récupère la date du jour
-        String currentDate= DateFormat.getDateInstance().format(calendar.getTime());
+        String currentDate = DateFormat.getDateInstance().format(calendar.getTime());
         TextView textViewDate = findViewById(R.id.text_date);
         textViewDate.setText(currentDate);
+
+        Button boutton_podo = (Button) findViewById(R.id.acces_podometre);
+        boutton_podo.setText("Validez");
+        boutton_podo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                visualiser_podo();
+            }
+        });
+    }
+
+
+
+
+
+
+
+
+    private void visualiser_podo() {
+        Intent intent = new Intent(this, Podometre.class);
+        startActivity(intent);
+    }
  /*/
         // 1) creation d’un objet-reference spinner vers le spinner de l’activite
         Spinner monSpinner = (Spinner) findViewById(R.id.menu_sports);
@@ -31,5 +56,5 @@ public class Menu_principal extends AppCompatActivity {
         monSpinner.setAdapter(monAdapter);
     }
     /*/
-    }
+
 }

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".Podometre"
+            android:exported="false" />
+        <activity
             android:name=".Menu_principal"
             android:exported="false" />
         <activity
