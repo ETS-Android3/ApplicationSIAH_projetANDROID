@@ -4,14 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menu_sport">
+    tools:context=".Menu_sport" >
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="309dp"
-        android:layout_height="262dp"
-        android:background="#FFFFFF"
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="369dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="148dp"
+        android:adjustViewBounds="true"
+        android:background="#F3F3F3"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/icone_handball"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="16dp" />
 </android.support.constraint.ConstraintLayout>
