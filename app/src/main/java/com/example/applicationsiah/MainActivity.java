@@ -1,20 +1,28 @@
 package com.example.applicationsiah;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.VideoView;
 
 public class MainActivity extends AppCompatActivity {
 
 
+private VideoView videoView;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+       // videoView = (VideoView) findViewById(R.id.video_sport);
+
+     //   Uri uri = Uri.parse("android.ressource://"+getPackageName() +"/" +R.raw.video_sport);
+   // videoView.setVideoURI(uri);
         Button monBouton = (Button)findViewById(R.id.button_demarrer);
         monBouton.setText("Validez");
         monBouton.setOnClickListener(new View.OnClickListener() {
@@ -29,8 +37,20 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Menu_principal.class);
         startActivity(intent);
     }
+    /*/
+    @Override
+    protected void onResume() {
+
+        super.onResume();
+        videoView.start();
+    }
+    @Override
+    protected void onPause(){
+        super.onPause();
+        videoView.suspend();
+    }
        // public void onClickListener(View view) {
 
     //}
-
+/*/
 }
