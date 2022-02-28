@@ -22,6 +22,12 @@
             android:name=".menu_rugby"
             android:exported="false" />
         <activity
+            android:name=".menu_gardien"
+            android:exported="false" />
+        <activity
+            android:name=".menu_handball"
+            android:exported="false" />
+        <activity
             android:name=".Menu_sport"
             android:exported="false" />
         <activity
