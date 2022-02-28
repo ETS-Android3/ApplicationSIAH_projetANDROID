@@ -12,6 +12,15 @@ public class Menu_sport extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_sport);
+        Button button_rugby = (Button) findViewById(R.id.rugby_menu);
+        button_rugby.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                visualiser_rugby();
+            }
+
+
+        });
         Button button_handball = (Button)  findViewById(R.id.handball_button);
         button_handball.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,6 +32,12 @@ public class Menu_sport extends AppCompatActivity {
         });
 
     }
+
+    private void visualiser_rugby() {
+        Intent intent4 = new Intent(this, menu_rugby.class);
+        startActivity(intent4);
+    }
+
     private void visualiser_handball() {
         Intent intent3 = new Intent(this, menu_handball.class);
         startActivity(intent3);
