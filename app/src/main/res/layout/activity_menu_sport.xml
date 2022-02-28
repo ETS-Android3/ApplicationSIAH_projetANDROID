@@ -6,22 +6,47 @@
     android:layout_height="match_parent"
     tools:context=".Menu_sport" >
 
-    <ImageView
-        android:id="@+id/design_handball"
-        android:layout_width="325dp"
-        android:layout_height="118dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/icone_handball"
-        tools:layout_editor_absoluteY="73dp" />
-
     <Button
         android:id="@+id/handball_button"
         android:layout_width="286dp"
         android:layout_height="78dp"
         android:background="#00FFFFFF"
+        android:text="Handball"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="84dp" />
+        tools:layout_editor_absoluteY="481dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="371dp"
+        android:layout_height="714dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sans_titre" />
+
+    <Button
+        android:id="@+id/rugby_menu"
+        android:layout_width="282dp"
+        android:layout_height="79dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Rugby"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.968"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434" />
+
 </android.support.constraint.ConstraintLayout>
