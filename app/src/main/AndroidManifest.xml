@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".Exercices_Specifiques_Avants"
+            android:exported="false" />
+        <activity
+            android:name=".Conseils_Sportif_Rugby_Avant"
+            android:exported="false" />
+        <activity
+            android:name=".interface_conseil_sportif"
+            android:exported="false" />
+        <activity
             android:name=".menu_rugby"
             android:exported="false" />
         <activity
