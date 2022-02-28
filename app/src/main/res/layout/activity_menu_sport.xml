@@ -6,15 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".Menu_sport" >
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="369dp"
-        android:layout_height="115dp"
-        android:layout_marginTop="148dp"
-        android:adjustViewBounds="true"
-        android:background="#F3F3F3"
+    <ImageView
+        android:id="@+id/design_handball"
+        android:layout_width="325dp"
+        android:layout_height="118dp"
         android:scaleType="centerCrop"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/icone_handball"
-        tools:layout_editor_absoluteX="16dp" />
+        tools:layout_editor_absoluteY="73dp" />
+
+    <Button
+        android:id="@+id/handball_button"
+        android:layout_width="286dp"
+        android:layout_height="78dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="84dp" />
 </android.support.constraint.ConstraintLayout>
