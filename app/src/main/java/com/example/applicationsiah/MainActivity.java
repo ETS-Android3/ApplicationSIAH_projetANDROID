@@ -24,7 +24,7 @@ private VideoView videoView;
      //   Uri uri = Uri.parse("android.ressource://"+getPackageName() +"/" +R.raw.video_sport);
    // videoView.setVideoURI(uri);
         Button monBouton = (Button)findViewById(R.id.button_demarrer);
-        monBouton.setText("Validez");
+
         monBouton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -3,16 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/33695/AndroidStudioProjects/siah projet/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/siah projet/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/siah projet/app/src/main/res/layout/activity_menu_gardien.xml" value="0.264" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/siah projet/app/src/main/res/layout/activity_menu_handball.xml" value="0.264" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/siah projet/app/src/main/res/layout/activity_menu_principal.xml" value="0.264" />
-        <entry key="..\:/Users/33695/AndroidStudioProjects/siah projet/app/src/main/res/layout/activity_menu_sport.xml" value="0.2" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/siah projet/app/src/main/res/layout/activity_menu_rugby.xml" value="0.25" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/siah projet/app/src/main/res/layout/activity_menu_sport.xml" value="0.264" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/siah projet/app/src/main/res/layout/activity_podometre.xml" value="0.25" />
         <entry key="app/src/main/res/layout-v31/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_conseils_sportif_rugby_avant.xml" value="0.18355407714843752" />
-        <entry key="app/src/main/res/layout/activity_exercices_specifiques_avants.xml" value="0.14837341308593752" />
-        <entry key="app/src/main/res/layout/activity_interface_conseil_sportif.xml" value="0.15496978759765626" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_menu_principal.xml" value="0.30842391304347827" />
       </map>
