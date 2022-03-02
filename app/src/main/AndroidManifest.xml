@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".menu_foot_bu"
+            android:exported="false" />
+        <activity
+            android:name=".menu_foot_ad_ag"
+            android:exported="false" />
+        <activity
+            android:name=".menu_foot_mc"
+            android:exported="false" />
+        <activity
+            android:name=".menu_foot_mdc"
+            android:exported="false" />
+        <activity
+            android:name=".menu_foot_dg_dd"
+            android:exported="false" />
+        <activity
+            android:name=".menu_foot_dc"
+            android:exported="false" />
+        <activity
+            android:name=".menu_foot_gb"
+            android:exported="false" />
+        <activity
             android:name=".menu_foot"
             android:exported="false" />
         <activity
