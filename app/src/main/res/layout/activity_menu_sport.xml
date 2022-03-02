@@ -33,6 +33,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47"
         app:srcCompat="@drawable/sans_titre" />
 
     <Button
@@ -62,5 +63,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.029"
         app:srcCompat="@drawable/coix_sport" />
+
+    <Button
+        android:id="@+id/football_menu"
+        android:layout_width="286dp"
+        android:layout_height="91dp"
+        android:background="#00F8F6F6"
+        android:text="Football"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#050505"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.287" />
 
 </android.support.constraint.ConstraintLayout>

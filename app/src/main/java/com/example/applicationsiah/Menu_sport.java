@@ -31,6 +31,16 @@ public class Menu_sport extends AppCompatActivity {
 
         });
 
+
+        Button button_football = (Button)  findViewById(R.id.football_menu);
+        button_football.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                visualiser_football();
+            }
+
+
+        });
     }
 
     private void visualiser_rugby() {
@@ -41,5 +51,10 @@ public class Menu_sport extends AppCompatActivity {
     private void visualiser_handball() {
         Intent intent3 = new Intent(this, menu_handball.class);
         startActivity(intent3);
+    }
+
+    private void visualiser_football() {
+        Intent intent5 = new Intent(this, menu_foot.class);
+        startActivity(intent5);
     }
 }
