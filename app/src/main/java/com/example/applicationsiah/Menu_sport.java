@@ -41,6 +41,15 @@ public class Menu_sport extends AppCompatActivity {
 
 
         });
+        Button button_basketball = (Button)  findViewById(R.id.basketball_menu);
+        button_basketball.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                visualiser_basket();
+            }
+
+
+        });
     }
 
     private void visualiser_rugby() {
@@ -56,5 +65,10 @@ public class Menu_sport extends AppCompatActivity {
     private void visualiser_football() {
         Intent intent5 = new Intent(this, menu_foot.class);
         startActivity(intent5);
+    }
+
+    private void visualiser_basket() {
+        Intent intent6 = new Intent(this, menu_basket.class);
+        startActivity(intent6);
     }
 }

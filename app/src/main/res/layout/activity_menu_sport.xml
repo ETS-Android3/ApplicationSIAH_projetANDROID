@@ -37,6 +37,21 @@
         app:srcCompat="@drawable/sans_titre" />
 
     <Button
+        android:id="@+id/basketball_menu"
+        android:layout_width="286dp"
+        android:layout_height="91dp"
+        android:background="#00F8F6F6"
+        android:text="BasketBall"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#050505"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589" />
+
+    <Button
         android:id="@+id/rugby_menu"
         android:layout_width="282dp"
         android:layout_height="79dp"
