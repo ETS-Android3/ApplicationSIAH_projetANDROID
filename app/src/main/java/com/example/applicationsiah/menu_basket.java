@@ -12,51 +12,52 @@ public class menu_basket extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_basket);
-        Button button_meneur= (Button) findViewById(R.id.button_meneur);
+        Button button_meneur = (Button) findViewById(R.id.button_meneur);
         button_meneur.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) { visualiser_menu_basket_meneur();
+            public void onClick(View view) {
+                visualiser_menu_basket_meneur();
+            }
+
+        });
+        Button button_aillier = (Button) findViewById(R.id.button_aillier);
+        button_aillier.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick (View view) {
+                visualiser_menu_basket_aillier();
+            }
+
 
         });
 
-        private void visualiser_menu_basket_meneur(){
+        Button button_interieur = (Button) findViewById(R.id.button_interieur);
+        button_interieur.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick (View view) {
+                visualiser_menu_basket_interieur();
+            }
+            });
+
+        }
+
+
+
+
+
+        private void visualiser_menu_basket_meneur () {
             Intent intent1 = new Intent(this, menu_basket_meneur.class);
             startActivity(intent1);
         }
 
-        Button button_aillier = (Button) findViewById(R.id.button_aillier);
-        button_aillier.setOnClickListener(new View.OnClickListener()
 
-        {
-            @Override
-            public void onClick (View view){
-                visualiser_menu_basket_aillier();
-
-
-
-        });
 
         private void visualiser_menu_basket_aillier(){
             Intent intent2 = new Intent(this,menu_basket_aillier.class);
             startActivity(intent2);
         }
 
-
-            Button button_interieur = (Button) findViewById(R.id.button_interieur);
-            button_interieur.setOnClickListener(new View.OnClickListener(){
-                @Override
-                public void onClick (View view){
-                    visualiser_menu_basket_interieur();
-
-                });
-
-                private void visualiser_menu_basket_interieur() {
-                    Intent intent3 = new Intent(this,menu_basket_meneur.class);
-                    startActivity(intent3);
-                }
-
-            }
-
-
-
-
+    private void visualiser_menu_basket_interieur() {
+        Intent intent3 = new Intent(this,menu_basket_meneur.class);
+        startActivity(intent3);
+    }
+    }

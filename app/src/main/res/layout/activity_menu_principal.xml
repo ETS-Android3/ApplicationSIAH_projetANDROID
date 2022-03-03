@@ -22,7 +22,7 @@
         android:id="@+id/textView"
         android:layout_width="145dp"
         android:layout_height="62dp"
-        android:text="Bienvenu ! "
+        android:text="Bienvenue ! "
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,17 +30,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.296"
-        tools:text="Bienvenu ! " />
+        tools:text="Bienvenue ! " />
 
     <ImageButton
         android:id="@+id/sport_buttton"
         android:layout_width="145dp"
         android:layout_height="108dp"
-        android:layout_marginBottom="96dp"
+        android:layout_marginBottom="104dp"
         android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintHorizontal_bias="0.857"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/icone_appsiah"
         tools:ignore="SpeakableTextPresentCheck" />

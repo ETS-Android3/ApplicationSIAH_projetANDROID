@@ -8,9 +8,9 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="409dp"
-        android:layout_height="727dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="382dp"
+        android:layout_height="726dp"
+        android:layout_marginStart="12dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/basket" />
@@ -19,24 +19,31 @@
         android:id="@+id/button_meneur"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="132dp"
         android:text="meneur"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="267dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_aillier"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="184dp"
         android:text="aillier"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="175dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_interieur"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="80dp"
         android:text="interieur "
-        tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="66dp" />
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
