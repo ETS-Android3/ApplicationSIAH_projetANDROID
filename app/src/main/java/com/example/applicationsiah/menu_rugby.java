@@ -83,6 +83,37 @@ public class menu_rugby extends AppCompatActivity {
 
 
         });
+        //gestion boutons du pack
+        Button button_1ligne = (Button) findViewById(R.id.button_1ligne);
+        button_1ligne.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                visualiser_exercices_specifiques_avants();
+            }
+
+
+        });
+        Button button_2ligne = (Button) findViewById(R.id.button_2ligne);
+        button_2ligne.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                visualiser_exercices_specifiques_avants();
+            }
+
+
+        });
+        Button button_3ligne = (Button) findViewById(R.id.button_3ligne);
+        button_3ligne.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                visualiser_exercices_specifiques_avants();
+            }
+
+
+        });
 
     }
 
@@ -90,5 +121,10 @@ public class menu_rugby extends AppCompatActivity {
         Intent intent = new Intent(this,exercices_specifiques_arrieres.class);
         startActivity(intent); //test
     }
+    private void visualiser_exercices_specifiques_avants() {
+        Intent intent = new Intent(this,Exercices_Specifiques_Avants.class);
+        startActivity(intent); //test
+    }
+
 
 }
