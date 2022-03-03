@@ -19,10 +19,10 @@ private VideoView videoView;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       // videoView = (VideoView) findViewById(R.id.video_sport);
+      // videoView = (VideoView) findViewById(R.id.video_sport);
 
-     //   Uri uri = Uri.parse("android.ressource://"+getPackageName() +"/" +R.raw.video_sport);
-   // videoView.setVideoURI(uri);
+        //Uri uri = Uri.parse("android.ressource://"+getPackageName() +"/" +R.raw.video_sport);
+    //videoView.setVideoURI(uri);
         Button monBouton = (Button)findViewById(R.id.button_demarrer);
 
         monBouton.setOnClickListener(new View.OnClickListener() {
