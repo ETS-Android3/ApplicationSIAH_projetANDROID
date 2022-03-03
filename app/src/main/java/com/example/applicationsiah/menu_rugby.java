@@ -26,7 +26,7 @@ public class menu_rugby extends AppCompatActivity {
 
     private void visualiser_interface_conseil_sportif() {
         Intent intent = new Intent(this,interface_conseil_sportif.class);
-        startActivity(intent);
+        startActivity(intent); //test
     }
 
 }
