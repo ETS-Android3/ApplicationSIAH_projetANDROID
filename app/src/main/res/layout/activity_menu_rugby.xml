@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.492"
-        app:srcCompat="@drawable/terrain_de_rugby" />
+        app:srcCompat="@drawable/capture_d_cran_2022_02_28___22_40_49" />
 
     <Button
         android:id="@+id/button_avant"
