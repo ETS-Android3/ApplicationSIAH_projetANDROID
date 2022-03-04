@@ -46,19 +46,10 @@
             android:name=".menu_foot"
             android:exported="false" />
         <activity
-            android:name=".conseils_sportif_rugby_arrieres"
-            android:exported="false" />
-        <activity
             android:name=".exercices_specifiques_arrieres"
             android:exported="false" />
         <activity
             android:name=".Exercices_Specifiques_Avants"
-            android:exported="false" />
-        <activity
-            android:name=".Conseils_Sportif_Rugby_Avant"
-            android:exported="false" />
-        <activity
-            android:name=".interface_conseil_sportif"
             android:exported="false" />
         <activity
             android:name=".menu_rugby"
