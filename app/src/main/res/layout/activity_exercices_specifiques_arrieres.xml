@@ -153,16 +153,24 @@
         android:id="@+id/imageView3"
         android:layout_width="89dp"
         android:layout_height="86dp"
-        app:srcCompat="@drawable/logo_tactic1"
-        tools:layout_editor_absoluteX="304dp"
-        tools:layout_editor_absoluteY="38dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044"
+        app:srcCompat="@drawable/logo_tactic1" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="195dp"
-        android:layout_height="278dp"
-        app:srcCompat="@drawable/bbaalooon"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="241dp" />
+        android:layout_width="137dp"
+        android:layout_height="161dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.992"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.522"
+        app:srcCompat="@drawable/bbaalooon" />
 
 </android.support.constraint.ConstraintLayout>
