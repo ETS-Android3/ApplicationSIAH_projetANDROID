@@ -10,10 +10,6 @@
         <entry key="app/src/main/res/layout-v31/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_menu_basket.xml" value="0.22780797101449277" />
-        <entry key="app/src/main/res/layout/activity_menu_basket_aillier.xml" value="0.15625" />
-        <entry key="app/src/main/res/layout/activity_menu_basket_interieur.xml" value="0.20018115942028986" />
-        <entry key="app/src/main/res/layout/activity_menu_basket_meneur.xml" value="0.20018115942028986" />
-        <entry key="app/src/main/res/layout/activity_menu_gardien.xml" value="0.1717325227963526" />
         <entry key="app/src/main/res/layout/activity_menu_handball.xml" value="0.22780797101449277" />
         <entry key="app/src/main/res/layout/activity_menu_principal.xml" value="0.30842391304347827" />
         <entry key="app/src/main/res/layout/activity_menu_sport.xml" value="0.31567028985507245" />
