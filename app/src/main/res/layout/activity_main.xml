@@ -5,7 +5,7 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#E4272323"
     android:textAlignment="viewEnd">
 
     <TextView
@@ -32,12 +32,13 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="16dp"
-        android:background="#FFFFFF"
+        android:background="#E43E3D3D"
         android:contentDescription="@string/todo"
+        android:scaleType="matrix"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo_siah" />
+        app:srcCompat="@drawable/d_coupe_logo_" />
 
     <Button
         android:id="@+id/button_demarrer"
