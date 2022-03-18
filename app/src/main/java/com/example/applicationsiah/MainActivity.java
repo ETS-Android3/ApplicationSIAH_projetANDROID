@@ -52,5 +52,14 @@ private VideoView videoView;
        // public void onClickListener(View view) {
 
     //}
-/*/
+*/
+    /*private int notificationId =0;
+    private void sendNotificationOnChannel ( String title, String message, String channelId, int priority){
+        NotificationCompact.Builder notification = new NotificationCompact.Builder ( getApplicationContext(), channelId)
+                .setSmallIcon(R.drawable.star)
+                .setContentTitle ( title)
+                .setContentText ( "id="+ notificationId + " - "+ message)
+                .setPriority ( priority);
+        ApplicationDemo.getNotificationManager().notify( ++notificationId , notification.build());
+*/
 }
