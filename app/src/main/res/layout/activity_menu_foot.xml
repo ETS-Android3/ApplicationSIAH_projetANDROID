@@ -49,7 +49,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
         android:text="bu"
-        android:textColor="#33691E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
