@@ -19,7 +19,19 @@ public class menu_gardien extends AppCompatActivity {
                 visualiser_la_tactiquegb();
             }
         });
+        
+        Button button_exo_gb = (Button) findViewById((R.id.exo_gb));
+        button_exo_gb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                visualiser_la_exogb();
+            }
+        });
+    }
 
+    private void visualiser_la_exogb() {
+        Intent intent2 = new Intent(this, menu_exo_gb.class);
+        startActivity(intent2);
     }
 
     private void visualiser_la_tactiquegb() {
