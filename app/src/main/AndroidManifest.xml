@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".menu_exo_gb"
+            android:exported="false" />
+        <activity
             android:name=".menu_tactique_gb"
             android:exported="false" />
         <activity

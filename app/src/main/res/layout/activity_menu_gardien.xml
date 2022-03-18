@@ -200,7 +200,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/exo_gb"
         android:layout_width="139dp"
         android:layout_height="130dp"
         android:background="#00FFFFFF"
