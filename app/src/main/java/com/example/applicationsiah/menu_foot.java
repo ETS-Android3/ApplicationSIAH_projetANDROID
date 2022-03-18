@@ -55,12 +55,12 @@ public class menu_foot extends AppCompatActivity {
         Button button_ag = (Button) findViewById(R.id.ag);
         button_ag.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) { visualiser_menu_foot_ag_ad();}
+            public void onClick(View view) { visualiser_menu_foot_ad_ag();}
         });
         Button button_ad = (Button) findViewById(R.id.ad);
         button_ad.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) { visualiser_menu_foot_ag_ad();}
+            public void onClick(View view) { visualiser_menu_foot_ad_ag();}
         });
         Button button_bu = (Button) findViewById(R.id.bu);
         button_bu.setOnClickListener(new View.OnClickListener() {
@@ -82,19 +82,19 @@ public class menu_foot extends AppCompatActivity {
         startActivity(intent3);
     }
     private void visualiser_menu_foot_mdc() {
-        Intent intent4 = new Intent(this,visualiser_menu_foot_mdc().class);
+        Intent intent4 = new Intent(this,menu_foot_mdc.class);
         startActivity(intent4);
     }
     private void visualiser_menu_foot_mc() {
-        Intent intent5 = new Intent(this,visualiser_menu_foot_mc().class);
+        Intent intent5 = new Intent(this,menu_foot_mc.class);
         startActivity(intent5);
     }
-    private void visualiser_menu_foot_ag_ad() {
-        Intent intent6 = new Intent(this,visualiser_menu_foot_ag_ad().class);
+    private void visualiser_menu_foot_ad_ag() {
+        Intent intent6 = new Intent(this,menu_foot_ad_ag.class);
         startActivity(intent6);
     }
     private void visualiser_menu_foot_bu() {
-        Intent intent7 = new Intent(this,visualiser_menu_foot_bu().class);
+        Intent intent7 = new Intent(this,menu_foot_bu.class);
         startActivity(intent7);
     }
 
