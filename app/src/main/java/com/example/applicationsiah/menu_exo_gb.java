@@ -3,13 +3,11 @@ package com.example.applicationsiah;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class menu_basket_aillier extends AppCompatActivity {
+public class menu_exo_gb extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_basket_aillier);
-        // coucou hugo
-
+        setContentView(R.layout.activity_menu_exo_gb);
     }
 }
