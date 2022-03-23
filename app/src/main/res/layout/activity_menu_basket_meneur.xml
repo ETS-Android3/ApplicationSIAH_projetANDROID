@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".menu_basket_meneur"
     android:background="#E4151515"
-    tools: context=".menu_basket_meneur">
+    >
 
     <TextView
         android:id="@+id/textView26"
@@ -39,11 +39,12 @@
         android:id="@+id/textView21"
         android:layout_width="359dp"
         android:layout_height="73dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="520dp"
         android:text="Le post de meneur est essentiel. C'est le leader de l'équipe celui qui motive et dirige le jeu. Il doit savoir analyser le jeu et réagir aux différentes situations du match!"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="145dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -62,89 +63,105 @@
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="52dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="484dp"
         android:text="Il est donc nécessaire de déveloper quelques qualités :"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="231dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="268dp"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="448dp"
         android:text="- Force mentale "
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="259dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="220dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="416dp"
         android:text="- Bonne analyse du jeu "
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="291dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="280dp"
+        android:layout_marginEnd="276dp"
+        android:layout_marginBottom="388dp"
         android:text="- Stratégique "
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="321dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/imageView15"
         android:layout_width="141dp"
         android:layout_height="112dp"
-        app:srcCompat="@drawable/logo_tactic1"
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="531dp" />
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/logo_tactic1" />
 
     <ImageView
         android:id="@+id/imageView16"
         android:layout_width="176dp"
         android:layout_height="167dp"
-        app:srcCompat="@drawable/icone_exercice"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="513dp" />
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icone_exercice" />
 
     <TextView
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="48dp"
         android:text="EXERCICES"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="675dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="48dp"
         android:text="TACTIQUE"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="675dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/btn_exo_interieur"
+        android:id="@+id/btn_exo_meneur"
         android:layout_width="108dp"
         android:layout_height="76dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="100dp"
         android:backgroundTint="#00FFFFFF"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="558dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/btn_tactique_interieur"
+        android:id="@+id/btn_tactique_meneur"
         android:layout_width="126dp"
         android:layout_height="107dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="88dp"
         android:backgroundTint="#00FFFFFF"
-        tools:layout_editor_absoluteX="239dp"
-        tools:layout_editor_absoluteY="534dp" />
-    </android.support.constraint.ConstraintLayout>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</android.support.constraint.ConstraintLayout>

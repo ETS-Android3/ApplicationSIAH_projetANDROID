@@ -21,7 +21,21 @@ public class menu_handball extends AppCompatActivity {
 
 
         });
+        Button button_demicentre = (Button) findViewById(R.id.button_demi);
+        button_demicentre.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                visualiser_menu_demi();
+            }
+
+
+        });
         }
+
+    private void visualiser_menu_demi() {
+        Intent intent1 = new Intent(this,menu_demi_hb.class);
+        startActivity(intent1);
+    }
 
     private void visualiser_menu_gardien() {
         Intent intent = new Intent(this,menu_gardien.class);

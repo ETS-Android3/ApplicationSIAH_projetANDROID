@@ -39,11 +39,12 @@
         android:id="@+id/textView21"
         android:layout_width="322dp"
         android:layout_height="42dp"
-        android:layout_marginEnd="68dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="524dp"
         android:text="Le post d'interieur représente celui d'un joueur fort et solide sur ses apuis"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="166dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -62,89 +63,105 @@
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="52dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="492dp"
         android:text="Il est donc nécessaire de déveloper quelques qualités :"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="218dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="248dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="456dp"
         android:text="- Force des appuis"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="259dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="304dp"
+        android:layout_marginBottom="424dp"
         android:text="- Mobilité"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="292dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="316dp"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="392dp"
         android:text="- Agilité"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="322dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <ImageView
         android:id="@+id/imageView15"
         android:layout_width="141dp"
         android:layout_height="112dp"
-        app:srcCompat="@drawable/logo_tactic1"
-        tools:layout_editor_absoluteX="234dp"
-        tools:layout_editor_absoluteY="531dp" />
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/logo_tactic1" />
 
     <ImageView
         android:id="@+id/imageView16"
         android:layout_width="176dp"
         android:layout_height="167dp"
-        app:srcCompat="@drawable/icone_exercice"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="513dp" />
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icone_exercice" />
 
     <TextView
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="56dp"
         android:text="EXERCICES"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="675dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="56dp"
         android:text="TACTIQUE"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="275dp"
-        tools:layout_editor_absoluteY="675dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/btn_exo_interieur"
+        android:id="@+id/btn_exo_meneur"
         android:layout_width="108dp"
         android:layout_height="76dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="104dp"
         android:backgroundTint="#00FFFFFF"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="558dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/btn_tactique_interieur"
+        android:id="@+id/btn_tactique_meneur"
         android:layout_width="126dp"
         android:layout_height="107dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="88dp"
         android:backgroundTint="#00FFFFFF"
-        tools:layout_editor_absoluteX="239dp"
-        tools:layout_editor_absoluteY="534dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </android.support.constraint.ConstraintLayout>
