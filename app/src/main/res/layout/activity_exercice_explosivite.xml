@@ -2,17 +2,17 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/barre"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E4151515"
-    tools:context=".menu_tactique_gb">
+    android:background=" #E4151515  "
+    tools:context=".Exercice_explosivite">
+
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="409dp"
         android:layout_height="96dp"
-        android:text="Conseils techniques"
+        android:text="Exos explosivité"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,13 +43,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.26"
-        app:srcCompat="@drawable/parade_1" />
+        app:srcCompat="@drawable/images" />
 
     <Button
         android:id="@+id/btn_exo1_explo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Conseil 1 "
+        android:text="Exo 1 "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.18"
@@ -63,7 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="104dp"
         android:layout_marginTop="152dp"
-        android:text="Conseil 2 "
+        android:text="Exo 2 "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -75,21 +75,23 @@
         android:id="@+id/image_sprint"
         android:layout_width="404dp"
         android:layout_height="449dp"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/image_squat"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.194"
-        app:srcCompat="@drawable/parade_2" />
+        app:srcCompat="@drawable/sprint" />
 
     <TextView
         android:id="@+id/textparade_1"
         android:layout_width="370dp"
         android:layout_height="144dp"
-        android:text="Dans cette situtation il est primordiale d'anticiper le positionnement des appuies du tireur. Dans ce cas le joueur est totalement désaxé et le tir sera certainement sur la droite du gardien, le fait de sortir au de-là de sa ligne permet de réduire l'angle de tir du tireur."
+        android:text="Dans un premier temps travaillez en amplitude barre a vide pour vous echauffer. Aussitôt echauffé, effectuez 5 series de 12 repetitions a 80% de votre poid de corps. Prenez 1min de repos entre chaque série."
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#CCCCCCCC"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -100,14 +102,14 @@
         android:id="@+id/textparade_2"
         android:layout_width="372dp"
         android:layout_height="133dp"
-        android:text="Dans le cas d'un tir à l'aile le gardien peut se servir de la course de l'ailier pour se placer afin d'optimiser ses chances de parade. Celui-ci à la possibilité de rester au premier au poteau et fermer le deuxième poteau lors du tir de l'ailier, ou alors simplement s'avancer un peu laisser son premier poteau libre et le fermer une fois le tireur pris dans le piège !"
+        android:text="Afin d'être plus explosif sur les premiers mettres. Chose primordiale pour etre tranchant a l'impacte, effectuez sur 20m en debut et en fin de seance 5 séries de sprint a 100%"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#CCCCCCCC"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.678"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74"
-        tools:visibility="gone" />
+        app:layout_constraintVertical_bias="0.74" />
 </android.support.constraint.ConstraintLayout>

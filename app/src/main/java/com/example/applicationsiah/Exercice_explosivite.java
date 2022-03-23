@@ -7,12 +7,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class menu_tactique_gb extends AppCompatActivity {
+public class Exercice_explosivite extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_tactique_gb);
+        setContentView(R.layout.activity_exercice_explosivite);
         ImageView parade_1 = (ImageView) findViewById(R.id.image_squat);
         Button conseil_1 = (Button) findViewById(R.id.btn_exo1_explo);
         ImageView parade_2 = (ImageView) findViewById(R.id.image_sprint);
