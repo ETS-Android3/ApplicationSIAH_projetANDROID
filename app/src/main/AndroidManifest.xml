@@ -10,24 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
-            android:name=".menu_basket_meneur_tactique"
-            android:exported="false" />
-        <activity
-            android:name=".menu_basket_meneur_exercice"
-            android:exported="false" />
-        <activity
-            android:name=".menu_basket_interieur_tactique"
-            android:exported="false" />
-        <activity
-            android:name=".menu_basket_interieur_exercice"
-            android:exported="false" />
-        <activity
-            android:name=".menu_basket_aillier_tactique"
-            android:exported="false" />
-        <activity
-            android:name=".menu_basket_aillier_exercice"
-            android:exported="false" />
-        <activity
             android:name=".notification_test"
             android:exported="false" />
         <activity
