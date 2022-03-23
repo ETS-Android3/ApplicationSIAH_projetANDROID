@@ -133,7 +133,7 @@
         tools:layout_editor_absoluteY="675dp" />
 
     <Button
-        android:id="@+id/btn_exo_interieur"
+        android:id="@+id/btn_exo_meneur"
         android:layout_width="108dp"
         android:layout_height="76dp"
         android:backgroundTint="#00FFFFFF"
@@ -141,7 +141,7 @@
         tools:layout_editor_absoluteY="558dp" />
 
     <Button
-        android:id="@+id/btn_tactique_interieur"
+        android:id="@+id/btn_tactique_meneur"
         android:layout_width="126dp"
         android:layout_height="107dp"
         android:backgroundTint="#00FFFFFF"
