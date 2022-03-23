@@ -4,7 +4,147 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu_basket_aillier"
-    android:background="#E4151515">
+    android:background="#E4151515"
 
+    tools:context=".menu_basket_aillier">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="355dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="276dp"
+        android:text="Conseils d'exercices et de tactiques "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#CCCCCC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/aillier"
+        android:layout_width="266dp"
+        android:layout_height="72dp"
+        android:text="L'allier"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="416dp"
+        android:layout_height="172dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053"
+        app:srcCompat="@drawable/s_p_ration_barresiah" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="322dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="72dp"
+        android:text="L'aile est un post très important puisque c'est le post du joueur le plus rapide"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="140dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:text="Il est donc nécessaire de déveloper quelques qualités :"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="304dp"
+        android:text="- rapidité "
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="304dp"
+        android:text="- vivacité "
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="292dp"
+        android:text="- réactivité "
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="141dp"
+        android:layout_height="112dp"
+        app:srcCompat="@drawable/logo_tactic1"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="531dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="176dp"
+        android:layout_height="167dp"
+        app:srcCompat="@drawable/icone_exercice"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXERCICES"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TACTIQUE"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <Button
+        android:id="@+id/btn_exo_interieur"
+        android:layout_width="108dp"
+        android:layout_height="76dp"
+        android:backgroundTint="#00FFFFFF"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="558dp" />
+
+    <Button
+        android:id="@+id/btn_tactique_interieur"
+        android:layout_width="126dp"
+        android:layout_height="107dp"
+        android:backgroundTint="#00FFFFFF"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="534dp" />
 </android.support.constraint.ConstraintLayout>
