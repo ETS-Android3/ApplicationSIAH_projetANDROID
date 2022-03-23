@@ -18,6 +18,7 @@ boolean running = false;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_podometre);
+        System.out.print("Ici1");
         tv_steps=(TextView)  findViewById(R.id.tv_steps);
         sensorManager = (SensorManager)  getSystemService(Context.SENSOR_SERVICE);
     }
@@ -29,6 +30,7 @@ boolean running = false;
         Sensor countSensor = sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
         if(countSensor !=null) {
             sensorManager.registerListener(this, countSensor, SensorManager.SENSOR_DELAY_UI);
+            System.out.print("Ici");
         }
         else {
             Toast.makeText(this, "pas trouvé", Toast.LENGTH_SHORT).show();
