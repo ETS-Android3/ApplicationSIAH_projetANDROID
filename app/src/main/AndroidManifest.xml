@@ -10,15 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
-            android:name=".menu_demi_hb_technique"
-            android:exported="false" />
-        <activity
-            android:name=".menu_demi_exo_spe_hb"
-            android:exported="false" />
-        <activity
-            android:name=".menu_demi_hb"
-            android:exported="false" />
-        <activity
             android:name=".notification_test"
             android:exported="false" />
         <activity
