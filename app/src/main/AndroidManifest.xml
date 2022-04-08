@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".exo_2V1"
+            android:exported="false" />
+        <activity
             android:name=".exo_cou"
             android:exported="false" />
         <activity
