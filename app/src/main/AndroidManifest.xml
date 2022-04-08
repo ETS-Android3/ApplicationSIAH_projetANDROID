@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".exo_cou"
+            android:exported="false" />
+        <activity
             android:name=".menu_basket_meneur_tactique"
             android:exported="false" />
         <activity
