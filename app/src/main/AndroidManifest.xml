@@ -28,6 +28,9 @@
             android:name=".menu_basket_meneur_exercice"
             android:exported="false" />
         <activity
+            android:name=".menu_demi_hb"
+            android:exported="false" />
+        <activity
             android:name=".menu_basket_interieur_tactique"
             android:exported="false" />
         <activity

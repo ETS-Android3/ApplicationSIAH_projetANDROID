@@ -30,7 +30,9 @@ public class menu_handball extends AppCompatActivity {
 
 
         });
-        }
+    }
+
+
 
     private void visualiser_menu_demi() {
         Intent intent1 = new Intent(this,menu_demi_hb.class);
