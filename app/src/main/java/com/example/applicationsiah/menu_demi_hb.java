@@ -2,6 +2,7 @@ package com.example.applicationsiah;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class menu_demi_hb extends AppCompatActivity {
 
@@ -9,5 +10,6 @@ public class menu_demi_hb extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_demi_hb);
+        Button button_tactique = (Button) findViewById(R.id.button_tactique);
     }
 }
