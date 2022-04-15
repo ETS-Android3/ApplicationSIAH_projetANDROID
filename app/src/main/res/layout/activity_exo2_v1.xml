@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background=" #E4151515  "
     tools:context=".exo_2V1">
 
     <TextView
@@ -11,6 +12,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Mise en Situation"
+        android:textColor="#D8CFCF"
+        android:textColorHighlight="#D8CFCF"
+        android:textColorHint="#D8CFCF"
+        android:textColorLink="#D8CFCF"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,6 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2 contre 1 + 1"
+        android:textColor="#D8CFCF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,19 +42,23 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/_v1_rugby" />
 
     <TextView
         android:id="@+id/textView34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Afin d'etre decisif dans les situations... etre tranchant prendre bien la profondeur...."
+        android:text="Afin d'etre decisif dans les situations rien de tel que le 2 contre 1 + 1. Afin d'etre tranchant prenez bien la profondeur et mettez un maximum d'intensité dans votre course et dans votre prise de balle."
+        android:textColor="#D8CFCF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.786" />
+        app:layout_constraintVertical_bias="0.748" />
 
 </android.support.constraint.ConstraintLayout>
