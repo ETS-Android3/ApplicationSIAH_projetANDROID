@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".Exo_relanceContreAttaque"
+            android:exported="false" />
+        <activity
+            android:name=".exo_running"
+            android:exported="false" />
+        <activity
             android:name=".exo_2V1"
             android:exported="false" />
         <activity
