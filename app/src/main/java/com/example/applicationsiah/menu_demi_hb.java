@@ -10,6 +10,6 @@ public class menu_demi_hb extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_demi_hb);
-        Button button_tactique = (Button) findViewById(R.id.button_tactique);
+       // Button button_tactique = (Button) findViewById(R.id.button_tactique);
     }
 }
