@@ -2,11 +2,11 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/barre"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".menu_demi_hb_technique"
     android:background="#E4151515"
-    tools:context=".menu_tactique_gb">
+    android:foregroundTint="#FF0505">
 
     <TextView
         android:id="@+id/textView13"
@@ -34,7 +34,7 @@
         app:srcCompat="@drawable/s_p_ration_barresiah" />
 
     <ImageView
-        android:id="@+id/image_squat"
+        android:id="@+id/parade_1"
         android:layout_width="407dp"
         android:layout_height="370dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,7 +46,7 @@
         app:srcCompat="@drawable/parade_1" />
 
     <Button
-        android:id="@+id/btn_exo1_explo"
+        android:id="@+id/conseil_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Conseil 1 "
@@ -58,7 +58,7 @@
         app:layout_constraintVertical_bias="0.901" />
 
     <Button
-        android:id="@+id/btn_exo2_explo"
+        android:id="@+id/conseil_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="104dp"
@@ -67,16 +67,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btn_exo1_explo"
-        app:layout_constraintTop_toBottomOf="@+id/image_squat"
+        app:layout_constraintStart_toEndOf="@+id/conseil_1"
+        app:layout_constraintTop_toBottomOf="@+id/parade_1"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/image_sprint"
+        android:id="@+id/parade_2"
         android:layout_width="404dp"
         android:layout_height="449dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/image_squat"
+        app:layout_constraintEnd_toEndOf="@+id/parade_1"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -96,18 +96,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.757" />
 
-    <TextView
-        android:id="@+id/textparade_2"
-        android:layout_width="372dp"
-        android:layout_height="133dp"
-        android:text="Dans le cas d'un tir à l'aile le gardien peut se servir de la course de l'ailier pour se placer afin d'optimiser ses chances de parade. Celui-ci à la possibilité de rester au premier au poteau et fermer le deuxième poteau lors du tir de l'ailier, ou alors simplement s'avancer un peu laisser son premier poteau libre et le fermer une fois le tireur pris dans le piège !"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textColor="#CCCCCCCC"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.678"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74"
-        tools:visibility="gone" />
+
 </android.support.constraint.ConstraintLayout>

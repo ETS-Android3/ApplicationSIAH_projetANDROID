@@ -5,7 +5,7 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#E4272323"
     android:textAlignment="viewEnd">
 
     <TextView
@@ -13,31 +13,17 @@
         android:layout_width="267dp"
         android:layout_height="132dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="284dp"
+        android:layout_marginTop="280dp"
         android:layout_marginEnd="16dp"
-        android:background="#FFFFFF"
+        android:background="#00FFFFFF"
         android:text="@string/siah"
         android:textAppearance="@style/TextAppearance.AppCompat.Display4"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textDirection="anyRtl"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/logo_siah"
-        android:layout_width="419dp"
-        android:layout_height="293dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="16dp"
-        android:background="#FFFFFF"
-        android:contentDescription="@string/todo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo_siah" />
 
     <Button
         android:id="@+id/button_demarrer"
@@ -63,7 +49,7 @@
         android:layout_height="136dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="460dp"
+        android:layout_marginBottom="4dp"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,12 +62,13 @@
         android:layout_height="63dp"
         android:text="&quot;Une saine alimentation pour la compétition&quot;"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#B3B2B2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintHorizontal_bias="0.964"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.639" />
+        app:layout_constraintVertical_bias="0.616" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -95,5 +82,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.823"
         app:srcCompat="@drawable/icone_d_entree" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="343dp"
+        android:layout_height="348dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        app:srcCompat="@drawable/siah_logo3" />
 
 </android.support.constraint.ConstraintLayout>
