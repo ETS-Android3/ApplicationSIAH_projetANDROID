@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.applicationsiah">
-    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
+
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/siah_icone"
@@ -9,6 +11,14 @@
         android:roundIcon="@mipmap/siah_icone_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
+        <activity
+            android:name=".session_sport"
+            android:exported="false" />
+        <activity
+            android:name=".session_physique"
+            android:exported="false"
+            android:label="@string/title_activity_session_physique"
+            android:theme="@style/Theme.ApplicationSIAH.NoActionBar" />
         <activity
             android:name=".Exo_relanceContreAttaque"
             android:exported="false" />

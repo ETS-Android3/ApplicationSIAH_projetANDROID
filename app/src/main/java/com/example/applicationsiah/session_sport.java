@@ -10,23 +10,26 @@ import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Podometre extends AppCompatActivity implements SensorEventListener {
-SensorManager sensorManager;
-TextView tv_steps;
-boolean running = false;
-Sensor podometre;
-Sensor accelerometre;
+public class session_sport extends AppCompatActivity implements SensorEventListener {
+    SensorManager sensorManager;
+    TextView tv_steps;
+    boolean running = false;
+    Sensor podometre;
+    Sensor accelerometre;
+    float pas;
+    float pas_capteur;
+    boolean debut;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_podometre);
+        setContentView(R.layout.activity_session_sport);
 
         tv_steps=(TextView)  findViewById(R.id.tv_steps);
         sensorManager = (SensorManager)  getSystemService(Context.SENSOR_SERVICE);
         podometre = sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
-        if(podometre.isWakeUpSensor()==false){
-            tv_steps.setText("pute");
-        };
+        debut=true;
     }
 
     @Override
@@ -35,17 +38,17 @@ Sensor accelerometre;
         running=true;
 
 
-     //   Sensor countSensor = sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
-      //  if(countSensor !=null) {
+        //   Sensor countSensor = sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
+        //  if(countSensor !=null) {
         //    sensorManager.registerListener(this, countSensor, SensorManager.SENSOR_DELAY_UI);
-          //  System.out.print("Ici");
+        //  System.out.print("Ici");
         //}
         //else {
-          //  Toast.makeText(this, "pas trouvé", Toast.LENGTH_SHORT).show();
+        //  Toast.makeText(this, "pas trouvé", Toast.LENGTH_SHORT).show();
         //}
 
         super.onResume();
-        }
+    }
 
     @Override
     protected void onPause() {
@@ -60,9 +63,13 @@ Sensor accelerometre;
 
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
-        float pas;
+
         if(sensorEvent.sensor.getType()==Sensor.TYPE_STEP_COUNTER){
-            pas = sensorEvent.values[0];
+            if(debut==true){
+                pas_capteur=sensorEvent.values[0];
+                debut=false;
+            }
+            pas = sensorEvent.values[0]-pas_capteur;
             tv_steps.setText(String.valueOf(pas));
 
         }

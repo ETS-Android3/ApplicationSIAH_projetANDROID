@@ -55,7 +55,7 @@ private void visualiser_sports(){
 
 
     private void visualiser_podo() {
-        Intent intent = new Intent(this, Podometre.class);
+        Intent intent = new Intent(this, session_sport.class);
         startActivity(intent);
     }
  /*/
