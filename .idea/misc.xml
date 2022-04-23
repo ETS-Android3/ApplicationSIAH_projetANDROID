@@ -3,10 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/drawable/cercle.xml" value="0.1" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_gardien.xml" value="0.2151268115942029" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_handball.xml" value="0.264" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_tactique_gb.xml" value="0.25" />
-        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_podometre.xml" value="0.1" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_podometre.xml" value="0.264" />
         <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot.xml" value="0.22509057971014493" />
         <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_ad_ag.xml" value="0.25" />
         <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_bu.xml" value="0.25" />
