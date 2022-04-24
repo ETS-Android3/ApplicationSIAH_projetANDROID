@@ -26,6 +26,7 @@
         android:text="Tactique en touche"
         android:textColor="#ECECEC"
         android:textSize="34sp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
