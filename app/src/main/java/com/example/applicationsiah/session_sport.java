@@ -5,8 +5,11 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,8 +22,11 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
     float pas;
     float pas_capteur;
     boolean debut;
-
-
+    TextView chronometre;
+    Button lancer,pause;
+    Runnable runnable;
+    int seconde, minute;
+    boolean cliquer,stop,annuler;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +36,66 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
         sensorManager = (SensorManager)  getSystemService(Context.SENSOR_SERVICE);
         podometre = sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
         debut=true;
+        chronometre = (TextView) findViewById(R.id.Chrono);
+        lancer = (Button) findViewById(R.id.lancer);
+        pause = (Button) findViewById(R.id.pause);
+        pause.setVisibility(View.INVISIBLE);
+        runnable = new Runnable() {
+            @Override
+            public void run() {
+                seconde +=1;
+                if(seconde==60){
+                    minute+=1;
+                    seconde=00;
+                }
+                if(annuler=false){
+                    if(stop==false){
+                        new Handler().postDelayed(runnable,1000);
+                    }
+
+                }else{
+                    seconde=0;
+                    minute=0;
+                }
+                chronometre.setText(""+minute+" minutes "+seconde+" secondes ");
+
+            }
+        };
+        lancer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(cliquer==false){
+                    new Handler().postDelayed(runnable,1000);//lance le runnable cahque sec 1000=1seconde
+                    stop=false;
+                    annuler=false;
+                    pause.setVisibility(View.VISIBLE);
+                    lancer.setText("Annuler");
+                    cliquer=true;
+                    seconde=0;
+                    minute=0;
+                }
+                else{
+                    annuler = true;
+                    lancer.setText("Lancer");
+                    pause.setVisibility(View.INVISIBLE);
+                    cliquer=false;
+
+                }
+            }
+        });
+        pause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(stop==false){
+                    stop=true;
+                    pause.setText("Play");
+                }else{
+                    stop=false;
+                    pause.setText("PAuse");
+                    new Handler().postDelayed(runnable,1000);//lance le runnable cahque sec 1000=1seconde
+                }
+            }
+        });
     }
 
     @Override
