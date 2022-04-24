@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #E4151515  "
+    tools:context=".exo_plaquage">
+
+    <TextView
+        android:id="@+id/titre_exoPlaquage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAQUAGE EN &quot;CHASSE&quot;"
+        android:textColor="#DCD5D5"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lors des offenssives de l'equipe adverse, on peut se faire deborder sur les extérieurs. C'est dans ce genre de situations que les plaquage par l'arriere est tres efficace. Il suffit de se jetter dans les jambes de l'adversaire en ceinturant ses 2 jambes,avec l'inertie le joueur adverse sera tres vite amener au sol."
+        android:textColor="#DCD5D5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Si votre adversaire vous a trop pris de vitesse sur vous, une technique appelé &quot;cuilliere&quot; consiste a crocheter une des jambes de l'adverse pour qu'il trebuche. Le timing et important!"
+        android:textColor="#DCD5D5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="263dp"
+        android:layout_height="382dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/capture_d_cran_2022_04_24___16_04_45" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="327dp"
+        android:layout_height="240dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82"
+        app:srcCompat="@drawable/capture_d_cran_2022_04_24___16_00_17" />
+
+</android.support.constraint.ConstraintLayout>

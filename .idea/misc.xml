@@ -3,31 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/drawable/cercle.xml" value="0.1" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_gardien.xml" value="0.2151268115942029" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_handball.xml" value="0.264" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_tactique_gb.xml" value="0.25" />
-        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_podometre.xml" value="0.264" />
-        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_session_physique.xml" value="0.13858695652173914" />
-        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_session_sport.xml" value="0.25" />
-        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/content_session_physique.xml" value="0.13858695652173914" />
-        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/fragment_first.xml" value="0.13858695652173914" />
-        <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot.xml" value="0.22509057971014493" />
-        <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_ad_ag.xml" value="0.25" />
-        <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_bu.xml" value="0.25" />
-        <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_dc.xml" value="0.25" />
-        <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_dg_dd.xml" value="0.25" />
-        <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_gb.xml" value="0.25" />
-        <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_mc.xml" value="0.25" />
-        <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_mdc.xml" value="0.25" />
-        <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_gardien.xml" value="0.25" />
-        <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_handball.xml" value="0.25" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_podometre.xml" value="0.1" />
         <entry key="app/src/main/res/layout-v31/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_exercice_explosivite.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/activity_exercices_specifiques_arrieres.xml" value="0.21331643951941648" />
         <entry key="app/src/main/res/layout/activity_exercices_specifiques_avants.xml" value="0.24801034821082274" />
         <entry key="app/src/main/res/layout/activity_exo2_v1.xml" value="0.17119565217391305" />
         <entry key="app/src/main/res/layout/activity_exo_cou.xml" value="0.24453551380346855" />
+        <entry key="app/src/main/res/layout/activity_exo_plaquage.xml" value="0.33737576249716944" />
+        <entry key="app/src/main/res/layout/activity_exo_relance_contre_attaque.xml" value="0.2910108704497849" />
+        <entry key="app/src/main/res/layout/activity_exo_running.xml" value="0.21422101449275363" />
         <entry key="app/src/main/res/layout/activity_exo_touche.xml" value="0.24114583333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_menu_basket.xml" value="0.22780797101449277" />
