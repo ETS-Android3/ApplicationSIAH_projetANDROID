@@ -48,7 +48,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                     minute+=1;
                     seconde=00;
                 }
-                if(annuler=false){
+                if(annuler==false){
                     if(stop==false){
                         new Handler().postDelayed(runnable,1000);
                     }
@@ -57,7 +57,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                     seconde=0;
                     minute=0;
                 }
-                chronometre.setText(""+minute+" minutes "+seconde+" secondes ");
+                chronometre.setText("Durée : "+minute+" minutes "+seconde+" secondes ");
 
             }
         };
@@ -65,7 +65,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
             @Override
             public void onClick(View view) {
                 if(cliquer==false){
-                    new Handler().postDelayed(runnable,1000);//lance le runnable cahque sec 1000=1seconde
+                    new Handler().postDelayed(runnable,100);//lance le runnable cahque sec 1000=1seconde
                     stop=false;
                     annuler=false;
                     pause.setVisibility(View.VISIBLE);
