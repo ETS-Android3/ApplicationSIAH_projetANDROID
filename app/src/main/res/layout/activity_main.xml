@@ -98,4 +98,14 @@
         app:layout_constraintVertical_bias="0.01"
         app:srcCompat="@drawable/siah_logo3" />
 
+    <Button
+        android:id="@+id/co_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 ere connexion ? "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_demarrer" />
+
 </android.support.constraint.ConstraintLayout>
