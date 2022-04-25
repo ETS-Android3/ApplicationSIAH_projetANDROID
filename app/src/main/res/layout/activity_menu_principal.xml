@@ -4,19 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menu_principal">
+    tools:context=".Menu_principal"
+    android:background="#E4151515">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="97dp"
-        android:layout_height="95dp"
+        android:layout_width="117dp"
+        android:layout_height="123dp"
+        android:scaleType="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.055"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/logo_siah" />
+        app:layout_constraintVertical_bias="0.041"
+        app:srcCompat="@drawable/d_coupe_logo_" />
 
     <TextView
         android:id="@+id/textView"
@@ -24,12 +26,13 @@
         android:layout_height="62dp"
         android:text="Bienvenue ! "
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#E3E1E1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintHorizontal_bias="0.105"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.296"
+        app:layout_constraintVertical_bias="0.243"
         tools:text="Bienvenue ! " />
 
     <ImageButton
@@ -60,15 +63,17 @@
 
     <TextView
         android:id="@+id/text_date"
-        android:layout_width="99dp"
-        android:layout_height="63dp"
+        android:layout_width="200dp"
+        android:layout_height="38dp"
         android:text="TextView"
+        android:textColor="#E3E1E1"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintHorizontal_bias="0.819"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.294" />
+        app:layout_constraintVertical_bias="0.111" />
 
     <Button
         android:id="@+id/acces_podometre"
@@ -79,5 +84,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="314dp"
+        android:layout_height="192dp"
+        android:scaleType="centerInside"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/fond" />
 
 </android.support.constraint.ConstraintLayout>

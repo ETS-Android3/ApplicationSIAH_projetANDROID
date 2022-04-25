@@ -121,9 +121,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
 
         //running=false;
         sensorManager.unregisterListener(this, podometre);
-        if(podometre.isWakeUpSensor()==false){
-            tv_steps.setText("peee");
-        };
+
         super.onPause();
     }
 
