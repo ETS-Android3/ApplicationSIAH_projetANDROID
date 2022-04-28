@@ -25,7 +25,7 @@ public class Menu_principal extends AppCompatActivity {
         textViewDate.setText(currentDate);
 
         Button boutton_podo = (Button) findViewById(R.id.acces_podometre);
-        boutton_podo.setText("Validez");
+
         boutton_podo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -33,7 +33,7 @@ public class Menu_principal extends AppCompatActivity {
             }
         });
 
-        ImageButton button_sports = (ImageButton) findViewById(R.id.sport_buttton);
+        Button button_sports = (Button) findViewById(R.id.sport_buttton);
         button_sports.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -55,7 +55,7 @@ private void visualiser_sports(){
 
 
     private void visualiser_podo() {
-        Intent intent = new Intent(this, Podometre.class);
+        Intent intent = new Intent(this, session_sport.class);
         startActivity(intent);
     }
  /*/

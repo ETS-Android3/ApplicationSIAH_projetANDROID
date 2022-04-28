@@ -4,82 +4,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background=" #E4151515  "
-    tools:context=".exo_touche">
+    tools:context=".informations_perso"
+    android:background="#E4151515">
 
     <ImageView
-        android:id="@+id/image_touche"
-        android:layout_width="409dp"
-        android:layout_height="240dp"
+        android:id="@+id/imageView34"
+        android:layout_width="420dp"
+        android:layout_height="229dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.189"
-        app:srcCompat="@drawable/touche" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/s_p_ration_barresiah" />
 
     <TextView
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tactique en touche"
-        android:textColor="#ECECEC"
+        android:id="@+id/activite_phy"
+        android:layout_width="403dp"
+        android:layout_height="45dp"
+        android:text="Informations personnelles "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#E3E1E1"
         android:textSize="34sp"
-        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.08" />
+        app:layout_constraintVertical_bias="0.051" />
 
     <TextView
-        android:id="@+id/textView29"
+        android:id="@+id/textView44"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Trouver un nom de code pour appeler cette tactique de manière a ce que l'equipe adverse ne sois pas au courant du lancement de jeu.Dans un premier temps le premier sauteur va effectuer une finte de saut. Le lanceur va lui lancer la balle pour le deuxieme sauteur qui sera libre pour capter la balle."
-        android:textColor="#ECECEC"
+        android:text="Votre prénnom :"
+        android:textColor="#E3E1E1"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.486" />
+        app:layout_constraintVertical_bias="0.238" />
 
-    <ImageView
-        android:id="@+id/imageView25"
-        android:layout_width="450dp"
-        android:layout_height="181dp"
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="336dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#E3E1E1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.76"
-        app:srcCompat="@drawable/touche2" />
-
-    <TextView
-        android:id="@+id/textView38"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-Veillez à ce que le lancé soit bien droit "
-        android:textColor="#ECECEC"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.397"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.866" />
+        app:layout_constraintVertical_bias="0.312" />
 
     <TextView
-        android:id="@+id/textView39"
+        android:id="@+id/textView45"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="-Soyez bien gaine et bras tendu lors du porté"
-        android:textColor="#ECECEC"
+        android:text="gjkjio"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/enregistrer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.919" />
+        app:layout_constraintVertical_bias="0.935" />
 </android.support.constraint.ConstraintLayout>

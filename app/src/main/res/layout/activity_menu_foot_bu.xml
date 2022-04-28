@@ -4,6 +4,209 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E4151515"
+    android:foregroundTint="#FF0505"
     tools:context=".menu_foot_bu">
 
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="416dp"
+        android:layout_height="172dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053"
+        app:srcCompat="@drawable/s_p_ration_barresiah" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="266dp"
+        android:layout_height="72dp"
+        android:text="Le buteur "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#CAC6C6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:text="Le finisseur..."
+        android:textColor="#959595"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="372dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="19dp"
+        android:text="Le poste de buteur demande certaines qualités : "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#CCCCCC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.202" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="255dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="497dp"
+        android:text="- Puissance "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#CCCCCC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="206dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="4dp"
+        android:text="- Détente "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#CCCCCC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="124dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="4dp"
+        android:text="- Explosivité "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#CCCCCC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="355dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="323dp"
+        android:text="Conseils d'exercices et de tactiques "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#CCCCCC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="130dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="28dp"
+        android:text="Tactique "
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#CCCCCC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="132dp"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.51"
+        app:srcCompat="@drawable/logo_tactic1" />
+
+    <Button
+        android:id="@+id/tact_gb_foot"
+        android:layout_width="129dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginBottom="9dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#FF0000"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="147dp"
+        android:layout_height="136dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.858"
+        app:srcCompat="@drawable/icone_exercice" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="115dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="32dp"
+        android:text="Excercies "
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#CCCCCC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <Button
+        android:id="@+id/exo_gb_foot"
+        android:layout_width="139dp"
+        android:layout_height="130dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
 </android.support.constraint.ConstraintLayout>

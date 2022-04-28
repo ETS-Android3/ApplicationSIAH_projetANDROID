@@ -31,8 +31,20 @@ private VideoView videoView;
                 visualiser_la_suite();
             }
         });
-
+Button conexion1 = (Button) findViewById(R.id.co_1);
+conexion1.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        visualiser_info();
     }
+});
+    }
+
+    private void visualiser_info() {
+        Intent intent1 = new Intent(this,informations_perso.class);
+        startActivity(intent1);
+    }
+
     private void visualiser_la_suite() {
         Intent intent = new Intent(this, Menu_principal.class);
         startActivity(intent);
