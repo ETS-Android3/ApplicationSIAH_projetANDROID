@@ -57,7 +57,7 @@ public class menu_basket extends AppCompatActivity {
         }
 
     private void visualiser_menu_basket_interieur() {
-        Intent intent3 = new Intent(this,menu_basket_meneur.class);
+        Intent intent3 = new Intent(this,menu_basket_interieur.class);
         startActivity(intent3);
     }
     }
