@@ -43,6 +43,13 @@
         <entry key="app/src/main/res/layout/activity_menu_basket_meneur.xml" value="0.3183876811594203" />
         <entry key="app/src/main/res/layout/activity_menu_basket_meneur_exercice.xml" value="0.21467391304347827" />
         <entry key="app/src/main/res/layout/activity_menu_basket_meneur_tactique.xml" value="0.21467391304347827" />
+        <entry key="app/src/main/res/layout/activity_menu_demi_hb_technique.xml" value="0.21467391304347827" />
+        <entry key="app/src/main/res/layout/activity_menu_exo_gb.xml" value="0.21467391304347827" />
+        <entry key="app/src/main/res/layout/activity_menu_foot.xml" value="0.21467391304347827" />
+        <entry key="app/src/main/res/layout/activity_menu_foot_ad_ag.xml" value="0.21467391304347827" />
+        <entry key="app/src/main/res/layout/activity_menu_foot_bu.xml" value="0.21467391304347827" />
+        <entry key="app/src/main/res/layout/activity_menu_foot_dc.xml" value="0.21467391304347827" />
+        <entry key="app/src/main/res/layout/activity_menu_foot_dg_dd.xml" value="0.21467391304347827" />
         <entry key="app/src/main/res/layout/activity_menu_gardien.xml" value="0.3183876811594203" />
         <entry key="app/src/main/res/layout/activity_menu_handball.xml" value="0.22780797101449277" />
         <entry key="app/src/main/res/layout/activity_menu_principal.xml" value="0.30842391304347827" />
