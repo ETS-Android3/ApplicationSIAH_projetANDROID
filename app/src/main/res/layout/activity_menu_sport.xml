@@ -4,94 +4,98 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menu_sport" >
+    android:background="#E4151515"
+    tools:context=".Menu_sport">
 
     <Button
         android:id="@+id/handball_button"
-        android:layout_width="286dp"
-        android:layout_height="78dp"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
         android:background="#00FFFFFF"
-        android:text="Handball"
+        android:text="           Handball"
+        android:textAlignment="textStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="#000000"
+        android:textColor="#CAC6C6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.741" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="371dp"
-        android:layout_height="714dp"
-        android:adjustViewBounds="true"
-        android:cropToPadding="true"
-        android:scaleType="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47"
-        app:srcCompat="@drawable/sans_titre" />
+        app:layout_constraintVertical_bias="0.774" />
 
     <Button
         android:id="@+id/basketball_menu"
-        android:layout_width="286dp"
-        android:layout_height="91dp"
+        android:layout_width="344dp"
+        android:layout_height="94dp"
         android:background="#00F8F6F6"
-        android:text="BasketBall"
+        android:text="            Basketball"
+        android:textAlignment="textStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="#050505"
+        android:textColor="#CAC6C6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.589" />
+        app:layout_constraintVertical_bias="0.618" />
 
     <Button
         android:id="@+id/rugby_menu"
-        android:layout_width="282dp"
-        android:layout_height="79dp"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#00FFFFFF"
-        android:text="Rugby"
+        android:text="           Rugby"
+        android:textAlignment="textStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="#000000"
+        android:textColor="#CAC6C6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.968"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.434" />
+        app:layout_constraintVertical_bias="0.464" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="359dp"
-        android:layout_height="181dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:text="Choix du poste "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#ECECEC"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.029"
-        app:srcCompat="@drawable/coix_sport" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/football_menu"
-        android:layout_width="286dp"
-        android:layout_height="91dp"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
         android:background="#00F8F6F6"
-        android:text="Football"
+        android:text="           Football"
+        android:textAlignment="textStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="#050505"
+        android:textColor="#CAC6C6"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.309" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="416dp"
+        android:layout_height="172dp"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.287" />
+        app:layout_constraintVertical_bias="0.053"
+        app:srcCompat="@drawable/s_p_ration_barresiah" />
 
 </android.support.constraint.ConstraintLayout>
