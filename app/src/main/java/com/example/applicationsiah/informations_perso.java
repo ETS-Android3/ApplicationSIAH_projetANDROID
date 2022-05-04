@@ -16,8 +16,15 @@ public class informations_perso extends AppCompatActivity {
         setContentView(R.layout.activity_informations_perso);
         EditText editprenom;
         editprenom = (EditText) findViewById(R.id.prenom);
+        EditText editnom = (EditText) findViewById(R.id.nom);
+        EditText edittaille = (EditText) findViewById(R.id.taille);
+        EditText editpoids = (EditText) findViewById(R.id.poids);
         Editable prenom;
+        Editable nom;
+        Editable taille;
+        Editable poids;
         prenom = editprenom.getText();
+
         TextView text = (TextView) findViewById(R.id.textView45);
 
         Button save = (Button)  findViewById(R.id.enregistrer);
