@@ -64,10 +64,10 @@
 
     <TextView
         android:id="@+id/textView57"
-        android:layout_width="256dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="172dp"
-        android:layout_marginEnd="148dp"
+        android:layout_width="189dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="220dp"
         android:autoText="false"
         android:text=" - squats"
         android:textColor="#FFFFFF"
@@ -88,8 +88,8 @@
 
     <TextView
         android:id="@+id/textView59"
-        android:layout_width="256dp"
-        android:layout_height="32dp"
+        android:layout_width="192dp"
+        android:layout_height="22dp"
         android:autoText="false"
         android:text=" - fentes avant/arrière"
         android:textColor="#FFFFFF"
@@ -110,21 +110,25 @@
         android:id="@+id/textView61"
         android:layout_width="256dp"
         android:layout_height="32dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="140dp"
         android:autoText="false"
         android:text=" - developpé couché alterné"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="320dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView62"
         android:layout_width="256dp"
         android:layout_height="32dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="140dp"
         android:autoText="false"
         android:text=" - dips sur un banc "
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="334dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView49"
@@ -140,22 +144,22 @@
 
     <TextView
         android:id="@+id/textView50"
-        android:layout_width="256dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="2dp"
+        android:layout_width="163dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="240dp"
         android:autoText="false"
         android:text="MERCREDI : repos "
         android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toStartOf="@+id/imageView40"
-        app:layout_constraintTop_toBottomOf="@+id/imageView39" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView51"
-        android:layout_width="256dp"
-        android:layout_height="32dp"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="2dp"
+        android:layout_marginEnd="100dp"
         android:autoText="false"
         android:text="JEUDI"
         android:textColor="#FFFFFF"
@@ -166,7 +170,7 @@
         android:id="@+id/textView63"
         android:layout_width="256dp"
         android:layout_height="32dp"
-        android:layout_marginEnd="152dp"
+        android:layout_marginEnd="148dp"
         android:layout_marginBottom="216dp"
         android:autoText="false"
         android:text="- corde à sauter"
@@ -174,29 +178,30 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView51"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.333" />
 
     <TextView
         android:id="@+id/textView64"
         android:layout_width="256dp"
         android:layout_height="32dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginBottom="188dp"
         android:autoText="false"
         android:text="- crunchs"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="8dp" />
 
     <TextView
         android:id="@+id/textView65"
         android:layout_width="256dp"
         android:layout_height="32dp"
-        android:layout_marginEnd="140dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="164dp"
         android:autoText="false"
         android:text="- wood-choppers"
         android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="541dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView52"
@@ -260,11 +265,11 @@
         android:id="@+id/imageView40"
         android:layout_width="142dp"
         android:layout_height="146dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView51"
-        app:srcCompat="@drawable/crunch"
-        tools:layout_editor_absoluteY="445dp" />
+        app:srcCompat="@drawable/crunch" />
 
     <ImageView
         android:id="@+id/imageView41"
