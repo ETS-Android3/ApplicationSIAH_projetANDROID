@@ -109,6 +109,10 @@
         <activity
             android:name=".Exercices_Specifiques_Avants"
             android:exported="false" />
+
+        <activity
+            android:name=".Exercice_explosivite"
+            android:exported="false" />
         <activity
             android:name=".menu_rugby"
             android:exported="false" />
