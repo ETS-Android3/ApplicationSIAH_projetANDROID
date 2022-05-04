@@ -10,6 +10,7 @@
 
     <TextView
         android:id="@+id/title"
+        style="@android:style/Widget.TextView"
         android:layout_width="267dp"
         android:layout_height="132dp"
         android:layout_marginStart="16dp"
@@ -20,27 +21,29 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display4"
         android:textColor="#FFFFFF"
         android:textDirection="anyRtl"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_demarrer"
-        android:layout_width="183dp"
-        android:layout_height="158dp"
+        android:layout_width="189dp"
+        android:layout_height="169dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="308dp"
         android:layout_marginEnd="16dp"
+        android:alpha="0"
         android:backgroundTint="#00FFFFFF"
+        android:foregroundTint="#00FFFFFF"
+        android:shadowColor="#00FFFFFF"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.591"
+        app:layout_constraintVertical_bias="0.657"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <VideoView
@@ -65,28 +68,28 @@
         android:textColor="#B3B2B2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintHorizontal_bias="0.811"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.616" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="187dp"
-        android:layout_height="166dp"
+        android:layout_width="183dp"
+        android:layout_height="148dp"
         android:backgroundTint="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.823"
-        app:srcCompat="@drawable/icone_d_entree" />
+        app:layout_constraintVertical_bias="0.85"
+        app:srcCompat="@drawable/logo_entr_e" />
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="343dp"
-        android:layout_height="348dp"
+        android:layout_width="277dp"
+        android:layout_height="239dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:background="#00FFFFFF"
@@ -95,7 +98,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01"
-        app:srcCompat="@drawable/siah_logo3" />
+        app:layout_constraintVertical_bias="0.107"
+        app:srcCompat="@drawable/siahlogo_decoupe3" />
+
+    <Button
+        android:id="@+id/co_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 ere connexion ? "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_demarrer" />
 
 </android.support.constraint.ConstraintLayout>

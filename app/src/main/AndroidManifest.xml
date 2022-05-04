@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".informations_perso"
+            android:exported="false" />
+        <activity
             android:name=".recuperation"
             android:exported="false" />
         <activity
