@@ -12,16 +12,14 @@
         android:id="@+id/textView26"
         android:layout_width="355dp"
         android:layout_height="97dp"
-        android:layout_marginStart="20dp"
         android:layout_marginTop="28dp"
-        android:layout_marginEnd="33dp"
-        android:layout_marginBottom="276dp"
+        android:layout_marginBottom="272dp"
         android:text="Conseils d'exercices et de tactiques "
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#CCCCCC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.285"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -39,12 +37,13 @@
         android:id="@+id/textView21"
         android:layout_width="359dp"
         android:layout_height="73dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="520dp"
+        android:layout_marginBottom="512dp"
         android:text="Le post de meneur est essentiel. C'est le leader de l'équipe celui qui motive et dirige le jeu. Il doit savoir analyser le jeu et réagir aux différentes situations du match!"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView10"
