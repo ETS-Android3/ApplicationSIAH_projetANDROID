@@ -17,6 +17,7 @@ public class Exercice_explosivite extends AppCompatActivity {
         Button conseil_1 = (Button) findViewById(R.id.btn_exo1_explo);
         ImageView parade_2 = (ImageView) findViewById(R.id.image_sprint);
         parade_2.setVisibility(View.INVISIBLE);
+        parade_1.setVisibility(View.INVISIBLE);
         TextView text1 = (TextView) findViewById(R.id.textparade_1);
         TextView text2 = (TextView) findViewById(R.id.textparade_2);
         Button conseil_2 = (Button) findViewById(R.id.btn_exo2_explo);

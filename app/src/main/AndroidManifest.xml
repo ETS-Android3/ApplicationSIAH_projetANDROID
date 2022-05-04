@@ -105,6 +105,9 @@
             android:name=".Exercice_explosivite"
             android:exported="false" />
         <activity
+            android:name=".exo_touche"
+            android:exported="false" />
+        <activity
             android:name=".menu_rugby"
             android:exported="false" />
         <activity
