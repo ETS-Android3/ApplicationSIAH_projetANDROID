@@ -73,35 +73,35 @@
 
     <TextView
         android:id="@+id/textView41"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pour relacher les fibres musculaire ................."
+        android:layout_width="372dp"
+        android:layout_height="68dp"
+        android:text="Pour relacher les fibres musculaire apres chaque séance massez vos partis du corps solicitées lors de la seance à l'aide d'un rouleau ou d'un pistolet"
         android:textColor="#D8CFCF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.442" />
+        app:layout_constraintVertical_bias="0.484" />
 
     <TextView
         android:id="@+id/textView42"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="248dp"
+        android:layout_height="91dp"
         android:layout_marginEnd="150dp"
-        android:text="Apres une sceance intense faites un bain glacé ou prenez une douche froide. Vos muscles............"
+        android:text="Apres une sceance intense faites un bain glacé ou prenez une douche froide. Cela permettra a vos muscle de se relacher et donc de favoriser la recuperation"
         android:textColor="#D8CFCF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.63" />
+        app:layout_constraintVertical_bias="0.689" />
 
     <TextView
         android:id="@+id/textView43"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="236dp"
+        android:layout_height="83dp"
         android:layout_marginStart="150dp"
         android:text="Favorisez une nuit de someil complete pour maximiser le repos musculaure"
         android:textColor="#D8CFCF"
@@ -110,5 +110,5 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.87" />
+        app:layout_constraintVertical_bias="0.933" />
 </android.support.constraint.ConstraintLayout>
