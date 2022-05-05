@@ -1,6 +1,7 @@
 package com.example.applicationsiah;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 
 import java.text.DateFormat;
@@ -23,7 +24,10 @@ public class Menu_principal extends AppCompatActivity {
         String currentDate = DateFormat.getDateInstance().format(calendar.getTime());
         TextView textViewDate = findViewById(R.id.text_date);
         textViewDate.setText(currentDate);
-
+        TextView text = findViewById(R.id.textView);
+        SharedPreferences sharedPreferences = getSharedPreferences("utilisateur", MODE_PRIVATE);
+        String prenom = sharedPreferences.getString("util_prenom"," ");
+        text.setText("Bienvenu " + prenom);
         Button boutton_podo = (Button) findViewById(R.id.acces_podometre);
 
         boutton_podo.setOnClickListener(new View.OnClickListener() {
