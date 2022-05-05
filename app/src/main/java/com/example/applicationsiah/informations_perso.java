@@ -19,11 +19,8 @@ public class informations_perso extends AppCompatActivity {
         EditText editnom = (EditText) findViewById(R.id.nom);
         EditText edittaille = (EditText) findViewById(R.id.taille);
         EditText editpoids = (EditText) findViewById(R.id.poids);
-        Editable prenom;
-        Editable nom;
-        Editable taille;
-        Editable poids;
-        prenom = editprenom.getText();
+
+
 
         TextView text = (TextView) findViewById(R.id.textView45);
 
@@ -31,8 +28,16 @@ public class informations_perso extends AppCompatActivity {
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Editable prenom;
+                Editable nom;
+                Editable taille;
+                Editable poids;
 
-                text.setText(prenom);
+                prenom = editprenom.getText();
+                nom = editnom.getText();
+                taille = edittaille.getText();
+                poids = editpoids.getText();
+                text.setText(nom);
             }
         });
     }
