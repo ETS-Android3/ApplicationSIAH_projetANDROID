@@ -7,5 +7,276 @@
     tools:context=".menu_basket_meneur_exercice"
     android:background="#E4151515"
     >
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="416dp"
+        android:layout_height="172dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028"
+        app:srcCompat="@drawable/s_p_ration_barresiah" />
 
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="355dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="604dp"
+        android:text="Conseils d'exercices "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#CCCCCC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="256dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="604dp"
+        android:autoText="false"
+        android:text="Programme hebdomadaire conseillé : "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="256dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="556dp"
+        android:autoText="false"
+        android:text="LUNDI "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="189dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="220dp"
+        android:autoText="false"
+        android:text=" - squats"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="176dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="228dp"
+        android:autoText="false"
+        android:text=" - fentes latérales"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="192dp"
+        android:layout_height="22dp"
+        android:autoText="false"
+        android:text=" - fentes avant/arrière"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="256dp"
+        android:layout_height="32dp"
+        android:autoText="false"
+        android:text=" - pompes"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="256dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="140dp"
+        android:autoText="false"
+        android:text=" - developpé couché alterné"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="256dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="140dp"
+        android:autoText="false"
+        android:text=" - dips sur un banc "
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="256dp"
+        android:layout_height="32dp"
+        android:autoText="false"
+        android:text="MARDI "
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="163dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="240dp"
+        android:autoText="false"
+        android:text="MERCREDI : repos "
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="144dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="100dp"
+        android:autoText="false"
+        android:text="JEUDI"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/imageView40"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="256dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="216dp"
+        android:autoText="false"
+        android:text="- corde à sauter"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView51"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="256dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="188dp"
+        android:autoText="false"
+        android:text="- crunchs"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="256dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="164dp"
+        android:autoText="false"
+        android:text="- wood-choppers"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="256dp"
+        android:layout_height="32dp"
+        android:autoText="false"
+        android:text="VENDREDI : repos"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="683dp" />
+
+    <Button
+        android:id="@+id/exo_spe_aillier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercice Typique "
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="196dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fentes_ou_squats_" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="180dp"
+        android:layout_height="92dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="380dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/developpe_couche_halteres" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="145dp"
+        android:layout_height="173dp"
+        app:srcCompat="@drawable/dips_bench"
+        tools:layout_editor_absoluteX="438dp"
+        tools:layout_editor_absoluteY="717dp" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="233dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView61"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/dips_bench" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="142dp"
+        android:layout_height="146dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/crunch" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="144dp"
+        android:layout_height="111dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/wood_choppers" />
 </android.support.constraint.ConstraintLayout>

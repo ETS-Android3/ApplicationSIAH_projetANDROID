@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".basket_meneur_spe"
+            android:exported="false" />
+        <activity
+            android:name=".basket_interieur_spe"
+            android:exported="false" />
+        <activity
+            android:name=".basket_aillier_spexo"
+            android:exported="false" />
+        <activity
             android:name=".informations_perso"
             android:exported="false" />
         <activity
@@ -100,7 +109,6 @@
         <activity
             android:name=".Exercices_Specifiques_Avants"
             android:exported="false" />
-
         <activity
             android:name=".Exercice_explosivite"
             android:exported="false" />

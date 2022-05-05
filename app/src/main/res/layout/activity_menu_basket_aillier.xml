@@ -125,7 +125,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btn_exo_meneur"
+        android:id="@+id/btn_exo_aillier"
         android:layout_width="108dp"
         android:layout_height="76dp"
         android:layout_marginEnd="176dp"

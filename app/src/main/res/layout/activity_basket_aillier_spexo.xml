@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".basket_aillier_spexo"
+    android:background="#E4151515"
+    >
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="355dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="672dp"
+        android:text="Exercice spécifique "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#CCCCCC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="473dp"
+        android:layout_height="171dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063"
+        app:srcCompat="@drawable/s_p_ration_barresiah" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="392dp"
+        android:layout_height="205dp"
+        app:srcCompat="@drawable/exercice_explosivit_"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="426dp"
+        android:layout_height="99dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="104dp"
+        android:text="L'aillier est un joueur iportznt qui doit saoir faire du replis défensif rapide ou encore des contres-attaques. Il doit ainsi travailer son xploisivité et faire des fractionnés. "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/imageView33"
+        app:layout_constraintEnd_toEndOf="parent" />
+</android.support.constraint.ConstraintLayout>
