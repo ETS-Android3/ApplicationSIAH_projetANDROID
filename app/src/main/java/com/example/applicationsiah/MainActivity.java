@@ -5,6 +5,8 @@ import android.content.SharedPreferences;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.VideoView;
@@ -16,11 +18,19 @@ private VideoView videoView;
 
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main,menu);
+        return true;
+      //  retu rn super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         SharedPreferences sharedPreferences = getSharedPreferences("utilisateur", MODE_PRIVATE);
-        co = sharedPreferences.getBoolean("1_co",true);
+        co = sharedPreferences.getBoolean("1_co",false);
 
 
       // videoView = (VideoView) findViewById(R.id.video_sport);
@@ -45,6 +55,8 @@ conexion1.setOnClickListener(new View.OnClickListener() {
         visualiser_info();
     }
 });
+
+
     }
 
     private void visualiser_info() {
