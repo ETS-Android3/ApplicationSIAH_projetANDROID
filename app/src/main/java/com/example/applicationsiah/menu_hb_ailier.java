@@ -9,5 +9,6 @@ public class menu_hb_ailier extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_hb_ailier);
+
     }
 }
