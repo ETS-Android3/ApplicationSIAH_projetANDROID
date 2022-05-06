@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".a_propos_de_nous"
+            android:exported="false" />
+        <activity
             android:name=".basket_meneur_spe"
             android:exported="false" />
         <activity

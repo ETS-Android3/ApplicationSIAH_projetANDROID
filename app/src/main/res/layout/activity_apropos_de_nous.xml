@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4151515"
+    tools:context=".a_propos_de_nous">
+
+    <TextView
+        android:id="@+id/titre_nous"
+        android:layout_width="320"
+        android:layout_height="100"
+        android:text="A PROPOS DE NOUS"
+        android:textColor="#ECECEC"
+        android:textSize="35"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="440dp"
+        android:layout_height="244dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/s_p_ration_barresiah" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="317dp"
+        android:layout_height="149dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235"
+        app:srcCompat="@drawable/__fantastiques_2005" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="341dp"
+        android:layout_height="81dp"
+        android:text="ILONA BÉMATOL: aka le rudy Gobert de la WNBA 3x WNBA Champion 2x MVP. Ilona est une athlete experimentée qui a evoluée plus d'une decenie au plus haut niveau.   "
+        android:textColor="#ECECEC"
+        android:textColorLink="#ECECEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="337dp"
+        android:layout_height="80dp"
+        android:text="FULLAGAR SCOTT: Sir FULLAGAR digne heritie de la reine d'Angleterre a baigne dans le rubgy. Il a debute sa carriere aux Saracens pour la finir au RCT avec plein de moula, plein de titre et surtout beacoup d'artrose"
+        android:textColor="#ECECEC"
+        android:textColorLink="#ECECEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.364"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="350dp"
+        android:layout_height="87dp"
+        android:text="HUGO LACOMBE: Pivot de formation, on l'a surnomme le BUS toute sa carriere. Il a evolue au MHB aux cote de Nicolas Karabatic. C'est un veritable maestro dans son domaine"
+        android:textColor="#ECECEC"
+        android:textColorLink="#ECECEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.767" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="357dp"
+        android:layout_height="110dp"
+        android:text="AXEL FOURCADE: Bourré de talent axel fourcade a evolué avec les plus grands comme Karim Benzema a Claire Fontaine avec l'équipe de France. Malgré une vision de jeu hors du commun il s'est fait les croisés et a donc arrete sa carrierre sur les terrain mais l'a continué en dehors c'est un vrai tacticien du foot."
+        android:textColor="#ECECEC"
+        android:textColorLink="#ECECEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94" />
+</android.support.constraint.ConstraintLayout>
