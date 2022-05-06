@@ -9,126 +9,135 @@
 
     <Button
         android:id="@+id/button_10"
-        android:layout_width="78dp"
-        android:layout_height="40dp"
+        android:layout_width="60dp"
+        android:layout_height="36dp"
         android:autoText="false"
+        android:background="@android:color/transparent"
         android:text="9"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="16sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintHorizontal_bias="0.136"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.429" />
+        app:layout_constraintVertical_bias="0.519" />
 
     <Button
         android:id="@+id/button_15"
-        android:layout_width="66dp"
-        android:layout_height="44dp"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+        android:background="@android:color/transparent"
         android:text="15"
-        android:textSize="20sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.791" />
+        app:layout_constraintVertical_bias="0.755" />
 
     <Button
         android:id="@+id/button_1ligne"
-        android:layout_width="135dp"
-        android:layout_height="49dp"
-        android:text="première ligne"
+        android:layout_width="146dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintHorizontal_bias="0.205"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.224" />
+        app:layout_constraintVertical_bias="0.204" />
 
     <Button
         android:id="@+id/button_2ligne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="2ème ligne"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintHorizontal_bias="0.219"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.285" />
+        app:layout_constraintVertical_bias="0.323" />
 
     <Button
         android:id="@+id/button_3ligne"
-        android:layout_width="151dp"
-        android:layout_height="50dp"
-        android:text="  troisième   ligne  "
+        android:layout_width="147dp"
+        android:layout_height="85dp"
+        android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.17"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.343" />
+        app:layout_constraintVertical_bias="0.427" />
 
     <Button
         android:id="@+id/button_12"
         android:layout_width="80dp"
         android:layout_height="41dp"
+        android:background="@android:color/transparent"
         android:text="12"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.556" />
+        app:layout_constraintVertical_bias="0.627" />
 
     <Button
         android:id="@+id/button_13"
-        android:layout_width="78dp"
-        android:layout_height="41dp"
+        android:layout_width="51dp"
+        android:layout_height="36dp"
+        android:background="@android:color/transparent"
         android:text="13"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintHorizontal_bias="0.678"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.615" />
+        app:layout_constraintVertical_bias="0.663" />
 
     <Button
         android:id="@+id/button_11"
-        android:layout_width="81dp"
-        android:layout_height="39dp"
+        android:layout_width="40dp"
+        android:layout_height="31dp"
+        android:background="@android:color/transparent"
         android:text="11"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintHorizontal_bias="0.123"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.637" />
+        app:layout_constraintVertical_bias="0.69" />
 
     <Button
         android:id="@+id/button_14"
-        android:layout_width="73dp"
-        android:layout_height="40dp"
+        android:layout_width="48dp"
+        android:layout_height="28dp"
+        android:background="@android:color/transparent"
         android:text="14"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintHorizontal_bias="0.873"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.709" />
+        app:layout_constraintVertical_bias="0.706" />
 
     <Button
         android:id="@+id/button_dix"
-        android:layout_width="80dp"
+        android:layout_width="60dp"
         android:layout_height="41dp"
+        android:background="@android:color/transparent"
         android:text="10"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.488"
-        tools:layout_editor_absoluteX="146dp" />
+        app:layout_constraintVertical_bias="0.586" />
 
     <ImageView
         android:id="@+id/imageView13"
@@ -165,4 +174,101 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/terrain_rugby_modifi_" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="244dp"
+        android:layout_height="228dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.264"
+        app:srcCompat="@drawable/scrum_svg" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="62dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.524"
+        app:srcCompat="@drawable/maillot_rugby" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="62dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.332"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585"
+        app:srcCompat="@drawable/maillot_rugby" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="62dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.641"
+        app:srcCompat="@drawable/maillot_rugby" />
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="62dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.674"
+        app:srcCompat="@drawable/maillot_rugby" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="62dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.724"
+        app:srcCompat="@drawable/maillot_rugby" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="62dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777"
+        app:srcCompat="@drawable/maillot_rugby" />
+
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="62dp"
+        android:layout_height="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.708"
+        app:srcCompat="@drawable/maillot_rugby" />
+
 </android.support.constraint.ConstraintLayout>
