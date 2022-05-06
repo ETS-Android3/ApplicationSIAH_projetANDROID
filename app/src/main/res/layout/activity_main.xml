@@ -5,7 +5,7 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E4272323"
+    android:background="#E4151515"
     android:textAlignment="viewEnd">
 
     <TextView
@@ -73,18 +73,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.616" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="183dp"
-        android:layout_height="148dp"
-        android:backgroundTint="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.759"
-        app:srcCompat="@drawable/logo_entr_e" />
 
     <ImageView
         android:id="@+id/imageView15"

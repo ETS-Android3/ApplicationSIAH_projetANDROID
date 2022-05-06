@@ -11,6 +11,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
@@ -50,15 +51,16 @@ boolean retour=false;
         SharedPreferences sharedPreferences = getSharedPreferences("utilisateur", MODE_PRIVATE);
         co = sharedPreferences.getBoolean("1_co",false);
 
-
-      // videoView = (VideoView) findViewById(R.id.video_sport);
-
+        ImageView connexion = findViewById(R.id.imageView60);
+        // videoView = (VideoView) findViewById(R.id.video_sport);
+        connexion.setVisibility(View.INVISIBLE);
         //Uri uri = Uri.parse("android.ressource://"+getPackageName() +"/" +R.raw.video_sport);
     //videoView.setVideoURI(uri);
         Button monBouton = (Button)findViewById(R.id.button_demarrer);
         monBouton.setVisibility((View.INVISIBLE));
         if(co==Boolean.TRUE){
             monBouton.setVisibility((View.VISIBLE));
+            connexion.setVisibility(View.VISIBLE);
         }
         monBouton.setOnClickListener(new View.OnClickListener() {
             @Override
