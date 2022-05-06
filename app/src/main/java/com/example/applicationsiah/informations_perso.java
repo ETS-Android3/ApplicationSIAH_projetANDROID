@@ -48,8 +48,11 @@ public class informations_perso extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 prenom = editprenom.getText().toString();
-                if (editprenom.getText().toString()=="JJ"){
+                System.out.println("test:"+editprenom.getText().toString());
+                if (editprenom.getText().toString().equals("")){
                     croix1.setVisibility(View.VISIBLE);
+                    System.out.println("test2:"+editprenom.getText().toString());
+
 
                 }
                 else{
@@ -61,7 +64,12 @@ public class informations_perso extends AppCompatActivity {
                 taille = edittaille.getText().toString();
                 poids = editpoids.getText().toString();
                 text.setText(prenom);
+                try {
+                    int a = Integer.parseInt("1");
+                } catch (NumberFormatException e) {
+                   // e.printStackTrace();
 
+                }
                 SharedPreferences sharedPreferences= getSharedPreferences("utilisateur", MODE_PRIVATE);
 
                 SharedPreferences.Editor editor = sharedPreferences.edit();
