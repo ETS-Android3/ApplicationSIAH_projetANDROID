@@ -26,7 +26,9 @@
         <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_gardien.xml" value="0.25" />
         <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_handball.xml" value="0.25" />
         <entry key="app/src/main/res/layout-v31/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_basket_aillier_spexo.xml" value="0.11220871327254306" />
+        <entry key="app/src/main/res/layout/activity_basket_aillier_spexo.xml" value="0.30721946029477454" />
+        <entry key="app/src/main/res/layout/activity_basket_interieur_spe.xml" value="0.21965579710144928" />
+        <entry key="app/src/main/res/layout/activity_basket_meneur_spe.xml" value="0.21965579710144928" />
         <entry key="app/src/main/res/layout/activity_exercice_explosivite.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/activity_exercices_specifiques_arrieres.xml" value="0.21331643951941648" />
         <entry key="app/src/main/res/layout/activity_exercices_specifiques_avants.xml" value="0.24801034821082274" />

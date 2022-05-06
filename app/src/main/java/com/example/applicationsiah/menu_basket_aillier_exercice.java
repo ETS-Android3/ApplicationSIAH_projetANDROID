@@ -13,8 +13,8 @@ public class menu_basket_aillier_exercice extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_basket_aillier_exercice);
 
-        Button button_aillier = (Button) findViewById(R.id.exo_spe_aillier);
-        button_aillier.setOnClickListener(new View.OnClickListener() {
+        Button exo_spe_aillier = (Button) findViewById(R.id.exo_spe_meneur);
+        exo_spe_aillier.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick (View view) {
                 visualiser_basket_aillier_spexo();
@@ -25,7 +25,7 @@ public class menu_basket_aillier_exercice extends AppCompatActivity {
     }
 
     private void visualiser_basket_aillier_spexo() {
-        Intent intent3 = new Intent(this,menu_basket_aillier.class);
+        Intent intent3 = new Intent(this,basket_aillier_spexo.class);
         startActivity(intent3);
     }
 
