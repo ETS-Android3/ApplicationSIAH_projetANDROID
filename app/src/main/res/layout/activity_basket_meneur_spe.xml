@@ -4,6 +4,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".basket_meneur_spe">
+    tools:context=".basket_meneur_spe"
+    android:background="#E4151515"
+    >
 
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="355dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="596dp"
+        android:text="Exercice spécifique "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#CCCCCC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="473dp"
+        android:layout_height="171dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        app:srcCompat="@drawable/s_p_ration_barresiah" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="367dp"
+        android:layout_height="57dp"
+        android:text=" Exercice 1 : dribblez avec deux ballons à la fois, simultanément puis alternativement. "
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="367dp"
+        android:layout_height="57dp"
+        android:text="Exercice 2 : enchaînez plusieurs changements de main, avec un dribble entre chaque, puis directement."
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="367dp"
+        android:layout_height="57dp"
+        android:text="Exercice 3 : dribblez à côté de vous avec votre main forte, et tenez une balle de tennis dans l'autre main."
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="358dp"
+        android:layout_height="286dp"
+        app:srcCompat="@drawable/evan_fournier"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="429dp" />
 </android.support.constraint.ConstraintLayout>

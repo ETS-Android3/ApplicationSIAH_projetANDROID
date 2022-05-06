@@ -15,13 +15,13 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="33dp"
-        android:layout_marginBottom="672dp"
+        android:layout_marginBottom="596dp"
         android:text="Exercice spécifique "
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#CCCCCC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -32,10 +32,9 @@
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.063"
+        app:layout_constraintVertical_bias="0.167"
         app:srcCompat="@drawable/s_p_ration_barresiah" />
 
     <ImageView
@@ -43,16 +42,16 @@
         android:layout_width="392dp"
         android:layout_height="205dp"
         app:srcCompat="@drawable/exercice_explosivit_"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="443dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="424dp" />
 
     <TextView
         android:id="@+id/textView54"
-        android:layout_width="426dp"
-        android:layout_height="99dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="104dp"
-        android:text="L'aillier est un joueur iportznt qui doit saoir faire du replis défensif rapide ou encore des contres-attaques. Il doit ainsi travailer son xploisivité et faire des fractionnés. "
+        android:layout_width="377dp"
+        android:layout_height="107dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="116dp"
+        android:text="L'aillier est un joueur important qui doit savoir faire du replis défensif rapide ou encore des contres-attaques. Il doit ainsi travailler son explosivité et faire des fractionnés. "
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/imageView33"
         app:layout_constraintEnd_toEndOf="parent" />
