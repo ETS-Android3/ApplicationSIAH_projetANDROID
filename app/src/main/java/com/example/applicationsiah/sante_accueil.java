@@ -15,7 +15,7 @@ public class sante_accueil extends AppCompatActivity {
         int poidskg;
         int taille_m;
         int taille_cm;
-        int imc;
+        float imc;
         taille_m = taille_cm / 100;
         imc = poidskg / (taille_m) ^ 2;
 
