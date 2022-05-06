@@ -50,6 +50,14 @@ public class Menu_sport extends AppCompatActivity {
 
 
         });
+
+        Button button_recuperation = (Button) findViewById(R.id.btn_recup);
+        button_recuperation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                visualiser_recuperation();
+            }
+        });
     }
 
     private void visualiser_rugby() {
@@ -70,5 +78,9 @@ public class Menu_sport extends AppCompatActivity {
     private void visualiser_basket() {
         Intent intent6 = new Intent(this, menu_basket.class);
         startActivity(intent6);
+    }
+    private void visualiser_recuperation() {
+        Intent intent69 = new Intent(this, recuperation.class);
+        startActivity(intent69);
     }
 }
