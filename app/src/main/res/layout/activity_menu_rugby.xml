@@ -18,10 +18,10 @@
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintHorizontal_bias="0.174"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.429" />
+        app:layout_constraintVertical_bias="0.516" />
 
     <Button
         android:id="@+id/button_15"
@@ -38,39 +38,39 @@
 
     <Button
         android:id="@+id/button_1ligne"
-        android:layout_width="135dp"
-        android:layout_height="49dp"
-        android:text="première ligne"
+        android:layout_width="146dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintHorizontal_bias="0.205"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.224" />
+        app:layout_constraintVertical_bias="0.204" />
 
     <Button
         android:id="@+id/button_2ligne"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="2ème ligne"
+        android:layout_width="120dp"
+        android:layout_height="75dp"
+        android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintHorizontal_bias="0.219"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.285" />
+        app:layout_constraintVertical_bias="0.323" />
 
     <Button
         android:id="@+id/button_3ligne"
-        android:layout_width="151dp"
-        android:layout_height="50dp"
-        android:text="  troisième   ligne  "
+        android:layout_width="147dp"
+        android:layout_height="85dp"
+        android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.17"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.343" />
+        app:layout_constraintVertical_bias="0.427" />
 
     <Button
         android:id="@+id/button_12"
@@ -165,4 +165,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/terrain_rugby_modifi_" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="244dp"
+        android:layout_height="228dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.264"
+        app:srcCompat="@drawable/scrum_svg" />
+
 </android.support.constraint.ConstraintLayout>
