@@ -3,11 +3,13 @@ package com.example.applicationsiah;
 import static android.widget.Toast.makeText;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -43,23 +45,26 @@ public class informations_perso extends AppCompatActivity {
         croix3.setVisibility(View.INVISIBLE);
         croix2.setVisibility(View.INVISIBLE);
         croix4.setVisibility(View.INVISIBLE);
-
+        Button continuer = (Button) findViewById(R.id.continuer);
+        continuer.setVisibility(View.INVISIBLE);
         text.setText(prenom);
         Button save = (Button) findViewById(R.id.enregistrer);
-        save.setOnClickListener(new View.OnClickListener() {
+        save.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
+                connexion1=true;
                 //prenom = editprenom.getText().toString();
                 //  System.out.println("test:"+editprenom.getText().toString());
                 if (editprenom.getText().toString().equals("")) {
                     croix1.setVisibility(View.VISIBLE);
                     System.out.println("test2:" + editprenom.getText().toString());
-                    connexion1=false;
+
 
 
                 } else {
                     prenom = editprenom.getText().toString();
                     croix1.setVisibility(View.INVISIBLE);
+
 
                 }
                 if(editnom.getText().toString().equals("")){
@@ -68,6 +73,7 @@ public class informations_perso extends AppCompatActivity {
                 }else{
                     nom=editnom.getText().toString();
                     croix2.setVisibility(View.INVISIBLE);
+
                 }
 
 
@@ -105,19 +111,20 @@ public class informations_perso extends AppCompatActivity {
 
                     // Save.
                     editor.apply();
-                    connexion1=true;
+
                 } catch (NumberFormatException e) {
                     // e.printStackTrace();
                     croix4.setVisibility(View.VISIBLE);
                     connexion1=false;
                 }
-                if(connexion1) {
+                if(connexion1==true) {
                     Context context = getApplicationContext();
-                    CharSequence text = "Les informations sont saissies";
+                    CharSequence text = "Les informations sont enregistrées";
                     int duration = Toast.LENGTH_SHORT;
 
                     Toast toast = Toast.makeText(context, text, duration);
                     toast.show();
+                    continuer.setVisibility(View.VISIBLE);
                 }
                 if(connexion1==false) {
                     Context context = getApplicationContext();
@@ -136,13 +143,27 @@ public class informations_perso extends AppCompatActivity {
 
                 editor.putString("util_prenom", prenom);
                 editor.putString("util_nom", nom);
+                editor.putBoolean("1_co",connexion1);
 
                 // Save.
                 editor.apply();
 
 
 
+
             }
         });
+
+        continuer.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                visualiser_menuP();
+            }
+        });
+    }
+
+    private void visualiser_menuP() {
+        Intent intent = new Intent(this, Menu_principal.class);
+        startActivity(intent);
     }
 }

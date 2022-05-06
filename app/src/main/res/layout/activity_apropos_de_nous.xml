@@ -9,11 +9,11 @@
 
     <TextView
         android:id="@+id/titre_nous"
-        android:layout_width="320"
-        android:layout_height="100"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
         android:text="A PROPOS DE NOUS"
         android:textColor="#ECECEC"
-        android:textSize="35"
+        android:textSize="35dp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

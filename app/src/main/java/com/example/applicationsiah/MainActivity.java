@@ -1,6 +1,7 @@
 package com.example.applicationsiah;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,7 +11,7 @@ import android.widget.VideoView;
 
 public class MainActivity extends AppCompatActivity {
 
-
+Boolean co;
 private VideoView videoView;
 
 
@@ -18,13 +19,19 @@ private VideoView videoView;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        SharedPreferences sharedPreferences = getSharedPreferences("utilisateur", MODE_PRIVATE);
+        co = sharedPreferences.getBoolean("1_co",true);
+
 
       // videoView = (VideoView) findViewById(R.id.video_sport);
 
         //Uri uri = Uri.parse("android.ressource://"+getPackageName() +"/" +R.raw.video_sport);
     //videoView.setVideoURI(uri);
         Button monBouton = (Button)findViewById(R.id.button_demarrer);
-
+        monBouton.setVisibility((View.INVISIBLE));
+        if(co==Boolean.TRUE){
+            monBouton.setVisibility((View.VISIBLE));
+        }
         monBouton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

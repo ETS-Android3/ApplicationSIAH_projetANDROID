@@ -141,12 +141,12 @@
 
     <TextView
         android:id="@+id/activite_phy"
-        android:layout_width="398dp"
-        android:layout_height="47dp"
+        android:layout_width="370dp"
+        android:layout_height="41dp"
         android:text="Informations personnelles "
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#E3E1E1"
-        android:textSize="34sp"
+        android:textSize="31sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -198,13 +198,16 @@
         android:id="@+id/enregistrer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:backgroundTint="#00FFFFFF"
+        android:shadowColor="#00FFFFFF"
+        android:text="Enregistrer "
+        android:textColor="#E3E1E1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.935" />
+        app:layout_constraintVertical_bias="0.96" />
 
     <ImageView
         android:id="@+id/croix1"
@@ -217,4 +220,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.285"
         app:srcCompat="@drawable/logo_croix" />
+
+    <Button
+        android:id="@+id/continuer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
 </android.support.constraint.ConstraintLayout>

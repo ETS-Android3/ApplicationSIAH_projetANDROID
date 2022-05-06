@@ -64,7 +64,7 @@ private void visualiser_sports(){
 }
 
     private void visualiser_NOUS(){
-        Intent intent51 = new Intent(this,informations_perso.class);
+        Intent intent51 = new Intent(this,a_propos_de_nous.class);
         startActivity(intent51);
     }
 
