@@ -45,6 +45,14 @@ public class Menu_principal extends AppCompatActivity {
             }
         });
 
+        Button button_NOUS = (Button) findViewById(R.id.claire);
+        button_NOUS.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                visualiser_NOUS();
+            }
+        });
+
         }
 
 
@@ -55,6 +63,10 @@ private void visualiser_sports(){
         startActivity(intent1);
 }
 
+    private void visualiser_NOUS(){
+        Intent intent51 = new Intent(this,informations_perso.class);
+        startActivity(intent51);
+    }
 
 
 
