@@ -27,7 +27,7 @@
         <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_handball.xml" value="0.25" />
         <entry key="app/src/main/res/layout-v31/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_basket_aillier_spexo.xml" value="0.30721946029477454" />
-        <entry key="app/src/main/res/layout/activity_basket_interieur_spe.xml" value="0.21965579710144928" />
+        <entry key="app/src/main/res/layout/activity_basket_interieur_spe.xml" value="0.327631566144418" />
         <entry key="app/src/main/res/layout/activity_basket_meneur_spe.xml" value="0.21965579710144928" />
         <entry key="app/src/main/res/layout/activity_exercice_explosivite.xml" value="0.15070921985815602" />
         <entry key="app/src/main/res/layout/activity_exercices_specifiques_arrieres.xml" value="0.21331643951941648" />
@@ -60,6 +60,8 @@
         <entry key="app/src/main/res/layout/activity_menu_sport.xml" value="0.31567028985507245" />
         <entry key="app/src/main/res/layout/activity_notification_test.xml" value="0.25317028985507245" />
         <entry key="app/src/main/res/layout/activity_podometre.xml" value="0.31567028985507245" />
+        <entry key="app/src/main/res/layout/activity_recuperation.xml" value="0.21965579710144928" />
+        <entry key="app/src/main/res/layout/activity_sante_accueil.xml" value="0.21965579710144928" />
       </map>
     </option>
   </component>
