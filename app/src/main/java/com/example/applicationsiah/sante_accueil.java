@@ -16,9 +16,9 @@ public class sante_accueil extends AppCompatActivity {
         int taille_m;
         int taille_cm;
         float imc;
-        taille_m = taille_cm / 100;
-        imc = poidskg / (taille_m) ^ 2;
-
+        //taille_m = taille_cm / 100;
+        //imc = poidskg / (taille_m) ^ 2;
+         imc =0;
 
         TextView text1 = (TextView) findViewById(R.id.textIMC);
         text1.setText("");
@@ -31,12 +31,12 @@ public class sante_accueil extends AppCompatActivity {
                     "- consommer des glucides\n" +
                     "- des vitamines et du fer : n’hésitez pas à entamer dès maintenant une cure de fer si vous vous sentez faible quotidiennement! \n");
         }
-        if (18.51 >>= imc =<<24.5){
+        if (18.51 <= imc && imc >=24.5){
             text1.setText("Vous avez une corpulence de type normale continuer à avoir une alimentation saine et équilibrée, tout en privilégiant les protéines et les sucres lents avant chaque compétition. \n" +
                     "Voici le menu du champion: un bon plat de pate et une banane à la mi temps du match, le tout en buvant bien de l'eau. Vous possédez la morphologie idéale pour faire preuve de rapidité sur le terrain!\n");
         }
 
-        if (24.51 >>= imc =<<30){
+        if (24.51 <= imc && imc >= 30){
             text1.setText("Vous avez une corpulence assez dévelopée avec un léger surpoids mais ce n'est pas un problème avec une bonne alimentation et de bons exercices ! L'alimentation représente 80% de l'effort total à fournir ! Pour cela commencez par supprimer les sucreries et tous types de grignotage et adopter les protéines et les glucides à votre quotidien petit à petit !");
         }
 
