@@ -3,10 +3,28 @@ package com.example.applicationsiah;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
 public class exercices_specifiques_arrieres extends AppCompatActivity {
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main,menu);
+        return true;
+        //  retu rn super.onCreateOptionsMenu(menu);
+    }
+    public boolean onOptionsItemSelected(MenuItem item){
+        if(item.getItemId()==R.id.retour) {
+
+            retour();
+        }
+        return true;
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,5 +75,9 @@ public class exercices_specifiques_arrieres extends AppCompatActivity {
     private void visualiser_exercice_plaquage() {
         Intent intentC = new Intent(this,exo_plaquage.class);
         startActivity(intentC);
+    }
+    private void retour() {
+        Intent intent60 = new Intent(this, menu_rugby.class);
+        startActivity(intent60);
     }
 }
