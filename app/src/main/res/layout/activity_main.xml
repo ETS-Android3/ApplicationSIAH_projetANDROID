@@ -5,7 +5,7 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E4272323"
+    android:background="#E4151515"
     android:textAlignment="viewEnd">
 
     <TextView
@@ -28,8 +28,8 @@
 
     <Button
         android:id="@+id/button_demarrer"
-        android:layout_width="189dp"
-        android:layout_height="169dp"
+        android:layout_width="342dp"
+        android:layout_height="62dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="308dp"
         android:layout_marginEnd="16dp"
@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.657"
+        app:layout_constraintVertical_bias="0.822"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <VideoView
@@ -64,27 +64,15 @@
         android:layout_width="326dp"
         android:layout_height="63dp"
         android:text="&quot;Une saine alimentation pour la compétition&quot;"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#B3B2B2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.616" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="183dp"
-        android:layout_height="148dp"
-        android:backgroundTint="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.561"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.85"
-        app:srcCompat="@drawable/logo_entr_e" />
 
     <ImageView
         android:id="@+id/imageView15"
@@ -103,12 +91,43 @@
 
     <Button
         android:id="@+id/co_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="154dp"
+        android:layout_height="40dp"
+        android:alpha="0"
+        android:backgroundTint="#00FFFFFF"
+        android:foregroundTint="#00FFFFFF"
         android:text="1 ere connexion ? "
+        android:textColor="#E3E1E1"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_demarrer" />
+        app:layout_constraintTop_toBottomOf="@+id/button_demarrer"
+        app:layout_constraintVertical_bias="0.589" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="157dp"
+        android:layout_height="29dp"
+        android:text="1ère connexion ?"
+        android:textAlignment="center"
+        android:textColor="#E3E1E1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.966" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="347dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toBottomOf="@+id/co_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919"
+        app:srcCompat="@drawable/bouton_connexion_v2" />
 
 </android.support.constraint.ConstraintLayout>

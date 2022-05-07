@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,18 +22,23 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
     Sensor accelerometre;
     float pas;
     float pas_capteur;
+    float variation_pas;
     boolean debut;
     TextView chronometre;
     Button lancer,pause;
     Runnable runnable;
     int seconde, minute;
     boolean cliquer,stop,annuler;
+    boolean relancer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_session_sport);
 
         tv_steps=(TextView)  findViewById(R.id.tv_steps);
+        ImageView cercle = (ImageView) findViewById(R.id.imageView21);
+        cercle.setVisibility(View.INVISIBLE);
+        tv_steps.setVisibility(View.INVISIBLE);
         sensorManager = (SensorManager)  getSystemService(Context.SENSOR_SERVICE);
         podometre = sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
         debut=true;
@@ -73,12 +79,20 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                     cliquer=true;
                     seconde=0;
                     minute=0;
+                    cercle.setVisibility(View.VISIBLE);
+                    tv_steps.setVisibility(View.VISIBLE);
                 }
                 else{
                     annuler = true;
+                    pas= 0;
                     lancer.setText("Lancer");
                     pause.setVisibility(View.INVISIBLE);
                     cliquer=false;
+                    cercle.setVisibility(View.INVISIBLE);
+                    tv_steps.setVisibility(View.INVISIBLE);
+
+                    debut=true;
+
 
                 }
             }
@@ -89,9 +103,10 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                 if(stop==false){
                     stop=true;
                     pause.setText("Play");
+                   // debut=true;
                 }else{
                     stop=false;
-                    pause.setText("PAuse");
+                    pause.setText("Pause");
                     new Handler().postDelayed(runnable,1000);//lance le runnable cahque sec 1000=1seconde
                 }
             }
@@ -129,12 +144,21 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
     public void onSensorChanged(SensorEvent sensorEvent) {
 
         if(sensorEvent.sensor.getType()==Sensor.TYPE_STEP_COUNTER){
+            if(stop ==true){
+                variation_pas = sensorEvent.values[0]-pas_capteur-pas;
+                TextView textess = findViewById(R.id.textView76);
+                textess.setText(String.valueOf(variation_pas));
+            }
             if(debut==true){
                 pas_capteur=sensorEvent.values[0];
                 debut=false;
             }
-            pas = sensorEvent.values[0]-pas_capteur;
-            tv_steps.setText(String.valueOf(pas));
+            if(stop==false && annuler == false) {
+                pas = sensorEvent.values[0] - pas_capteur - variation_pas  ;
+                variation_pas=0;
+                tv_steps.setText(String.valueOf(pas));
+            }
+
 
         }
 

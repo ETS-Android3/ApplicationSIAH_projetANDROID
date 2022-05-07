@@ -7,7 +7,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class exo_cou extends AppCompatActivity {
+public class a_propos_de_nous extends AppCompatActivity {
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -26,10 +27,10 @@ public class exo_cou extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_exo_cou);
+        setContentView(R.layout.activity_apropos_de_nous);
     }
     private void retour() {
-        Intent intent60 = new Intent(this, Exercices_Specifiques_Avants.class);
+        Intent intent60 = new Intent(this, Menu_principal.class);
         startActivity(intent60);
     }
 }
