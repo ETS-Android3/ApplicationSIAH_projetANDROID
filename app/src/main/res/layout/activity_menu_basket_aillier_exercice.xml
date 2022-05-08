@@ -18,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.028"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/s_p_ration_barresiah" />
 
     <TextView
@@ -28,7 +28,6 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="33dp"
-        android:layout_marginBottom="604dp"
         android:text="Conseils d'exercices "
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#CCCCCC"
@@ -36,209 +35,253 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView47"
         android:layout_width="256dp"
         android:layout_height="32dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="604dp"
         android:autoText="false"
         android:text="Programme hebdomadaire conseillé : "
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.148" />
 
     <TextView
         android:id="@+id/textView48"
-        android:layout_width="256dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="556dp"
+        android:layout_width="55dp"
+        android:layout_height="18dp"
         android:autoText="false"
         android:text="LUNDI "
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
 
     <TextView
         android:id="@+id/textView57"
-        android:layout_width="189dp"
+        android:layout_width="87dp"
         android:layout_height="20dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="220dp"
         android:autoText="false"
         android:text=" - squats"
         android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
 
     <TextView
         android:id="@+id/textView58"
-        android:layout_width="176dp"
-        android:layout_height="19dp"
-        android:layout_marginTop="224dp"
-        android:layout_marginEnd="228dp"
+        android:layout_width="118dp"
+        android:layout_height="20dp"
         android:autoText="false"
         android:text=" - fentes latérales"
         android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295" />
 
     <TextView
         android:id="@+id/textView59"
-        android:layout_width="192dp"
-        android:layout_height="22dp"
+        android:layout_width="149dp"
+        android:layout_height="20dp"
         android:autoText="false"
         android:text=" - fentes avant/arrière"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="200dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267" />
 
     <TextView
         android:id="@+id/textView60"
-        android:layout_width="256dp"
-        android:layout_height="32dp"
+        android:layout_width="79dp"
+        android:layout_height="20dp"
         android:autoText="false"
         android:text=" - pompes"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="302dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423" />
 
     <TextView
         android:id="@+id/textView61"
-        android:layout_width="256dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="316dp"
-        android:layout_marginEnd="140dp"
+        android:layout_width="176dp"
+        android:layout_height="20dp"
         android:autoText="false"
         android:text=" - developpé couché alterné"
         android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451" />
 
     <TextView
         android:id="@+id/textView62"
-        android:layout_width="256dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="348dp"
-        android:layout_marginEnd="140dp"
+        android:layout_width="145dp"
+        android:layout_height="20dp"
         android:autoText="false"
         android:text=" - dips sur un banc "
         android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView35"
+        app:layout_constraintVertical_bias="0.479" />
 
     <TextView
         android:id="@+id/textView49"
-        android:layout_width="256dp"
-        android:layout_height="32dp"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
         android:autoText="false"
         android:text="MARDI "
         android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintHorizontal_bias="0.022"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="270dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.388" />
 
     <TextView
         android:id="@+id/textView50"
         android:layout_width="163dp"
         android:layout_height="26dp"
-        android:layout_marginTop="416dp"
-        android:layout_marginEnd="240dp"
         android:autoText="false"
         android:text="MERCREDI : repos "
         android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544" />
 
     <TextView
         android:id="@+id/textView51"
-        android:layout_width="144dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="100dp"
+        android:layout_width="57dp"
+        android:layout_height="24dp"
         android:autoText="false"
         android:text="JEUDI"
         android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toStartOf="@+id/imageView40"
-        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView35"
+        app:layout_constraintVertical_bias="0.625" />
 
     <TextView
         android:id="@+id/textView63"
-        android:layout_width="256dp"
-        android:layout_height="32dp"
-        android:layout_marginEnd="148dp"
-        android:layout_marginBottom="216dp"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
         android:autoText="false"
         android:text="- corde à sauter"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView51"
-        app:layout_constraintVertical_bias="0.333" />
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665" />
 
     <TextView
         android:id="@+id/textView64"
-        android:layout_width="256dp"
-        android:layout_height="32dp"
-        android:layout_marginBottom="188dp"
+        android:layout_width="75dp"
+        android:layout_height="20dp"
         android:autoText="false"
         android:text="- crunchs"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="8dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView35"
+        app:layout_constraintVertical_bias="0.693" />
 
     <TextView
         android:id="@+id/textView65"
-        android:layout_width="256dp"
-        android:layout_height="32dp"
-        android:layout_marginEnd="148dp"
-        android:layout_marginBottom="164dp"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
         android:autoText="false"
         android:text="- wood-choppers"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView35"
+        app:layout_constraintVertical_bias="0.721" />
 
     <TextView
         android:id="@+id/textView52"
-        android:layout_width="256dp"
-        android:layout_height="32dp"
+        android:layout_width="140dp"
+        android:layout_height="27dp"
         android:autoText="false"
         android:text="VENDREDI : repos"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="683dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
 
     <Button
         android:id="@+id/exo_spe_meneur"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Exercice Typique "
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="667dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
 
     <ImageView
         android:id="@+id/imageView36"
         android:layout_width="196dp"
         android:layout_height="97dp"
-        android:layout_marginTop="136dp"
-        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.225"
         app:srcCompat="@drawable/fentes_ou_squats_" />
 
     <ImageView
         android:id="@+id/imageView37"
-        android:layout_width="180dp"
-        android:layout_height="92dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="380dp"
+        android:layout_width="158dp"
+        android:layout_height="95dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391"
         app:srcCompat="@drawable/developpe_couche_halteres" />
 
     <ImageView
@@ -251,34 +294,39 @@
 
     <ImageView
         android:id="@+id/imageView39"
-        android:layout_width="233dp"
-        android:layout_height="90dp"
+        android:layout_width="179dp"
+        android:layout_height="92dp"
         android:layout_marginTop="1dp"
-        android:layout_marginEnd="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView61"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547"
         app:srcCompat="@drawable/dips_bench" />
 
     <ImageView
         android:id="@+id/imageView40"
         android:layout_width="142dp"
         android:layout_height="146dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="140dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781"
         app:srcCompat="@drawable/crunch" />
 
     <ImageView
         android:id="@+id/imageView41"
         android:layout_width="144dp"
         android:layout_height="111dp"
-        android:layout_marginEnd="248dp"
-        android:layout_marginBottom="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877"
         app:srcCompat="@drawable/wood_choppers" />
 
 </android.support.constraint.ConstraintLayout>

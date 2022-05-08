@@ -26,14 +26,14 @@ public class Menu_principal extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_principal); //affiche l'acran
         String tab_conseilsante [] = new String [10] ;
-        tab_conseilsante[0]="Buvez de l'eau" ;
-        tab_conseilsante[1]="Ilona est gentille";
-        tab_conseilsante[2]="Il est minuit 9 je fais encore ça ptn";
-        tab_conseilsante[3]="Baptiste a plus d'appendicite lol";
+        tab_conseilsante[0]="Buvez de l'eau, BWAAAAAAR" ;
+        tab_conseilsante[1]="Ilona est gentille mais susceptible";
+        tab_conseilsante[2]="Il est minuit 9 je fais encore ça ptn (petit joueur)";
+        tab_conseilsante[3]="Baptiste a plus d'appendicite lol et Hugo il a une grosse queue....";
         tab_conseilsante[4]="Et dire qu'on a eu 19.3 en projet innov";
         tab_conseilsante[5]="Allez LE FOOT";
         tab_conseilsante[6]="Scott t'es vrmt un bg (surtout pour un anglais suisse résidant au Crès";
-        tab_conseilsante[7]="AXEL FAIS TA PARTIE";
+        tab_conseilsante[7]="AXEL FAIS TA PARTIE, jsuis sur le doss ;)";
         tab_conseilsante[8]="Je t'aime de ouf je crois que je t'ai dans la peau";
         tab_conseilsante[9]="Entre nous Marion est insupportable quand elle a bu, Scott est marrant, axel est incr mais marion.. ";
         Calendar calendar = Calendar.getInstance(); // on crée un calndrier on récupère la date du jour

@@ -117,7 +117,7 @@
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Votre prénnom :"
+        android:text="Votre prénom :"
         android:textColor="#E3E1E1"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
