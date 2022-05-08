@@ -51,7 +51,7 @@
         android:layout_height="107dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="116dp"
-        android:text="L'aillier est un joueur important qui doit savoir faire du replis défensif rapide ou encore des contres-attaques. Il doit ainsi travailler son explosivité et faire des fractionnés. "
+        android:text="L'ailier est un joueur important qui doit savoir faire du replis défensif rapide ou encore des contres-attaques. Il doit ainsi travailler son explosivité et faire des fractionnés. "
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toTopOf="@+id/imageView33"
         app:layout_constraintEnd_toEndOf="parent" />

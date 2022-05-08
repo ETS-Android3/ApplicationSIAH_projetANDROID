@@ -8,10 +8,7 @@ import java.text.DateFormat;
 import java.util.Calendar;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.Spinner;
 import android.widget.TextView;
 
 public class Menu_principal extends AppCompatActivity {
@@ -45,11 +42,18 @@ public class Menu_principal extends AppCompatActivity {
             }
         });
 
-        Button button_NOUS = (Button) findViewById(R.id.claire);
+        Button button_NOUS = (Button) findViewById(R.id.nous);
         button_NOUS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 visualiser_NOUS();
+            }
+        });
+        Button btn_health = (Button) findViewById(R.id.btn_health);
+        btn_health.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                visualiser_sante_accueil();
             }
         });
 
@@ -62,7 +66,10 @@ private void visualiser_sports(){
         Intent intent1 = new Intent(this, Menu_sport.class);
         startActivity(intent1);
 }
-
+    private void visualiser_sante_accueil(){
+        Intent intent11 = new Intent(this, sante_accueil.class);
+        startActivity(intent11);
+    }
     private void visualiser_NOUS(){
         Intent intent51 = new Intent(this,a_propos_de_nous.class);
         startActivity(intent51);
