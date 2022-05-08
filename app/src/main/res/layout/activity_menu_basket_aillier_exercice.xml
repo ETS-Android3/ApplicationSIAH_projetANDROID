@@ -285,14 +285,6 @@
         app:srcCompat="@drawable/developpe_couche_halteres" />
 
     <ImageView
-        android:id="@+id/imageView38"
-        android:layout_width="145dp"
-        android:layout_height="173dp"
-        app:srcCompat="@drawable/dips_bench"
-        tools:layout_editor_absoluteX="438dp"
-        tools:layout_editor_absoluteY="717dp" />
-
-    <ImageView
         android:id="@+id/imageView39"
         android:layout_width="179dp"
         android:layout_height="92dp"

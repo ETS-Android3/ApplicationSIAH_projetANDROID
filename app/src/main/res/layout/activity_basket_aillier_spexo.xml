@@ -13,17 +13,16 @@
         android:layout_width="355dp"
         android:layout_height="97dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="28dp"
         android:layout_marginEnd="33dp"
-        android:layout_marginBottom="596dp"
         android:text="Exercice spécifique "
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#CCCCCC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -32,27 +31,33 @@
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.709"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.167"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/s_p_ration_barresiah" />
 
     <ImageView
         android:id="@+id/imageView33"
         android:layout_width="392dp"
         android:layout_height="205dp"
-        app:srcCompat="@drawable/exercice_explosivit_"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="424dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.34"
+        app:srcCompat="@drawable/exercice_explosivit_" />
 
     <TextView
         android:id="@+id/textView54"
         android:layout_width="377dp"
         android:layout_height="107dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="116dp"
         android:text="L'ailier est un joueur important qui doit savoir faire du replis défensif rapide ou encore des contres-attaques. Il doit ainsi travailler son explosivité et faire des fractionnés. "
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/imageView33"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.181" />
 </android.support.constraint.ConstraintLayout>
