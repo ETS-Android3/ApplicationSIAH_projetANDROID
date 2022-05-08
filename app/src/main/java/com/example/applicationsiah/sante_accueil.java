@@ -1,24 +1,59 @@
 package com.example.applicationsiah;
 
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
 public class sante_accueil extends AppCompatActivity {
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main,menu);
+
+        return true;
+        //  retu rn super.onCreateOptionsMenu(menu);
+    }
+    public boolean onOptionsItemSelected(MenuItem item){
+        if(item.getItemId()==R.id.retour){
+            retour();
+
+
+        }
+        return true;
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sante_accueil);
 
-        int poidskg;
-        int taille_m;
-        int taille_cm;
+        Integer poidskg;
+        float taille_m;
+         Integer taille_cm;
         float imc;
-        //taille_m = taille_cm / 100;
-        //imc = poidskg / (taille_m) ^ 2;
-         imc =0;
+        SharedPreferences sharedPreferences = getSharedPreferences("utilisateur", MODE_PRIVATE);
+       poidskg = sharedPreferences.getInt("util_poids",1);
+       taille_cm=sharedPreferences.getInt("util_taille",2);
+        taille_m =( taille_cm.floatValue() )/ (100);
+        imc=0;TextView text = findViewById(R.id.textView71);
+        try {
+            imc = (poidskg.floatValue()) / (taille_m*taille_m) ;
+
+            text.setText("Votre IMC est de : " + String.valueOf(imc));
+        }catch (NumberFormatException i){
+
+            text.setText("Calcul IMC indisponible veuillez vérifiez la saissie de vos informations persnnelles ");
+        }
+
+
+
 
         TextView text1 = (TextView) findViewById(R.id.textIMC);
         text1.setText("");
@@ -47,5 +82,9 @@ public class sante_accueil extends AppCompatActivity {
                     "- les fruits et les légumes \n" +
                     "\n");
         }
+    }
+    private void retour() {
+        Intent intent60 = new Intent(this, Menu_principal.class);
+        startActivity(intent60);
     }
 }

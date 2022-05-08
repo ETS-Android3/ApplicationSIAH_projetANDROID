@@ -18,10 +18,10 @@ import android.widget.VideoView;
 public class MainActivity extends AppCompatActivity {
 
 Boolean co;
-boolean retour=false;
 
 
 
+/*/
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -33,17 +33,12 @@ boolean retour=false;
     public boolean onOptionsItemSelected(MenuItem item){
         if(item.getItemId()==R.id.retour){
             retour=true;
-            Context context = getApplicationContext();
-            CharSequence text = "SIIUUUUUUU";
-            int duration = Toast.LENGTH_SHORT;
 
-            Toast toast = Toast.makeText(context, text, duration);
-            toast.show();
 
         }
         return true;
     }
-
+/*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

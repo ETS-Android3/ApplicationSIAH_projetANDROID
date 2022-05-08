@@ -33,6 +33,17 @@
         app:layout_constraintVertical_bias="0.071"
         app:srcCompat="@drawable/siahlogo_decoupe3" />
 
+    <ImageView
+        android:id="@+id/imageView70"
+        android:layout_width="416dp"
+        android:layout_height="274dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.312"
+        app:srcCompat="@drawable/s_p_ration_barresiah" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="226dp"
@@ -42,10 +53,10 @@
         android:textColor="#E3E1E1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.315"
+        app:layout_constraintVertical_bias="0.295"
         tools:text="Bienvenue" />
 
     <TextView
@@ -57,10 +68,10 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintHorizontal_bias="0.087"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.378" />
+        app:layout_constraintVertical_bias="0.056" />
 
     <Button
         android:id="@+id/acces_podometre"
@@ -93,8 +104,9 @@
 
     <Button
         android:id="@+id/sport_buttton"
-        android:layout_width="68dp"
-        android:layout_height="73dp"
+        android:layout_width="67dp"
+        android:layout_height="62dp"
+        android:alpha="0"
         android:backgroundTint="#00FFFFFF"
         android:shadowColor="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -103,24 +115,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
-
-    <HorizontalScrollView
-        android:layout_width="404dp"
-        android:layout_height="304dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginEnd="3dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView31"
-        app:layout_constraintVertical_bias="0.138"
-        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical"/>
-    </HorizontalScrollView>
 
     <Button
         android:id="@+id/nous"
@@ -138,17 +132,88 @@
         android:id="@+id/btn_health"
         android:layout_width="79dp"
         android:layout_height="54dp"
+        android:alpha="0"
         android:backgroundTint="#00FFFFFF"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="668dp" />
+        android:foregroundTint="#00FFFFFF"
+        android:shadowColor="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988" />
 
     <Button
         android:id="@+id/btn_profil"
         android:layout_width="71dp"
         android:layout_height="54dp"
+        android:alpha="0"
         android:backgroundTint="#00FFFFFF"
-        tools:layout_editor_absoluteX="336dp"
-        tools:layout_editor_absoluteY="667dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.991"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="354dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_profil"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.774">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:scaleY="1">
+
+            <TextView
+                android:id="@+id/text_feed1"
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:text="Conseils santé du jour : "
+                android:textColor="#E3E1E1"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.087"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.056" />
+
+            <TextView
+                android:id="@+id/text_feed2"
+                android:layout_width="277dp"
+                android:layout_height="71dp"
+                android:textColor="#E3E1E1"
+                android:textSize="24sp"
+
+                android:translationX="100dp"
+                android:translationY="20dp"
+                android:translationZ="150dp" />
+
+            <ImageView
+                android:id="@+id/barre_2"
+                android:layout_width="409dp"
+                android:layout_height="274dp"
+                android:layout_marginStart="4dp"
+                android:scaleType="centerInside"
+                android:scaleY="1"
+                android:translationY="-50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.035"
+                app:srcCompat="@drawable/s_p_ration_barresiah" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 
 </android.support.constraint.ConstraintLayout>

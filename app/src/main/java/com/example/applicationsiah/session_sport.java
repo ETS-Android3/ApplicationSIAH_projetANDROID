@@ -1,6 +1,8 @@
 package com.example.applicationsiah;
 
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -8,6 +10,9 @@ import android.hardware.SensorManager;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -15,6 +20,22 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class session_sport extends AppCompatActivity implements SensorEventListener {
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main,menu);
+
+        return true;
+        //  retu rn super.onCreateOptionsMenu(menu);
+    }
+    public boolean onOptionsItemSelected(MenuItem item){
+        if(item.getItemId()==R.id.retour){
+            retour();
+
+
+        }
+        return true;
+    }
     SensorManager sensorManager;
     TextView tv_steps;
     boolean running = false;
@@ -91,6 +112,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                     cercle.setVisibility(View.INVISIBLE);
                     tv_steps.setVisibility(View.INVISIBLE);
 
+
                     debut=true;
 
 
@@ -118,16 +140,6 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
         sensorManager.registerListener(this,podometre,SensorManager.SENSOR_DELAY_UI);
         running=true;
 
-
-        //   Sensor countSensor = sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
-        //  if(countSensor !=null) {
-        //    sensorManager.registerListener(this, countSensor, SensorManager.SENSOR_DELAY_UI);
-        //  System.out.print("Ici");
-        //}
-        //else {
-        //  Toast.makeText(this, "pas trouvé", Toast.LENGTH_SHORT).show();
-        //}
-
         super.onResume();
     }
 
@@ -151,6 +163,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
             }
             if(debut==true){
                 pas_capteur=sensorEvent.values[0];
+
                 debut=false;
             }
             if(stop==false && annuler == false) {
@@ -168,5 +181,9 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
     @Override
     public void onAccuracyChanged(Sensor sensor, int i) {
 
+    }
+    private void retour() {
+        Intent intent60 = new Intent(this, Menu_principal.class);
+        startActivity(intent60);
     }
 }

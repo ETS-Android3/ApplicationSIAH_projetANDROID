@@ -27,10 +27,12 @@
         android:id="@+id/imageView50"
         android:layout_width="338dp"
         android:layout_height="243dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="308dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418"
         app:srcCompat="@drawable/calcul_imc_indice_de_masse_corporelle" />
 
     <TextView
@@ -52,6 +54,9 @@
         android:layout_height="165dp"
         android:text="TextView"
         android:textColor="#F4EFEF"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="472dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876" />
 </android.support.constraint.ConstraintLayout>
