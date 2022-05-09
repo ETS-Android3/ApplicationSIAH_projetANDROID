@@ -86,8 +86,20 @@ public class Menu_principal extends AppCompatActivity {
             }
         });
 
+        Button btn_profil = (Button) findViewById(R.id.btn_profil);
+        btn_profil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                visualiser_profil();
+            }
+        });
+
     }
 
+    private void visualiser_profil() {
+        Intent intent3 = new Intent(this,profil_utilisateur.class);
+        startActivity(intent3);
+    }
 
 
     private void visualiser_sports() {

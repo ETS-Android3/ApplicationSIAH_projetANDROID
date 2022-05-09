@@ -154,12 +154,13 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
 
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
-
+        boolean reprise =false ;
         if(sensorEvent.sensor.getType()==Sensor.TYPE_STEP_COUNTER){
             if(stop ==true){
                 variation_pas = sensorEvent.values[0]-pas_capteur-pas;
                 TextView textess = findViewById(R.id.textView76);
                 textess.setText(String.valueOf(variation_pas));
+                reprise=true;
             }
             if(debut==true){
                 pas_capteur=sensorEvent.values[0];
@@ -167,8 +168,13 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                 debut=false;
             }
             if(stop==false && annuler == false) {
-                pas = sensorEvent.values[0] - pas_capteur - variation_pas  ;
-                variation_pas=0;
+                pas = sensorEvent.values[0] - pas_capteur   ;
+                if(reprise=true){
+                    pas = pas - variation_pas;
+
+                    reprise=false;
+                }
+
                 tv_steps.setText(String.valueOf(pas));
             }
 

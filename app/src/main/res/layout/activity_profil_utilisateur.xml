@@ -4,68 +4,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".profil_utilisateur"
+    android:alpha="1"
     android:background="#E4151515"
-    >
+    tools:context=".profil_utilisateur">
 
     <TextView
-        android:id="@+id/textView80"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="NOM"
+        android:id="@+id/nom_util"
+        android:layout_width="305dp"
+        android:layout_height="24dp"
+        android:text="NOM : "
         android:textColor="#D8CFCF"
         android:textSize="20sp"
         android:textStyle="normal|bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintHorizontal_bias="0.583"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.352" />
+        app:layout_constraintVertical_bias="0.382" />
 
     <TextView
-        android:id="@+id/textView81"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="PRENOM"
+        android:id="@+id/prenom_util"
+        android:layout_width="305dp"
+        android:layout_height="24dp"
+        android:text="PRENOM : "
         android:textColor="#D8CFCF"
         android:textSize="20sp"
         android:textStyle="normal|bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintHorizontal_bias="0.584"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.427" />
+        app:layout_constraintVertical_bias="0.476" />
 
     <TextView
-        android:id="@+id/textView82"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TAILLE"
+        android:id="@+id/util_taille"
+        android:layout_width="305dp"
+        android:layout_height="24dp"
+        android:text="TAILLE :"
         android:textColor="#D8CFCF"
         android:textSize="20sp"
         android:textStyle="normal|bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.063"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView83"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="POIDS"
-        android:textColor="#D8CFCF"
-        android:textSize="20sp"
-        android:textStyle="normal|bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintHorizontal_bias="0.584"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596" />
+        app:layout_constraintVertical_bias="0.572" />
+
+    <TextView
+        android:id="@+id/util_poids"
+        android:layout_width="305dp"
+        android:layout_height="24dp"
+        android:text="POIDS :"
+        android:textColor="#D8CFCF"
+        android:textSize="20sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685" />
 
     <ImageView
         android:id="@+id/imageView61"
@@ -82,8 +83,8 @@
 
     <TextView
         android:id="@+id/textView78"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="165dp"
+        android:layout_height="47dp"
         android:text="Mon profil"
         android:textColor="#D8CFCF"
         android:textSize="34sp"
@@ -115,40 +116,25 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/profil_photo_" />
 
-    <TextView
-        android:id="@+id/nom_utilisateur"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="#FAFAFA"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="248dp" />
-
-    <TextView
-        android:id="@+id/prenom_utilisateur"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="#FAFAFA"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="301dp" />
-
-    <TextView
-        android:id="@+id/taille_utilisateur"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="#FAFAFA"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="356dp" />
-
-    <TextView
-        android:id="@+id/poids_utilisateur"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="#FAFAFA"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="428dp" />
+    <Button
+        android:id="@+id/retour_informations_perso"
+        android:layout_width="357dp"
+        android:layout_height="38dp"
+        android:alpha="255"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#00FFFFFF"
+        android:backgroundTintMode="src_in"
+        android:foregroundTint="#00FFFFFF"
+        android:selectAllOnFocus="false"
+        android:shadowColor="#00FFFFFF"
+        android:text="Voulez-vous changez vos informations personneles ? "
+        android:textColor="#D8CFCF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 
 </android.support.constraint.ConstraintLayout>

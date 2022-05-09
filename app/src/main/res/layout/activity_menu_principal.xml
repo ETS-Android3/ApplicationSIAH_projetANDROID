@@ -188,8 +188,8 @@
 
             <TextView
                 android:id="@+id/text_feed2"
-                android:layout_width="277dp"
-                android:layout_height="71dp"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
                 android:textColor="#E3E1E1"
                 android:textSize="24sp"
 
