@@ -8,34 +8,34 @@
     android:background="#E4151515"
     >
 
-    <ImageView
-        android:id="@+id/imageView46"
-        android:layout_width="473dp"
-        android:layout_height="171dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.051"
-        app:srcCompat="@drawable/s_p_ration_barresiah" />
-
     <TextView
-        android:id="@+id/textView55"
-        android:layout_width="351dp"
-        android:layout_height="104dp"
+        android:id="@+id/textView53"
+        android:layout_width="355dp"
+        android:layout_height="97dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="28dp"
         android:layout_marginEnd="33dp"
-        android:layout_marginBottom="596dp"
         android:text="Exercice spécifique "
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#CCCCCC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="473dp"
+        android:layout_height="171dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.709"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/s_p_ration_barresiah" />
 
     <TextView
         android:id="@+id/textView69"
@@ -43,15 +43,22 @@
         android:layout_height="161dp"
         android:text="Rebond défensif  Les joueurs sont face à la planche avec un ballon chacun. Ils lancent la balle contre la planche et prennent le rebond.  Points techniques:  Timing du saut avec la trajectoire ascendante et descendante du ballon; Attraper et tirer le ballon jusqu'au menton; Montrer les coudes; Retomber avec les deux pieds en même temps; Regard orienté côté sortie de balle."
         android:textColor="#FBF9F9"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="156dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
 
     <ImageView
         android:id="@+id/imageView52"
         android:layout_width="342dp"
         android:layout_height="388dp"
-        app:srcCompat="@drawable/rebond_"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="282dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413"
+        app:srcCompat="@drawable/rebond_" />
 
 </android.support.constraint.ConstraintLayout>
