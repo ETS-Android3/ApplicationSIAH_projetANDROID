@@ -23,9 +23,9 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="266dp"
-        android:layout_height="72dp"
-        android:text="Le gardien de but "
+        android:layout_width="302dp"
+        android:layout_height="76dp"
+        android:text="Le milieu défensif "
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#CAC6C6"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -39,7 +39,7 @@
         android:id="@+id/textView5"
         android:layout_width="130dp"
         android:layout_height="38dp"
-        android:text="Le dernier rempart..."
+        android:text="N'golo kanté..."
         android:textColor="#959595"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,11 +50,12 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="372dp"
-        android:layout_height="41dp"
+        android:layout_width="385dp"
+        android:layout_height="104dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="19dp"
-        android:text="Le poste de gardien demande certaines qualités : "
+        android:text="Le milieu défensif est une pièce-maîtresse dans une formation classique (4-4-2 ou 4-3-3) : aussi intelligent dans le placement que dans la récupération ou la relance, il doit être capable de gagner des ballons en phase défensive (duels, interceptions) pour les orienter rapidement vers les joueurs offensifs."
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#CCCCCC"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -62,82 +63,37 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.202" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="255dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="13dp"
-        android:layout_marginBottom="497dp"
-        android:text="- Puissance "
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textColor="#CCCCCC"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.151"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="206dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="4dp"
-        android:text="- Détente "
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textColor="#CCCCCC"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.356" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="124dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="4dp"
-        android:text="- Explosivité "
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textColor="#CCCCCC"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.081"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.404" />
+        app:layout_constraintVertical_bias="0.2" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="355dp"
         android:layout_height="97dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="28dp"
         android:layout_marginEnd="33dp"
-        android:layout_marginBottom="323dp"
-        android:text="Conseils d'exercices et de tactiques "
+        android:text="Conseils d'exercices"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#CCCCCC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.629" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="130dp"
         android:layout_height="48dp"
         android:layout_marginBottom="28dp"
-        android:text="Tactique "
+        android:text="Technique "
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#CCCCCC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.825"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView11"
         app:layout_constraintVertical_bias="1.0" />
@@ -148,25 +104,24 @@
         android:layout_height="125dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintHorizontal_bias="0.835"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
-        app:layout_constraintVertical_bias="0.51"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841"
         app:srcCompat="@drawable/logo_tactic1" />
 
     <Button
         android:id="@+id/tact_gb_foot"
         android:layout_width="129dp"
         android:layout_height="136dp"
-        android:layout_marginTop="88dp"
         android:layout_marginBottom="9dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#FF0000"
         app:layout_constraintBottom_toTopOf="@+id/textView11"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintHorizontal_bias="0.826"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
@@ -190,13 +145,16 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="85dp"
         android:layout_marginBottom="32dp"
-        android:text="Excercies "
+        android:text="Physique "
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#CCCCCC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/exo_gb_foot"
@@ -205,8 +163,34 @@
         android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintHorizontal_bias="0.183"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.85" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="185dp"
+        android:layout_height="150dp"
+        android:text="Qualités techniques :\n\n- Contrôle de balle\n\n- Conduite de balle\n\n- Passe"
+        android:textColor="#CCCCCC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="186dp"
+        android:layout_height="150dp"
+        android:text="Qualités physiques :\n\n- Endurance\n\n- Vivacité\n\n- Explosivité"
+        android:textColor="#CCCCCC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
 </android.support.constraint.ConstraintLayout>
