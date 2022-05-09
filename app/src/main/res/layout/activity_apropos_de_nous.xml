@@ -9,18 +9,18 @@
 
     <TextView
         android:id="@+id/titre_nous"
-        android:layout_width="320dp"
-        android:layout_height="100dp"
+        android:layout_width="328dp"
+        android:layout_height="107dp"
         android:text="A PROPOS DE NOUS"
         android:textColor="#ECECEC"
         android:textSize="35dp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.058" />
+        app:layout_constraintVertical_bias="0.025" />
 
     <ImageView
         android:id="@+id/imageView47"
@@ -35,14 +35,14 @@
 
     <ImageView
         android:id="@+id/imageView58"
-        android:layout_width="317dp"
-        android:layout_height="149dp"
+        android:layout_width="262dp"
+        android:layout_height="117dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.235"
+        app:layout_constraintVertical_bias="0.187"
         app:srcCompat="@drawable/__fantastiques_2005" />
 
     <TextView
@@ -99,4 +99,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.94" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="259dp"
+        android:layout_height="22dp"
+        android:layout_marginBottom="8dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="https://youtu.be/fsitoqTLwj8"
+        app:layout_constraintBottom_toTopOf="@+id/textView71"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView47"
+        app:layout_constraintVertical_bias="0.692" />
 </android.support.constraint.ConstraintLayout>

@@ -105,12 +105,21 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                 }
                 else{
                     annuler = true;
-                    pas= 0;
+
                     lancer.setText("Lancer");
                     pause.setVisibility(View.INVISIBLE);
                     cliquer=false;
                     cercle.setVisibility(View.INVISIBLE);
                     tv_steps.setVisibility(View.INVISIBLE);
+                    SharedPreferences sharedPreferences = getSharedPreferences("utilisateur", MODE_PRIVATE);
+
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+
+                    editor.putFloat("pas_course", pas);
+                    editor.apply();
+
+                    pas= 0;
+                    variation_pas=0;
 
 
                     debut=true;

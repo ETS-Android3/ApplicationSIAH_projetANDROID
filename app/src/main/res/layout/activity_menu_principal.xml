@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_y="65dp"
     android:background="#272727"
     android:foregroundTint="#00FFFFFF"
     android:stateListAnimator="@anim/nav_default_enter_anim"
     tools:context=".Menu_principal">
+
     <ImageView
         android:id="@+id/imageView31"
         android:layout_width="416dp"
@@ -87,6 +89,131 @@
         app:layout_constraintVertical_bias="1.0"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <ScrollView
+        android:layout_width="407dp"
+        android:layout_height="463dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_profil"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:scaleY="1"
+            android:scrollY="1dp"
+            android:verticalScrollbarPosition="defaultPosition">
+
+            <TextView
+                android:id="@+id/text_feed1"
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:text="Conseils santé du jour : "
+                android:textColor="#E3E1E1"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.087"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.056" />
+
+            <TextView
+                android:id="@+id/text_feed2"
+                android:layout_width="220dp"
+                android:layout_height="65dp"
+                android:textColor="#E3E1E1"
+                android:textSize="24sp"
+
+                android:translationX="100dp"
+                android:translationY="20dp"
+                android:translationZ="150dp" />
+
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/text_feed3"
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:text="Pas effectués lors de la dernière course : "
+                android:textColor="#E3E1E1"
+                android:textSize="24sp"
+                android:translationY="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.087"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.056" />
+
+            <TextView
+                android:id="@+id/text_feed4"
+                android:layout_width="235dp"
+                android:layout_height="97dp"
+                android:textColor="#E3E1E1"
+                android:textSize="24sp"
+
+                android:translationX="100dp"
+                android:translationY="40dp"
+                android:translationZ="150dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:text="Pas effectués lors de la dernière course : "
+                android:textColor="#E3E1E1"
+                android:textSize="24sp"
+                android:translationY="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.087"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.056" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:text="Conseils santé du jour : "
+                android:textColor="#E3E1E1"
+                android:textSize="24sp"
+                android:translationY="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.087"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.056" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
     <ImageView
         android:id="@+id/imageView32"
         android:layout_width="378dp"
@@ -119,14 +246,14 @@
     <Button
         android:id="@+id/nous"
         android:layout_width="50dp"
-        android:layout_height="39dp"
+        android:layout_height="48dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.988" />
 
     <Button
         android:id="@+id/btn_health"
@@ -155,65 +282,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.988" />
-
-    <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="354dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/btn_profil"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.774">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:scaleY="1">
-
-            <TextView
-                android:id="@+id/text_feed1"
-                android:layout_width="387dp"
-                android:layout_height="wrap_content"
-                android:text="Conseils santé du jour : "
-                android:textColor="#E3E1E1"
-                android:textSize="24sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.087"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.056" />
-
-            <TextView
-                android:id="@+id/text_feed2"
-                android:layout_width="300dp"
-                android:layout_height="100dp"
-                android:textColor="#E3E1E1"
-                android:textSize="24sp"
-
-                android:translationX="100dp"
-                android:translationY="20dp"
-                android:translationZ="150dp" />
-
-            <ImageView
-                android:id="@+id/barre_2"
-                android:layout_width="409dp"
-                android:layout_height="274dp"
-                android:layout_marginStart="4dp"
-                android:scaleType="centerInside"
-                android:scaleY="1"
-                android:translationY="-50dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.035"
-                app:srcCompat="@drawable/s_p_ration_barresiah" />
-
-        </LinearLayout>
-
-    </ScrollView>
 
 
 </android.support.constraint.ConstraintLayout>

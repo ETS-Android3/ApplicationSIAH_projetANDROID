@@ -43,6 +43,18 @@ public class Menu_principal extends AppCompatActivity {
         TextView text = findViewById(R.id.textView);
         SharedPreferences sharedPreferences = getSharedPreferences("utilisateur", MODE_PRIVATE);
         String prenom = sharedPreferences.getString("util_prenom", " ");
+        TextView text_pas = findViewById(R.id.text_feed4);
+        Float pas ;
+
+
+        try{
+             pas = sharedPreferences.getFloat("pas_course", 1);
+            System.out.println(pas);
+            text_pas.setText(pas.toString());
+        } catch (Exception e) {
+            text_pas.setText("Pas de course encore effectuée");
+           // e.printStackTrace();
+        }
         text.setText("Bienvenu " + prenom);
         TextView text2 = findViewById(R.id.text_feed2);
         int min = 0;
