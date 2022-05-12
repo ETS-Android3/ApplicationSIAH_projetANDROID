@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".Physique_ag_ad"
+            android:exported="false" />
+        <activity
             android:name=".profil_utilisateur"
             android:exported="false" />
         <activity
