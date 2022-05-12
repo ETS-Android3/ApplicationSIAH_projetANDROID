@@ -62,19 +62,23 @@ public class Menu_principal extends AppCompatActivity implements SensorEventList
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         podometre = sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
         SharedPreferences sharedPreferences1= getSharedPreferences("course", MODE_PRIVATE);
-        Gson gson = new Gson(); // on crée un gestionnaire de format json
-        // on extrait la liste referencée par le mot cle_listeEtudiants qu'on avait stocké dans les
-        // préférences partagées
-        String listeCourseTxtJson = sharedPreferences1.getString("cle_course", "");
-        // desormais dans listeEtudiantsTxtJson on a tous nos etudiants stockés dans un format json
-        // on reconstruit un tableau d'objets de type étudiants grace à al liste au format json
-        if (listeCourseTxtJson.equals("")) {
-           listesCourse = new ArrayList<Course>();
+        try {
+            Gson gson = new Gson(); // on crée un gestionnaire de format json
+            // on extrait la liste referencée par le mot cle_listeEtudiants qu'on avait stocké dans les
+            // préférences partagées
+            String listeCourseTxtJson = sharedPreferences1.getString("cle_course", "");
+            // desormais dans listeEtudiantsTxtJson on a tous nos etudiants stockés dans un format json
+            // on reconstruit un tableau d'objets de type étudiants grace à al liste au format json
+            if (listeCourseTxtJson.equals("")) {
+                listesCourse = new ArrayList<Course>();
+            } else {
+                Course[] tableauCoursesTemporaire = gson.fromJson(listeCourseTxtJson, Course[].class);
+                // reconstitution d'une arrayList a partir du tableau tableauEtudiantsTemporaire
+                listesCourse = new ArrayList<Course>(Arrays.asList(tableauCoursesTemporaire));
+            }
         }
-        else {
-            Course[] tableauCoursesTemporaire = gson.fromJson(listeCourseTxtJson, Course[].class);
-            // reconstitution d'une arrayList a partir du tableau tableauEtudiantsTemporaire
-           listesCourse = new ArrayList<Course>(Arrays.asList(tableauCoursesTemporaire));
+        catch (Exception a){
+            System.out.println("ça veut pas ");
         }
 
 
@@ -85,6 +89,11 @@ public class Menu_principal extends AppCompatActivity implements SensorEventList
         } catch (Exception e) {
             text_pas.setText("Pas de course encore effectuée");
             // e.printStackTrace();
+        }
+        try {
+            text_pas.setText(String.valueOf(listesCourse.get(listesCourse.size()-1).km));
+        }catch(Exception a){
+            text_pas.setText("rien");
         }
         text.setText("Bienvenu " + prenom);
         TextView text2 = findViewById(R.id.text_feed2);

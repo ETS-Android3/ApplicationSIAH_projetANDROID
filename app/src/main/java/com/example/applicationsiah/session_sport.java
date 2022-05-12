@@ -19,7 +19,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
+
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class session_sport extends AppCompatActivity implements SensorEventListener {
     @Override
@@ -53,7 +56,9 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
     int seconde, minute;
     boolean cliquer,stop,annuler;
     boolean relancer;
-    ArrayList<Float>  histor_course = new ArrayList<Float>();
+    ArrayList<Course> histo_course;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -115,13 +120,47 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                     cercle.setVisibility(View.INVISIBLE);
                     tv_steps.setVisibility(View.INVISIBLE);
 
-                    histor_course.add(pas.floatValue());
-                    SharedPreferences sharedPreferences = getSharedPreferences("utilisateur", MODE_PRIVATE);
+                    /** chargement de la liste d'étudiants **/
+                    // on récupère les préférences stockées sous la clé mesPrefs :
+                    SharedPreferences prefsStockees = getSharedPreferences("course", MODE_PRIVATE);
+                    Gson gson = new Gson(); // on crée un gestionnaire de format json
+                    // on extrait la liste referencée par le mot cle_listeEtudiants qu'on avait stocké dans les
+                    // préférences partagées
+                    String listeEtudiantTxtJson = prefsStockees.getString("cle_listeEtudiants", "");
+                    // desormais dans listeEtudiantsTxtJson on a tous nos etudiants stockés dans un format json
+                    // on reconstruit un tableau d'objets de type étudiants grace à al liste au format json
+                    if (listeEtudiantTxtJson.equals("")) {
+                         histo_course= new ArrayList<>();
+                    }
+                    else {
+                        Course[] tableauCoursesTemporaire = gson.fromJson(listeEtudiantTxtJson, Course[].class);
+                        // reconstitution d'une arrayList a partir du tableau tableauEtudiantsTemporaire
+                        histo_course = new ArrayList<Course>(Arrays.asList(tableauCoursesTemporaire));
+                    }
+                    System.out.println(histo_course.size());
+                    Course course = null;
+                    try{
+                         course = new Course(0,pas);
+                    }
+                    catch(Exception fzf){
+                        System.out.println("POR");
+                    }
+                    try{
 
-                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                     histo_course.add(course);
+                    System.out.println("wlh");}
+                    catch (Exception e){
+                        System.out.println("POURQUOI");
+                    }
 
-                    editor.putFloat("pas_course", histor_course.get(histor_course.size()));
-                    editor.apply();
+                    SharedPreferences sharedPreferences1 = getSharedPreferences("course", MODE_PRIVATE);
+
+                    SharedPreferences.Editor editor= sharedPreferences1.edit();
+                    // on transforme la liste d'étudiant en format json :
+                    String histo_courseEnJson = gson.toJson(histo_course);
+                    // on envoie la liste (json) dans la clé cle_listeEtudiants de mesPrefs :
+                    editor.putString("cle_course", histo_courseEnJson);
+                    editor.commit(); // on enregistre les préférences
                     Integer a =new Integer(0);
                     pas = a.floatValue();
                     System.out.println(String.valueOf(pas.floatValue()));
