@@ -127,7 +127,7 @@
         android:foregroundTint="#00FFFFFF"
         android:selectAllOnFocus="false"
         android:shadowColor="#00FFFFFF"
-        android:text="Voulez-vous changez vos informations personneles ? "
+        android:text="Voulez-vous changer vos informations personnelles ? "
         android:textColor="#D8CFCF"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
