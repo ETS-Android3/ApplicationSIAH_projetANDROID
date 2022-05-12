@@ -7,26 +7,26 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class Physique_ag_ad extends AppCompatActivity {
+public class Physique_bu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_physique_ag_ad);
-        ImageView image1 = (ImageView) findViewById(R.id.imageendurance);
-        Button endurance = (Button) findViewById(R.id.btn_exo_1);
-        ImageView image2 = (ImageView) findViewById(R.id.imagevitesse);
+        setContentView(R.layout.activity_physique_bu);
+        ImageView image1 = (ImageView) findViewById(R.id.imageagilite);
+        Button agilite = (Button) findViewById(R.id.btn_exo_1);
+        ImageView image2 = (ImageView) findViewById(R.id.imageforce);
         image2.setVisibility(View.INVISIBLE);
-        TextView text1 = (TextView) findViewById(R.id.textendurance);
-        TextView text2 = (TextView) findViewById(R.id.textvitesse);
-        Button vitesse = (Button) findViewById(R.id.btn_exo2);
+        TextView text1 = (TextView) findViewById(R.id.textagilite);
+        TextView text2 = (TextView) findViewById(R.id.textforce);
+        Button force = (Button) findViewById(R.id.btn_exo2);
         text2.setVisibility((View.INVISIBLE));
-        ImageView image3 = (ImageView) findViewById(R.id.imageexplosivite);
+        ImageView image3 = (ImageView) findViewById(R.id.imagecoordination);
         image3.setVisibility(View.INVISIBLE);
-        Button explosivite = (Button) findViewById(R.id.btn_exo_3);
-        TextView text3 = (TextView) findViewById(R.id.textexplosivite);
+        Button coordination = (Button) findViewById(R.id.btn_exo_3);
+        TextView text3 = (TextView) findViewById(R.id.textcoordination);
         text3.setVisibility((View.INVISIBLE));
-        vitesse.setOnClickListener(new View.OnClickListener() {
+        force.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 image1.setVisibility(View.INVISIBLE);
@@ -38,7 +38,7 @@ public class Physique_ag_ad extends AppCompatActivity {
                 text3.setVisibility((View.INVISIBLE));
             }
         });
-        endurance.setOnClickListener(new View.OnClickListener() {
+        agilite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 image1.setVisibility(View.VISIBLE);
@@ -50,7 +50,7 @@ public class Physique_ag_ad extends AppCompatActivity {
                 text3.setVisibility((View.INVISIBLE));
             }
         });
-        explosivite.setOnClickListener(new View.OnClickListener() {
+        coordination.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 image1.setVisibility(View.INVISIBLE);
