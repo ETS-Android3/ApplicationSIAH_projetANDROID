@@ -45,7 +45,7 @@ public class Menu_principal extends AppCompatActivity implements SensorEventList
         tab_conseilsante[3] = "Echauffez-vous bien avant une activité physique";
         tab_conseilsante[4] = "Travaillez votre cardio et lancez une activité sportive sur SIAHapp ! ";
         tab_conseilsante[5] = "Allez LE FOOT";
-        tab_conseilsante[6] = "Scott t'es vrmt un bg (surtout pour un anglais suisse résidant au Crès";
+        tab_conseilsante[6] = "oh";
         tab_conseilsante[7] = "AXEL FAIS TA PARTIE, jsuis sur le doss ;)";
         tab_conseilsante[8] = "Je t'aime de ouf je crois que je t'ai dans la peau";
         tab_conseilsante[9] = "Entre nous Marion est insupportable quand elle a bu, Scott est marrant, axel est incr mais marion.. ";
