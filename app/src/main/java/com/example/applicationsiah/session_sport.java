@@ -154,7 +154,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                     System.out.println(histo_course.size());
                     Course course = null;
                     try{
-                         course = new Course(0,pas);
+                         course = new Course(minute*60+seconde,pas);
                     }
                     catch(Exception fzf){
                         System.out.println("POR");

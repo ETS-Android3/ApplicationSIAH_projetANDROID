@@ -36,7 +36,6 @@ public class informations_perso extends AppCompatActivity {
         SharedPreferences sharedPreferences = getSharedPreferences("utilisateur", MODE_PRIVATE);
         prenom = sharedPreferences.getString("util_prenom", " ");
 
-        TextView text = (TextView) findViewById(R.id.textView45);
         ImageView croix1 = (ImageView) findViewById(R.id.croix1);
         croix1.setVisibility(View.INVISIBLE);
         ImageView croix2 = (ImageView) findViewById(R.id.croix2);
@@ -47,7 +46,7 @@ public class informations_perso extends AppCompatActivity {
         croix4.setVisibility(View.INVISIBLE);
         Button continuer = (Button) findViewById(R.id.continuer);
         continuer.setVisibility(View.INVISIBLE);
-        text.setText(prenom);
+
         Button save = (Button) findViewById(R.id.enregistrer);
         save.setOnClickListener(new OnClickListener() {
             @Override
@@ -95,7 +94,7 @@ public class informations_perso extends AppCompatActivity {
                     croix3.setVisibility(View.VISIBLE);
                     connexion1=false;
                 }
-                text.setText(prenom);
+
 
                 try {
                     taille = edittaille.getText().toString();
