@@ -95,7 +95,7 @@ public class Menu_principal extends AppCompatActivity implements SensorEventList
         }catch(Exception a){
             text_pas.setText("rien");
         }
-        text.setText("Bienvenu " + prenom);
+        text.setText("Bienvenue " + prenom);
         TextView text2 = findViewById(R.id.text_feed2);
         int min = 0;
         int max = 9;
