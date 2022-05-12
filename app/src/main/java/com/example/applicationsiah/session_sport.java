@@ -19,6 +19,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
 public class session_sport extends AppCompatActivity implements SensorEventListener {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -40,9 +42,9 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
     TextView tv_steps;
     boolean running = false;
     Sensor podometre;
-    Sensor accelerometre;
-    float pas;
-    float pas_capteur;
+
+    Float pas;
+    Float pas_capteur;
     float variation_pas;
     boolean debut;
     TextView chronometre;
@@ -51,6 +53,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
     int seconde, minute;
     boolean cliquer,stop,annuler;
     boolean relancer;
+    ArrayList<Float>  histor_course = new ArrayList<Float>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -111,14 +114,17 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                     cliquer=false;
                     cercle.setVisibility(View.INVISIBLE);
                     tv_steps.setVisibility(View.INVISIBLE);
+
+                    histor_course.add(pas.floatValue());
                     SharedPreferences sharedPreferences = getSharedPreferences("utilisateur", MODE_PRIVATE);
 
                     SharedPreferences.Editor editor = sharedPreferences.edit();
 
-                    editor.putFloat("pas_course", pas);
+                    editor.putFloat("pas_course", histor_course.get(histor_course.size()));
                     editor.apply();
-
-                    pas= 0;
+                    Integer a =new Integer(0);
+                    pas = a.floatValue();
+                    System.out.println(String.valueOf(pas.floatValue()));
                     variation_pas=0;
 
 

@@ -15,7 +15,12 @@ import android.widget.ImageView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
+import com.google.gson.Gson;
+
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
+
 
 Boolean co;
 
@@ -39,10 +44,24 @@ Boolean co;
         return true;
     }
 /*/
+    ArrayList<Course> histo_coure= new ArrayList<>();
+    Gson gson = new Gson();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        SharedPreferences sharedPreferences1 = getSharedPreferences("course", MODE_PRIVATE);
+
+        SharedPreferences.Editor editor= sharedPreferences1.edit();
+        // on transforme la liste d'étudiant en format json :
+        String histo_courseEnJson = gson.toJson(histo_coure);
+        // on envoie la liste (json) dans la clé cle_listeEtudiants de mesPrefs :
+        editor.putString("cle_course", histo_courseEnJson);
+        editor.commit(); // on enregistre les préférences
+
+        // Save.
+        editor.apply();
         SharedPreferences sharedPreferences = getSharedPreferences("utilisateur", MODE_PRIVATE);
         co = sharedPreferences.getBoolean("1_co",false);
 
