@@ -39,11 +39,11 @@ public class Menu_principal extends AppCompatActivity implements SensorEventList
         setContentView(R.layout.activity_menu_principal); //affiche l'acran
        text_pas_ajd = findViewById(R.id.text_feed6);
         String tab_conseilsante[] = new String[10];
-        tab_conseilsante[0] = "Buvez de l'eau, BWAAAAAAR";
-        tab_conseilsante[1] = "Ilona est gentille mais susceptible";
-        tab_conseilsante[2] = "Il est minuit 9 je fais encore ça ptn (petit joueur)";
-        tab_conseilsante[3] = "Baptiste a plus d'appendicite lol et Hugo il a une grosse queue....";
-        tab_conseilsante[4] = "Et dire qu'on a eu 19.3 en projet innov";
+        tab_conseilsante[0] = "Buvez de l'eau lors de vos pauses sans couper la respiration";
+        tab_conseilsante[1] = "Etirez-vous à la fin de chaque entraînement ";
+        tab_conseilsante[2] = "Priviligiez les féculents avant une séance de sport";
+        tab_conseilsante[3] = "Echauffez-vous bien avant une activité physique";
+        tab_conseilsante[4] = "Travaillez votre cardio et lancez une activité sportive sur SIAHapp ! ";
         tab_conseilsante[5] = "Allez LE FOOT";
         tab_conseilsante[6] = "Scott t'es vrmt un bg (surtout pour un anglais suisse résidant au Crès";
         tab_conseilsante[7] = "AXEL FAIS TA PARTIE, jsuis sur le doss ;)";
