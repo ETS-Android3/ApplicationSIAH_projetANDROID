@@ -51,6 +51,7 @@ Boolean co;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        /*/
         SharedPreferences sharedPreferences1 = getSharedPreferences("course", MODE_PRIVATE);
 
         SharedPreferences.Editor editor= sharedPreferences1.edit();
@@ -62,6 +63,8 @@ Boolean co;
 
         // Save.
         editor.apply();
+
+         /*/
         SharedPreferences sharedPreferences = getSharedPreferences("utilisateur", MODE_PRIVATE);
         co = sharedPreferences.getBoolean("1_co",false);
 

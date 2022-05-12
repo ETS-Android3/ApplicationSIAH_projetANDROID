@@ -39,13 +39,13 @@ public class Menu_principal extends AppCompatActivity implements SensorEventList
         setContentView(R.layout.activity_menu_principal); //affiche l'acran
        text_pas_ajd = findViewById(R.id.text_feed6);
         String tab_conseilsante[] = new String[10];
-        tab_conseilsante[0] = "Buvez de l'eau, BWAAAAAAR";
-        tab_conseilsante[1] = "Ilona est gentille mais susceptible";
-        tab_conseilsante[2] = "Il est minuit 9 je fais encore ça ptn (petit joueur)";
-        tab_conseilsante[3] = "Baptiste a plus d'appendicite lol et Hugo il a une grosse queue....";
-        tab_conseilsante[4] = "Et dire qu'on a eu 19.3 en projet innov";
+        tab_conseilsante[0] = "Buvez de l'eau lors de vos pauses sans couper la respiration";
+        tab_conseilsante[1] = "Etirez-vous à la fin de chaque entraînement ";
+        tab_conseilsante[2] = "Priviligiez les féculents avant une séance de sport";
+        tab_conseilsante[3] = "Echauffez-vous bien avant une activité physique";
+        tab_conseilsante[4] = "Travaillez votre cardio et lancez une activité sportive sur SIAHapp ! ";
         tab_conseilsante[5] = "Allez LE FOOT";
-        tab_conseilsante[6] = "Scott t'es vrmt un bg (surtout pour un anglais suisse résidant au Crès";
+        tab_conseilsante[6] = "oh";
         tab_conseilsante[7] = "AXEL FAIS TA PARTIE, jsuis sur le doss ;)";
         tab_conseilsante[8] = "Je t'aime de ouf je crois que je t'ai dans la peau";
         tab_conseilsante[9] = "Entre nous Marion est insupportable quand elle a bu, Scott est marrant, axel est incr mais marion.. ";
@@ -62,19 +62,23 @@ public class Menu_principal extends AppCompatActivity implements SensorEventList
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         podometre = sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
         SharedPreferences sharedPreferences1= getSharedPreferences("course", MODE_PRIVATE);
-        Gson gson = new Gson(); // on crée un gestionnaire de format json
-        // on extrait la liste referencée par le mot cle_listeEtudiants qu'on avait stocké dans les
-        // préférences partagées
-        String listeCourseTxtJson = sharedPreferences1.getString("cle_course", "");
-        // desormais dans listeEtudiantsTxtJson on a tous nos etudiants stockés dans un format json
-        // on reconstruit un tableau d'objets de type étudiants grace à al liste au format json
-        if (listeCourseTxtJson.equals("")) {
-           listesCourse = new ArrayList<Course>();
+        try {
+            Gson gson = new Gson(); // on crée un gestionnaire de format json
+            // on extrait la liste referencée par le mot cle_listeEtudiants qu'on avait stocké dans les
+            // préférences partagées
+            String listeCourseTxtJson = sharedPreferences1.getString("cle_course", "");
+            // desormais dans listeEtudiantsTxtJson on a tous nos etudiants stockés dans un format json
+            // on reconstruit un tableau d'objets de type étudiants grace à al liste au format json
+            if (listeCourseTxtJson.equals("")) {
+                listesCourse = new ArrayList<Course>();
+            } else {
+                Course[] tableauCoursesTemporaire = gson.fromJson(listeCourseTxtJson, Course[].class);
+                // reconstitution d'une arrayList a partir du tableau tableauEtudiantsTemporaire
+                listesCourse = new ArrayList<Course>(Arrays.asList(tableauCoursesTemporaire));
+            }
         }
-        else {
-            Course[] tableauCoursesTemporaire = gson.fromJson(listeCourseTxtJson, Course[].class);
-            // reconstitution d'une arrayList a partir du tableau tableauEtudiantsTemporaire
-           listesCourse = new ArrayList<Course>(Arrays.asList(tableauCoursesTemporaire));
+        catch (Exception a){
+            System.out.println("ça veut pas ");
         }
 
 
@@ -86,7 +90,12 @@ public class Menu_principal extends AppCompatActivity implements SensorEventList
             text_pas.setText("Pas de course encore effectuée");
             // e.printStackTrace();
         }
-        text.setText("Bienvenu " + prenom);
+        try {
+            text_pas.setText(String.valueOf(listesCourse.get(listesCourse.size()-1).km));
+        }catch(Exception a){
+            text_pas.setText("rien");
+        }
+        text.setText("Bienvenue " + prenom);
         TextView text2 = findViewById(R.id.text_feed2);
         int min = 0;
         int max = 9;

@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class Physique_bu extends AppCompatActivity {
+public class Physique_dc extends AppCompatActivity {
     boolean retour=false;
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -31,21 +31,21 @@ public class Physique_bu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_physique_bu);
-        ImageView image1 = (ImageView) findViewById(R.id.imageagilite);
-        Button agilite = (Button) findViewById(R.id.btn_exo_1);
-        ImageView image2 = (ImageView) findViewById(R.id.imageforce);
+        setContentView(R.layout.activity_physique_dc);
+        ImageView image1 = (ImageView) findViewById(R.id.imagevivacite);
+        Button agilite = (Button) findViewById(R.id.btn_exo2);
+        ImageView image2 = (ImageView) findViewById(R.id.imageagilite);
         image2.setVisibility(View.INVISIBLE);
-        TextView text1 = (TextView) findViewById(R.id.textagilite);
-        TextView text2 = (TextView) findViewById(R.id.textforce);
-        Button force = (Button) findViewById(R.id.btn_exo2);
+        TextView text1 = (TextView) findViewById(R.id.textvivacite);
+        TextView text2 = (TextView) findViewById(R.id.textagilite);
+        Button force = (Button) findViewById(R.id.btn_exo_3);
         text2.setVisibility((View.INVISIBLE));
-        ImageView image3 = (ImageView) findViewById(R.id.imagecoordination);
+        ImageView image3 = (ImageView) findViewById(R.id.imageforce);
         image3.setVisibility(View.INVISIBLE);
-        Button coordination = (Button) findViewById(R.id.btn_exo_3);
-        TextView text3 = (TextView) findViewById(R.id.textcoordination);
+        Button vivacite = (Button) findViewById(R.id.btn_exo_1);
+        TextView text3 = (TextView) findViewById(R.id.textforce);
         text3.setVisibility((View.INVISIBLE));
-        force.setOnClickListener(new View.OnClickListener() {
+        agilite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 image1.setVisibility(View.INVISIBLE);
@@ -57,7 +57,7 @@ public class Physique_bu extends AppCompatActivity {
                 text3.setVisibility((View.INVISIBLE));
             }
         });
-        agilite.setOnClickListener(new View.OnClickListener() {
+        vivacite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 image1.setVisibility(View.VISIBLE);
@@ -69,7 +69,7 @@ public class Physique_bu extends AppCompatActivity {
                 text3.setVisibility((View.INVISIBLE));
             }
         });
-        coordination.setOnClickListener(new View.OnClickListener() {
+        force.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 image1.setVisibility(View.INVISIBLE);
@@ -83,7 +83,7 @@ public class Physique_bu extends AppCompatActivity {
         });
     }
     private void retour() {
-        Intent intent60 = new Intent(this, menu_foot_bu.class);
+        Intent intent60 = new Intent(this, menu_foot_dc.class);
         startActivity(intent60);
     }
 }

@@ -37,13 +37,14 @@
 
     <ImageView
         android:id="@+id/imageView70"
-        android:layout_width="416dp"
-        android:layout_height="274dp"
+        android:layout_width="439dp"
+        android:layout_height="263dp"
         android:layout_marginStart="4dp"
+        android:translationX="-20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.312"
+        app:layout_constraintVertical_bias="0.259"
         app:srcCompat="@drawable/s_p_ration_barresiah" />
 
     <TextView
@@ -55,10 +56,10 @@
         android:textColor="#E3E1E1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.295"
+        app:layout_constraintVertical_bias="0.275"
         tools:text="Bienvenue" />
 
     <TextView
@@ -94,10 +95,10 @@
         android:layout_height="463dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/btn_profil"
-        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.906">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -116,6 +117,7 @@
                 android:textColor="#E3E1E1"
                 android:textSize="24sp"
                 android:translationX="20dp"
+                android:translationY="30dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.087"
@@ -125,13 +127,13 @@
 
             <TextView
                 android:id="@+id/text_feed2"
-                android:layout_width="216dp"
-                android:layout_height="75dp"
+                android:layout_width="269dp"
+                android:layout_height="72dp"
                 android:textColor="#E3E1E1"
                 android:textSize="24sp"
 
-                android:translationX="100dp"
-                android:translationY="20dp"
+                android:translationX="60dp"
+                android:translationY="40dp"
                 android:translationZ="150dp" />
 
 
@@ -155,7 +157,7 @@
                 android:textColor="#E3E1E1"
                 android:textSize="24sp"
                 android:translationX="20dp"
-                android:translationY="30dp"
+                android:translationY="50dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.087"
@@ -170,8 +172,8 @@
                 android:textColor="#E3E1E1"
                 android:textSize="24sp"
 
-                android:translationX="185dp"
-                android:translationY="70dp"
+                android:translationX="150dp"
+                android:translationY="100dp"
                 android:translationZ="150dp" />
 
             <Button
@@ -180,6 +182,7 @@
                 android:layout_height="wrap_content"
                 android:alpha="0"
                 android:text="Button"
+                android:translationY="50dp"
                 android:visibility="invisible"
                 tools:visibility="invisible" />
 
@@ -189,6 +192,7 @@
                 android:layout_height="wrap_content"
                 android:alpha="0"
                 android:text="Button"
+                android:translationY="50dp"
                 android:visibility="invisible"
                 tools:visibility="invisible" />
 
@@ -196,11 +200,11 @@
                 android:id="@+id/textView56"
                 android:layout_width="387dp"
                 android:layout_height="wrap_content"
-                android:text="Pas effectués lors de la dernière course : "
+                android:text="Compteur de pas journalier :"
                 android:textColor="#E3E1E1"
                 android:textSize="24sp"
                 android:translationX="20dp"
-                android:translationY="5dp"
+                android:translationY="35dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.087"
@@ -210,13 +214,13 @@
 
             <TextView
                 android:id="@+id/text_feed6"
-                android:layout_width="230dp"
-                android:layout_height="61dp"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
                 android:textColor="#E3E1E1"
                 android:textSize="24sp"
 
-                android:translationX="90dp"
-                android:translationY="40dp"
+                android:translationX="130dp"
+                android:translationY="90dp"
                 android:translationZ="150dp" />
 
             <Button

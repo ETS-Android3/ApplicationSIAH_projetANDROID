@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".Physique_dg_dd"
+            android:exported="false" />
+        <activity
+            android:name=".Physique_gb"
+            android:exported="false" />
+        <activity
+            android:name=".Physique_mdc"
+            android:exported="false" />
+        <activity
+            android:name=".Physique_mc"
+            android:exported="false" />
+        <activity
+            android:name=".Physique_dc"
+            android:exported="false" />
+        <activity
             android:name=".Physique_bu"
             android:exported="false" />
         <activity
