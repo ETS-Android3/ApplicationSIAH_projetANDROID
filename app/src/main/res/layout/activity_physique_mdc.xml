@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4151515"
+    tools:context=".Physique_mdc">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="409dp"
+        android:layout_height="96dp"
+        android:text="Exercices physiques"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#ECECEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <ImageView
+        android:id="@+id/barrerouge"
+        android:layout_width="410dp"
+        android:layout_height="170dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069"
+        app:srcCompat="@drawable/s_p_ration_barresiah" />
+
+    <Button
+        android:id="@+id/btn_exo_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endurance"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+    <Button
+        android:id="@+id/btn_exo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:text="vivacite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+    <Button
+        android:id="@+id/btn_exo_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explosivite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+    <ImageView
+        android:id="@+id/imageendurance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.277"
+        app:srcCompat="@drawable/endurance"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textendurance"
+        android:layout_width="374dp"
+        android:layout_height="168dp"
+        android:text="Lors d’un match de foot, un joueur doit être capable de faire des courses à haute intensité plusieurs fois. Pour cela, il faut améliorer ses capacités cardio-vasculaires et cardio-respiratoires avec des exercices de courses sur une durée de 30 à 40 minutes. Par exemple, un footing à allure constante sans s’arrêter ou une course de 5 minutes à haute intensité puis baisser l’intensité pendant 20 minutes. Ces exercices sont à répéter 2 à 3 fois par semaine."
+        android:textAlignment="center"
+        android:textColor="#ECECEC"
+        android:textColorLink="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.712"
+        tools:visibility="gone" />
+
+
+    <ImageView
+        android:id="@+id/imageexplosivite"
+        android:layout_width="383dp"
+        android:layout_height="227dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246"
+        app:srcCompat="@drawable/explosivite" />
+
+    <TextView
+        android:id="@+id/textexplosivite"
+        android:layout_width="391dp"
+        android:layout_height="283dp"
+        android:text="L’explosivité est la capacité à déclencher une tension musculaire maximale en un minimum de temps, c’est très important au football par exemple avec les accélérations, changements de direction, frappes, saut aérien... Comme pour tout, il y a une certaine notion d’acquis mais cela se travaille également avec des exercices spécifiques dont voici quelques exemples.\nAtelier 1 : 6 mini-haies, les sauter pieds joints puis sprint de 3m après la dernière.\nAtelier 2 : Faire la chaise (idéalement contre un poteau, mur...) pendant 15 sec puis sprint sur 3m.\nAtelier 3 : Faire la chaise pendant 8 à 10 sec puis saut pieds-joints sur un banc, une chaise (ou n’importe quel objet d’environ 40/50cm au- dessus du sol). Attention, le saut se fait directement à la fin de l’exercice de la chaise.\nAtelier 4 : Faire 5 bonds horizontaux (pas pieds joints), le but étant d’aller le plus loin possible sans sursaut à l’arrivée.
+"
+        android:textAlignment="center"
+        android:textColor="#ECECEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727" />
+
+    <ImageView
+        android:id="@+id/imagevivacite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112"
+        app:srcCompat="@drawable/vivacite"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textvivacite"
+        android:layout_width="395dp"
+        android:layout_height="239dp"
+        android:text="La vivacité est la vitesse en enchainant des mouvements variés et différents. Concrètement, la vitesse est une course en ligne droite, la vivacité est une course en slalom par exemple. La vivacité nécessite d’être complet car elle travaille la force de démarrage, la force de freinage, le déplacement du corps vers l’objectif… C’est très important de faire le distinguo entre la vitesse pure et la vivacité, il n’est pas rare que des joueurs aient une excellente vitesse mais une vivacité moins bonne. Le travail de vivacité au football peut se faire soit de manière isolée avec des changements de direction (latéraux, avant/arrière…) notamment sur du travail poly directionnel mais également avec ballon sous forme de mini-jeux à 2 contre 2 voire 3 contre 3 sur des surfaces adaptées."
+        android:textAlignment="center"
+        android:textColor="#ECECEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745"
+        tools:visibility="gone" />
+</android.support.constraint.ConstraintLayout>
