@@ -98,7 +98,7 @@
         app:srcCompat="@drawable/logo_tactic1" />
 
     <Button
-        android:id="@+id/tact_gb_foot"
+        android:id="@+id/technique"
         android:layout_width="129dp"
         android:layout_height="136dp"
         android:layout_marginBottom="9dp"
@@ -144,7 +144,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/exo_gb_foot"
+        android:id="@+id/physique"
         android:layout_width="139dp"
         android:layout_height="130dp"
         android:background="#00FFFFFF"

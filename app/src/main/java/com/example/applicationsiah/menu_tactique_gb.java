@@ -14,12 +14,12 @@ public class menu_tactique_gb extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_tactique_gb);
         ImageView parade_1 = (ImageView) findViewById(R.id.image_squat);
-        Button conseil_1 = (Button) findViewById(R.id.btn_exo1_explo);
+        Button conseil_1 = (Button) findViewById(R.id.btn_exo_1);
         ImageView parade_2 = (ImageView) findViewById(R.id.image_sprint);
         parade_2.setVisibility(View.INVISIBLE);
         TextView text1 = (TextView) findViewById(R.id.textparade_1);
         TextView text2 = (TextView) findViewById(R.id.textparade_2);
-        Button conseil_2 = (Button) findViewById(R.id.btn_exo2_explo);
+        Button conseil_2 = (Button) findViewById(R.id.btn_exo2);
         text2.setVisibility((View.INVISIBLE));
         conseil_2.setOnClickListener(new View.OnClickListener() {
             @Override

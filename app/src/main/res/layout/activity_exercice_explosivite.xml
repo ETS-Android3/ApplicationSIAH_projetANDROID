@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.044" />
 
     <ImageView
-        android:id="@+id/imageView14"
+        android:id="@+id/barrerouge"
         android:layout_width="410dp"
         android:layout_height="170dp"
         android:scaleType="centerCrop"
@@ -47,7 +47,7 @@
         app:srcCompat="@drawable/images" />
 
     <Button
-        android:id="@+id/btn_exo1_explo"
+        android:id="@+id/btn_exo_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Exo 1 "
@@ -59,7 +59,7 @@
         app:layout_constraintVertical_bias="0.901" />
 
     <Button
-        android:id="@+id/btn_exo2_explo"
+        android:id="@+id/btn_exo2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="104dp"
@@ -68,7 +68,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btn_exo1_explo"
+        app:layout_constraintStart_toEndOf="@+id/btn_exo_1"
         app:layout_constraintTop_toBottomOf="@+id/image_squat"
         app:layout_constraintVertical_bias="0.0" />
 
