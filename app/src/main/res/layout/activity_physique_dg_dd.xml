@@ -6,17 +6,20 @@
     android:layout_height="match_parent"
     android:background="#E4151515"
     tools:context=".Physique_dg_dd">
+
     <TextView
         android:id="@+id/textView13"
         android:layout_width="409dp"
         android:layout_height="96dp"
+        android:layout_marginStart="28dp"
         android:text="Exercices physiques"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#ECECEC"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintVertical_bias="0.045" />
 
     <ImageView
         android:id="@+id/barrerouge"
@@ -25,10 +28,10 @@
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.069"
+        app:layout_constraintVertical_bias="0.05"
         app:srcCompat="@drawable/s_p_ration_barresiah" />
 
     <Button
@@ -38,10 +41,10 @@
         android:text="Endurance"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintHorizontal_bias="0.097"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintVertical_bias="0.978" />
 
     <Button
         android:id="@+id/btn_exo2"
@@ -51,10 +54,10 @@
         android:text="Vitesse"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintHorizontal_bias="0.238"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintVertical_bias="0.978" />
 
     <Button
         android:id="@+id/btn_exo_3"
@@ -63,10 +66,10 @@
         android:text="Explosivite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintHorizontal_bias="0.936"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintVertical_bias="0.978" />
 
     <ImageView
         android:id="@+id/imageendurance"
@@ -112,18 +115,16 @@
 
     <TextView
         android:id="@+id/textvitesse"
-        android:layout_width="384dp"
-        android:layout_height="218dp"
+        android:layout_width="365dp"
+        android:layout_height="304dp"
         android:text="Le football nécessite de la vitesse. Nul besoin d'être Usain Bolt pour y parvenir, mais une bonne aptitude à la course peut être utile. Effectuez des exercices de sprint ou d’accélération. Les exercices de sprint vous aideront à atteindre votre vitesse maximale et les exercices d'accélération vous aideront à courir vite et à récupérer plus efficacement après un sprint. Par exemple : Pour le sprint, courez aussi vite que vous le pourrez sur 20 ou 30 mètres puis courez lentement ou marchez pour retourner à votre point de départ à la fin du sprint et répéter cet exercice plusieurs fois.  Pour l’accélération, trottinez sur 5 à 6 m, puis accélérez. Décélérez au bout d'une dizaine de mètres, recommencez pendant plusieurs minutes. "
         android:textAlignment="center"
         android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.712"
-        tools:visibility="gone" />
+        app:layout_constraintVertical_bias="0.93" />
 
     <ImageView
         android:id="@+id/imageexplosivite"
@@ -133,21 +134,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.246"
-        app:srcCompat="@drawable/explosivite" />
+        app:layout_constraintVertical_bias="0.22"
+        app:srcCompat="@drawable/explosivite"
+        tools:visibility="gone" />
 
     <TextView
         android:id="@+id/textexplosivite"
-        android:layout_width="391dp"
-        android:layout_height="283dp"
+        android:layout_width="359dp"
+        android:layout_height="333dp"
         android:text="L’explosivité est la capacité à déclencher une tension musculaire maximale en un minimum de temps, c’est très important au football par exemple avec les accélérations, changements de direction, frappes, saut aérien... Comme pour tout, il y a une certaine notion d’acquis mais cela se travaille également avec des exercices spécifiques dont voici quelques exemples.\nAtelier 1 : 6 mini-haies, les sauter pieds joints puis sprint de 3m après la dernière.\nAtelier 2 : Faire la chaise (idéalement contre un poteau, mur...) pendant 15 sec puis sprint sur 3m.\nAtelier 3 : Faire la chaise pendant 8 à 10 sec puis saut pieds-joints sur un banc, une chaise (ou n’importe quel objet d’environ 40/50cm au- dessus du sol). Attention, le saut se fait directement à la fin de l’exercice de la chaise.\nAtelier 4 : Faire 5 bonds horizontaux (pas pieds joints), le but étant d’aller le plus loin possible sans sursaut à l’arrivée.
 "
         android:textAlignment="center"
         android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.727" />
+        app:layout_constraintVertical_bias="0.816"
+        tools:visibility="gone" />
 </android.support.constraint.ConstraintLayout>

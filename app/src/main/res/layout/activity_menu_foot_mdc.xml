@@ -50,8 +50,8 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="385dp"
-        android:layout_height="104dp"
+        android:layout_width="372dp"
+        android:layout_height="135dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="19dp"
         android:text="Le milieu défensif est une pièce-maîtresse dans une formation classique (4-4-2 ou 4-3-3) : aussi intelligent dans le placement que dans la récupération ou la relance, il doit être capable de gagner des ballons en phase défensive (duels, interceptions) pour les orienter rapidement vers les joueurs offensifs."

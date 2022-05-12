@@ -15,13 +15,24 @@
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_basket_interieur_exercice.xml" value="0.10554089709762533" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_basket_meneur.xml" value="0.2" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_basket_meneur_exercice.xml" value="0.264" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_ad_ag.xml" value="0.264" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_bu.xml" value="0.2" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_dc.xml" value="0.264" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_dg_dd.xml" value="0.2" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_gb.xml" value="0.264" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_mc.xml" value="0.2" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_mdc.xml" value="0.2" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_gardien.xml" value="0.2151268115942029" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_handball.xml" value="0.264" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_principal.xml" value="0.25" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_rugby.xml" value="0.2" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_sport.xml" value="0.21331521739130435" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_tactique_gb.xml" value="0.25" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_physique_ag_ad.xml" value="0.2" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_physique_bu.xml" value="0.2" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_physique_dc.xml" value="0.2" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_podometre.xml" value="0.1" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_recuperation.xml" value="0.4" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_sante_accueil.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_session_sport.xml" value="0.21195652173913043" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/menu_sport_actions.xml" value="0.1" />
@@ -54,6 +65,8 @@
         <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_mdc.xml" value="0.25" />
         <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_gardien.xml" value="0.25" />
         <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_handball.xml" value="0.25" />
+        <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_hb_ailier.xml" value="0.25" />
+        <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_hb_arriere.xml" value="0.25" />
         <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_principal.xml" value="0.25" />
         <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_rugby.xml" value="0.2" />
         <entry key="..\:/Users/Axel/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_sport.xml" value="0.25" />

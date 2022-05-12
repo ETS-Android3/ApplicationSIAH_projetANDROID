@@ -50,8 +50,8 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="388dp"
-        android:layout_height="94dp"
+        android:layout_width="372dp"
+        android:layout_height="114dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="19dp"
         android:text="L’ailier est capable de débordements pouvant s’avérer décisifs, car conclus par un centre, une passe en retrait, une frappe… Il doit être talentueux dans son placement comme dans son anticipation et parfaitement combiner avec son arrière latéral, son meneur de jeu ou son attaquant."
@@ -172,7 +172,7 @@
         android:id="@+id/textView77"
         android:layout_width="185dp"
         android:layout_height="150dp"
-        android:text="Qualités techniques :\n\n- Conduite de balle\n\n- Drible\n\n- Centre"
+        android:text="Qualités techniques :\n\n- Conduite de balle\n\n- Dribble\n\n- Centre"
         android:textColor="#CCCCCC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

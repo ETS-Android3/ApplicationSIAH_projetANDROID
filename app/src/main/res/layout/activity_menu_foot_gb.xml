@@ -50,8 +50,8 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="385dp"
-        android:layout_height="110dp"
+        android:layout_width="366dp"
+        android:layout_height="145dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="19dp"
         android:text="Le gardien de but joue un rôle indispensable dans une équipe, sans un grand gardien, impossible de gagner une compétition. Considéré comme le dernier rempart, il se doit d'être décisif au bon moment, car il peut empêcher un but certain… Il doit parfaitement combiner avec ses défenseurs centraux afin de garder 'la boutique' fermée."
@@ -77,10 +77,10 @@
         android:textColor="#CCCCCC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.629" />
+        app:layout_constraintVertical_bias="0.653" />
 
     <TextView
         android:id="@+id/textView11"

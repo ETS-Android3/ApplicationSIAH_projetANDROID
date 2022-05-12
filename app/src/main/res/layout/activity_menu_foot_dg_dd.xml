@@ -50,8 +50,8 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="396dp"
-        android:layout_height="104dp"
+        android:layout_width="363dp"
+        android:layout_height="121dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="19dp"
         android:text="Le poste d’arrière latéral fait appel au placement, à la technique et au déplacement. L’arrière latéral doit autant être capable de défendre son couloir que de monter (souvent, en synchronisation avec l’ailier sur son côté) pour apporter offensivement sa capacité de débordement, de centre et éventuellement de frappe."

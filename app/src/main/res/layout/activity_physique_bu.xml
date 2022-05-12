@@ -9,15 +9,17 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="409dp"
-        android:layout_height="96dp"
+        android:layout_width="402dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="20dp"
         android:text="Exercices physiques"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#ECECEC"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintVertical_bias="0.055" />
 
     <ImageView
         android:id="@+id/barrerouge"
@@ -26,10 +28,10 @@
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.069"
+        app:layout_constraintVertical_bias="0.061"
         app:srcCompat="@drawable/s_p_ration_barresiah" />
 
     <Button
@@ -39,10 +41,10 @@
         android:text="Agilite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintVertical_bias="0.967" />
 
     <Button
         android:id="@+id/btn_exo2"
@@ -52,10 +54,10 @@
         android:text="Force"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintHorizontal_bias="0.144"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintVertical_bias="0.967" />
 
     <Button
         android:id="@+id/btn_exo_3"
@@ -64,10 +66,10 @@
         android:text="coordination"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintHorizontal_bias="0.939"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintVertical_bias="0.967" />
 
     <ImageView
         android:id="@+id/imagecoordination"
@@ -79,23 +81,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.244"
-        app:srcCompat="@drawable/coordination1"
-        tools:visibility="gone" />
+        app:srcCompat="@drawable/coordination1" />
 
     <TextView
         android:id="@+id/textcoordination"
-        android:layout_width="404dp"
-        android:layout_height="282dp"
+        android:layout_width="354dp"
+        android:layout_height="318dp"
         android:text="La coordination est la capacité pour un joueur à réaliser un geste de manière fluide, efficace et naturelle. Cela demande de mettre en interaction le cerveau, le système nerveux, les muscles, l’articulation du squelette. Tout cela à attrait à l’adresse, la précision, la capacité à reproduire un geste précis en fonction d’une situation. Tout ce qui fait la différence entre un footballeur technique et efficace dans ses déplacements, dans l’utilisation de l’espace avec un footballeur lambda. Pour travailler la coordination, on peut avoir recours à des exercices de proprioception ou à des exercices classiques de football tels que :\nUn travail de sprint avec changements de direction imposé sur stimulus visuel, puis sonore.\nUne conduite de balle en slalom avant puis arrière.\nDes séries de contrôles-passes.\nDes passages de cerceaux avec un pied dans chaque puis un pied à l’extérieur un pied à l’intérieur "
         android:textAlignment="center"
         android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73"
-        tools:visibility="gone" />
+        app:layout_constraintVertical_bias="0.817" />
 
     <ImageView
         android:id="@+id/imageagilite"
@@ -113,7 +112,7 @@
         android:id="@+id/textagilite"
         android:layout_width="370dp"
         android:layout_height="193dp"
-        android:text="L’agilité peut se définir comme la capacité à mouvoir et changer de direction rapidement. Elle exige de l’athlète des réflexes, de la coordination, de l’équilibre, de la vitesse et une réponse à une évolution subite de la situation de jeu. Être agile, c’est être efficace dans une situation qui demande une action rapide, comme d’aller tacler un adversaire. Quelques exercices pour améliorer son agilité:\nLe saut de haies\nLe saut pliométrique latérale\nExercices avec échelles d’agilité"
+        android:text="L’agilité peut se définir comme la capacité à mouvoir et changer de direction rapidement. Elle exige de l’athlète des réflexes, de la coordination, de l’équilibre, de la vitesse et une réponse à une évolution subite de la situation de jeu. Être agile, c’est être efficace dans une situation qui demande une action rapide, comme d’aller tacler un adversaire. Quelques exercices pour améliorer son agilité:\n- Le saut de haies\n- Le saut pliométrique latérale\n- Exercices avec échelles d’agilité"
         android:textAlignment="center"
         android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -133,12 +132,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.262"
-        app:srcCompat="@drawable/force" />
+        app:srcCompat="@drawable/force"
+        tools:visibility="gone" />
 
     <TextView
         android:id="@+id/textforce"
-        android:layout_width="398dp"
-        android:layout_height="176dp"
+        android:layout_width="376dp"
+        android:layout_height="215dp"
         android:text="La force joue un rôle fondamental dans le football, tout part de la structure du joueur, de sa capacité à générer de la force. La qualité physique fondamentale c’est la force, tout en découle, la vitesse et l’endurance sont toutes deux dépendantes et dérivées de la force. Ainsi, toute action musculaire que nous faisons découle de la force, c’est pourquoi son optimisation est fondamentale et qu’elle doit être travaillée dans le football. Pour travailler cela, nous vous conseillons un travail de renforcement musculaire avec ou sans matériel."
         android:textAlignment="center"
         android:textColor="#ECECEC"
@@ -147,5 +147,6 @@
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.762" />
+        app:layout_constraintVertical_bias="0.762"
+        tools:visibility="gone" />
 </android.support.constraint.ConstraintLayout>

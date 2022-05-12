@@ -50,8 +50,8 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="388dp"
-        android:layout_height="94dp"
+        android:layout_width="365dp"
+        android:layout_height="133dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="19dp"
         android:text="L’attaquant (ou « buteur ») est par définition le joueur décisif d’une équipe, qui sera jugée à l’aune de sa capacité à marquer. Il doit donc faire montre d’un placement parfait, d’une grande capacité de mouvement pour surprendre les défenses adverses et d’un sens du but irréprochable."
@@ -172,7 +172,7 @@
         android:id="@+id/textView77"
         android:layout_width="185dp"
         android:layout_height="150dp"
-        android:text="Qualités techniques :\n\n- Contrôle de balle\n\n- Tir\n\n- Drible"
+        android:text="Qualités techniques :\n\n- Contrôle de balle\n\n- Tir\n\n- Dribble"
         android:textColor="#CCCCCC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
