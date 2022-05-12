@@ -172,7 +172,7 @@
         android:id="@+id/textView77"
         android:layout_width="185dp"
         android:layout_height="150dp"
-        android:text="Qualités techniques :\n\n- Passe\n\n- Drible\n\n- Tir"
+        android:text="Qualités techniques :\n\n- Passe\n\n- Dribble\n\n- Tir"
         android:textColor="#CCCCCC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
