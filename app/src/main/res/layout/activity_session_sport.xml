@@ -11,43 +11,44 @@
 
     <ImageView
         android:id="@+id/imageView21"
-        android:layout_width="181dp"
-        android:layout_height="160dp"
+        android:layout_width="213dp"
+        android:layout_height="218dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.283"
+        app:layout_constraintVertical_bias="0.342"
         app:srcCompat="@drawable/cercle" />
 
     <TextView
         android:id="@+id/tv_steps"
-        android:layout_width="85dp"
-        android:layout_height="82dp"
+        android:layout_width="146dp"
+        android:layout_height="64dp"
         android:text="0"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#E3E1E1"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintHorizontal_bias="0.935"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.302" />
+        app:layout_constraintVertical_bias="0.823" />
 
     <TextView
         android:id="@+id/nb_pas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nombre de pas "
+        android:text="Nombre de pas :"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#E3E1E1"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView21"
-        app:layout_constraintVertical_bias="0.065" />
+        app:layout_constraintVertical_bias="0.625" />
 
     <TextView
         android:id="@+id/Chrono"
@@ -110,14 +111,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.051" />
-
-    <TextView
-        android:id="@+id/textView76"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="#FDFDFD"
-        tools:layout_editor_absoluteX="228dp"
-        tools:layout_editor_absoluteY="459dp" />
 
 </android.support.constraint.ConstraintLayout>

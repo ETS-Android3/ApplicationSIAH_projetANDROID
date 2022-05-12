@@ -55,6 +55,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
     Runnable runnable;
     int seconde, minute;
     boolean cliquer,stop,annuler;
+    float km_parcourue;
     boolean relancer;
     ArrayList<Course> histo_course;
 
@@ -212,8 +213,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
         if(sensorEvent.sensor.getType()==Sensor.TYPE_STEP_COUNTER){
             if(stop ==true){
                 variation_pas = sensorEvent.values[0]-pas_capteur-pas;
-                TextView textess = findViewById(R.id.textView76);
-                textess.setText(String.valueOf(variation_pas));
+
                 reprise=true;
             }
             if(debut==true){
@@ -229,7 +229,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                     reprise=false;
                 }
 
-                tv_steps.setText(String.valueOf(pas));
+                tv_steps.setText(String.valueOf(pas*0.64));
             }
 
 
