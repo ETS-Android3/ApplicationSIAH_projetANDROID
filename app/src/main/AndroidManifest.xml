@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".Physique_dg_dd"
+            android:exported="false" />
+        <activity
             android:name=".Physique_gb"
             android:exported="false" />
         <activity
