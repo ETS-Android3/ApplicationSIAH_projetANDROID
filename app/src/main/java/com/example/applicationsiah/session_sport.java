@@ -42,10 +42,10 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
         return true;
     }
     SensorManager sensorManager;
-    TextView tv_steps;
+
     boolean running = false;
     Sensor podometre;
-
+    TextView nbpas;
     Float pas;
     Float pas_capteur;
     float variation_pas;
@@ -59,16 +59,18 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
     boolean relancer;
     ArrayList<Course> histo_course;
 
-
+    TextView distance;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_session_sport);
 
-        tv_steps=(TextView)  findViewById(R.id.tv_steps);
+        //tv_steps=(TextView)  findViewById(R.id.tv_steps);
         ImageView cercle = (ImageView) findViewById(R.id.imageView21);
         cercle.setVisibility(View.INVISIBLE);
-        tv_steps.setVisibility(View.INVISIBLE);
+        //tv_steps.setVisibility(View.INVISIBLE);
+        distance = findViewById(R.id.distance);
+        distance.setVisibility(View.INVISIBLE);
         sensorManager = (SensorManager)  getSystemService(Context.SENSOR_SERVICE);
         podometre = sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
         debut=true;
@@ -76,6 +78,11 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
         lancer = (Button) findViewById(R.id.lancer);
         pause = (Button) findViewById(R.id.pause);
         pause.setVisibility(View.INVISIBLE);
+        nbpas = findViewById(R.id.nb_pas);
+        nbpas.setVisibility(View.INVISIBLE);
+
+        TextView distance_parcou = findViewById(R.id.nb_pas2);
+        distance_parcou.setVisibility(View.INVISIBLE);
         runnable = new Runnable() {
             @Override
             public void run() {
@@ -110,7 +117,10 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                     seconde=0;
                     minute=0;
                     cercle.setVisibility(View.VISIBLE);
-                    tv_steps.setVisibility(View.VISIBLE);
+                    //tv_steps.setVisibility(View.VISIBLE);
+                    distance_parcou.setVisibility(View.VISIBLE);
+                    distance.setVisibility(View.VISIBLE);
+                    nbpas.setVisibility(View.VISIBLE);
                 }
                 else{
                     annuler = true;
@@ -119,7 +129,10 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                     pause.setVisibility(View.INVISIBLE);
                     cliquer=false;
                     cercle.setVisibility(View.INVISIBLE);
-                    tv_steps.setVisibility(View.INVISIBLE);
+                    distance_parcou.setVisibility(View.INVISIBLE);
+                    distance.setVisibility(View.INVISIBLE);
+                    nbpas.setVisibility(View.INVISIBLE);
+                  //  tv_steps.setVisibility(View.INVISIBLE);
 
                     /** chargement de la liste d'étudiants **/
                     // on récupère les préférences stockées sous la clé mesPrefs :
@@ -228,8 +241,8 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
 
                     reprise=false;
                 }
-
-                tv_steps.setText(String.valueOf(pas*0.64));
+                distance.setText(String.valueOf(Math.round(pas*0.64))+" m");
+                nbpas.setText("Nombre de pas : "+String.valueOf(Math.round(pas)));
             }
 
 
