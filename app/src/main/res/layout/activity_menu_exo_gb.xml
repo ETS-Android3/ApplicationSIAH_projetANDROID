@@ -33,4 +33,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.06" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="341dp"
+        android:layout_height="157dp"
+        android:text="Le but du travail ici est de créer un enchainement de plusieurs séquences courtes de travail spécifique (slalom, saut, roulade, relance) permettant de cibler des qualités spécifiques au poste de gardien de handball (appuis, travail de pied, souplesse). Les enchainer ainsi permet de se rapprocher des situations de matchs tout en permettant d’améliorer la prise d’informations en pleine action !"
+        android:textAlignment="center"
+        android:textColor="#ECECEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="386dp"
+        android:layout_height="416dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184"
+        app:srcCompat="@drawable/maxresdefault" />
+
 </android.support.constraint.ConstraintLayout>

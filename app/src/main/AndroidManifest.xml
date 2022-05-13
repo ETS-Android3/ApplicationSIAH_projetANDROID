@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".menu_hb_arriere_exo_spe"
+            android:exported="false" />
+        <activity
+            android:name=".menu_hb_arriere_tactique"
+            android:exported="false" />
+        <activity
+            android:name=".menu_hb_ailier_tactique"
+            android:exported="false" />
+        <activity
+            android:name=".menu_hb_ailier_exo_spe"
+            android:exported="false" />
+        <activity
             android:name=".technique_gb"
             android:exported="false" />
         <activity

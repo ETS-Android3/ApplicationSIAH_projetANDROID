@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu_demi_exo_spe_hb"
-    android:background="#E4151515">
+    android:background="#E4151515"
+    tools:context=".menu_hb_ailier_exo_spe">
 
     <ImageView
         android:id="@+id/imageView5"
@@ -36,27 +36,27 @@
 
     <TextView
         android:id="@+id/textView45"
-        android:layout_width="341dp"
-        android:layout_height="205dp"
-        android:text="Les 3 situations de travail partent de la situation de base pour attaquer une défense 1-5 :faire un croisé du Demi-Centre pour l’un des Arrière.On fait évoluer ensuite l’exercice vers une solution où l’on “ouvre” la solution vers une passe à l’Arrière Opposé pour jouer sur la continuité du jeu.Et toujours à partir du jeu du Demi-Centre, la 3e situation permet de travailler le bloc par le Demi-Centre pour l’Arrière qui va recevoir la balle sur une passe de renversement… une arme redoutable !"
+        android:layout_width="368dp"
+        android:layout_height="274dp"
+        android:text="Cet exercice a pour objectif de travailler les savoir faire individuel des ailiers, notamment la réception de balle a une main. On positionne :\n- 2 colonnes d’ailiers avec chacun son ballon\n- 2 plots pour délimiter l’angle de tir des ailiers\n- 2 passeurs avec une réserve de ballons, situés derrière la ligne de but\nLe passeur fait une passe à l’ailier qui s’engage pour aller tirer. L’ailier qui a déjà un ballon dans sa bonne main, doit réceptionner la 2e balle d’une main (sa mauvaise main) et enchaîner le tir .\nRÉGULATIONS :\n- alterner côté gauche, côté droit\n- élargir ou réduire à l’aide du plot l’angle de tir ce qui aura pour effet de réduire la course de l’ailier (et donc son temps de réorganisation)"
         android:textAlignment="center"
         android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.903" />
+        app:layout_constraintVertical_bias="0.82" />
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="402dp"
-        android:layout_height="541dp"
+        android:id="@+id/imageView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.084"
-        app:srcCompat="@drawable/crois_" />
+        app:layout_constraintVertical_bias="0.262"
+        app:srcCompat="@drawable/spe_ailier" />
 
 </android.support.constraint.ConstraintLayout>

@@ -33,18 +33,6 @@
         app:layout_constraintVertical_bias="0.067"
         app:srcCompat="@drawable/s_p_ration_barresiah" />
 
-    <ImageView
-        android:id="@+id/parade_1"
-        android:layout_width="407dp"
-        android:layout_height="370dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26"
-        app:srcCompat="@drawable/parade_1" />
-
     <Button
         android:id="@+id/conseil_1"
         android:layout_width="wrap_content"
@@ -62,39 +50,69 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="104dp"
-        android:layout_marginTop="152dp"
         android:text="Conseil 2 "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/conseil_1"
-        app:layout_constraintTop_toBottomOf="@+id/parade_1"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ImageView
-        android:id="@+id/parade_2"
-        android:layout_width="404dp"
-        android:layout_height="449dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/parade_1"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.194"
-        app:srcCompat="@drawable/parade_2" />
+        app:layout_constraintVertical_bias="0.901" />
 
     <TextView
         android:id="@+id/textparade_1"
-        android:layout_width="370dp"
-        android:layout_height="144dp"
-        android:text="Dans cette situtation il est primordiale d'anticiper le positionnement des appuies du tireur. Dans ce cas le joueur est totalement désaxé et le tir sera certainement sur la droite du gardien, le fait de sortir au de-là de sa ligne permet de réduire l'angle de tir du tireur."
+        android:layout_width="375dp"
+        android:layout_height="161dp"
+        android:text="Dans cette situtation le defenseur est en 'strict' sur le demi centre, c'est à dire qu'il lui empeche totalement d'avoir le ballon. Ne vous enervez pas si cela vous arrive, deux choix s'offre à vous :\n-Soit vous vous écartez totalement du jeu et laissez votre équipe à 5 contre 5, cela offrira plus d'espace à vos coéquipiers.\n-Soit vous rentrez en second pivot, en esperant que le defenseur va vous suivre et redescendre dans sa défense."
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textColor="#CCCCCCCC"
+        android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.757" />
+        app:layout_constraintVertical_bias="0.756"
+        tools:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imagestricte"
+        android:layout_width="386dp"
+        android:layout_height="294dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283"
+        app:srcCompat="@drawable/stricte"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textparade_2"
+        android:layout_width="372dp"
+        android:layout_height="133dp"
+        android:text="Si vous attaquer contre une équipe qui défend en 1-5, une solution est la rentrée du demi centre en deuxième pivot, pour perturber le deplacement défensif en faisant jouer 2 joueurs dans la défense dans des sens opposés."
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#ECECEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.826" />
+
+    <ImageView
+        android:id="@+id/imagetactique"
+        android:layout_width="366dp"
+        android:layout_height="357dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31"
+        app:srcCompat="@drawable/tactique_attaque_1_5" />
 
 
 </android.support.constraint.ConstraintLayout>

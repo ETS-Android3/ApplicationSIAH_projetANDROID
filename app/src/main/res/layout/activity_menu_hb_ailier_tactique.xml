@@ -2,12 +2,10 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/barre"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E4151515"
-    tools:context=".menu_tactique_gb">
-
+    tools:context=".menu_hb_ailier_tactique">
     <TextView
         android:id="@+id/textView13"
         android:layout_width="409dp"
@@ -33,18 +31,6 @@
         app:layout_constraintVertical_bias="0.067"
         app:srcCompat="@drawable/s_p_ration_barresiah" />
 
-    <ImageView
-        android:id="@+id/image_squat"
-        android:layout_width="407dp"
-        android:layout_height="370dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26"
-        app:srcCompat="@drawable/parade_1" />
-
     <Button
         android:id="@+id/btn_exo_1"
         android:layout_width="wrap_content"
@@ -62,54 +48,66 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="104dp"
-        android:layout_marginTop="152dp"
         android:text="Conseil 2 "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/btn_exo_1"
-        app:layout_constraintTop_toBottomOf="@+id/image_squat"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ImageView
-        android:id="@+id/image_sprint"
-        android:layout_width="404dp"
-        android:layout_height="449dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/image_squat"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.194"
-        app:srcCompat="@drawable/parade_2" />
+        app:layout_constraintVertical_bias="0.901" />
 
     <TextView
         android:id="@+id/textparade_1"
         android:layout_width="370dp"
         android:layout_height="144dp"
-        android:text="Dans cette situtation il est primordiale d'anticiper le positionnement des appuies du tireur. Dans ce cas le joueur est totalement désaxé et le tir sera certainement sur la droite du gardien, le fait de sortir au de-là de sa ligne permet de réduire l'angle de tir du tireur."
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:text="Dans le cas d'un tir avec peu d'angle, essayez de sauter le plus loin possible en direction du point de penalty afin de vous ouvrir l'angle. Ne pas hesiter à finir le tir sur une belle glissade à la manière d'un pingouin."
         android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.757" />
+        app:layout_constraintVertical_bias="0.757"
+        tools:visibility="gone" />
 
     <TextView
         android:id="@+id/textparade_2"
         android:layout_width="372dp"
         android:layout_height="133dp"
-        android:text="Dans le cas d'un tir à l'aile le gardien peut se servir de la course de l'ailier pour se placer afin d'optimiser ses chances de parade. Celui-ci à la possibilité de rester au premier au poteau et fermer le deuxième poteau lors du tir de l'ailier, ou alors simplement s'avancer un peu laisser son premier poteau libre et le fermer une fois le tireur pris dans le piège !"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:text="En tant qu'ailier vous serez les plus solicités lors des contre-attaques, une fois face au gardien il ne faut pas paniquer car c'est un but quasi gratuit. Ne pas oublier de faire une course arrondie à l'approche de la zone afin de pouvoir contourner le gardien lors de votre envolée. "
         android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.678"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74"
+        app:layout_constraintVertical_bias="0.74" />
+
+    <ImageView
+        android:id="@+id/imagetiraile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184"
+        app:srcCompat="@drawable/aile"
         tools:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView64"
+        android:layout_width="405dp"
+        android:layout_height="266dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263"
+        app:srcCompat="@drawable/contre_attaque" />
+
 </android.support.constraint.ConstraintLayout>
