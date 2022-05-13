@@ -9,15 +9,17 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="409dp"
-        android:layout_height="96dp"
+        android:layout_width="353dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
         android:text="Exercices physiques"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#ECECEC"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintVertical_bias="0.043" />
 
     <ImageView
         android:id="@+id/barrerouge"
@@ -39,10 +41,10 @@
         android:text="vitesse"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintHorizontal_bias="0.091"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintVertical_bias="0.948" />
 
     <Button
         android:id="@+id/btn_exo2"
@@ -52,10 +54,10 @@
         android:text="vivacite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintHorizontal_bias="0.238"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintVertical_bias="0.948" />
 
     <Button
         android:id="@+id/btn_exo_3"
@@ -64,10 +66,10 @@
         android:text="agilite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintHorizontal_bias="0.947"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintVertical_bias="0.948" />
 
     <ImageView
         android:id="@+id/imageagilite"
@@ -78,14 +80,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.265"
-        app:srcCompat="@drawable/agilite1"
-        tools:visibility="gone" />
+        app:srcCompat="@drawable/agilite1" />
 
     <TextView
         android:id="@+id/textagilite"
         android:layout_width="370dp"
         android:layout_height="193dp"
-        android:text="L’agilité peut se définir comme la capacité à mouvoir et changer de direction rapidement. Elle exige de l’athlète des réflexes, de la coordination, de l’équilibre, de la vitesse et une réponse à une évolution subite de la situation de jeu. Être agile, c’est être efficace dans une situation qui demande une action rapide, comme d’aller tacler un adversaire. Quelques exercices pour améliorer son agilité:\nLe saut de haies\nLe saut pliométrique latérale\nExercices avec échelles d’agilité"
+        android:text="L’agilité peut se définir comme la capacité à mouvoir et changer de direction rapidement. Elle exige de l’athlète des réflexes, de la coordination, de l’équilibre, de la vitesse et une réponse à une évolution subite de la situation de jeu. Être agile, c’est être efficace dans une situation qui demande une action rapide, comme d’aller tacler un adversaire. Quelques exercices pour améliorer son agilité:\n- Le saut de haies\n - Le saut pliométrique latérale\n- Exercices avec échelles d’agilité"
         android:textAlignment="center"
         android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -93,8 +94,7 @@
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.736"
-        tools:visibility="gone" />
+        app:layout_constraintVertical_bias="0.736" />
 
     <ImageView
         android:id="@+id/imagevivacite"
@@ -111,16 +111,17 @@
 
     <TextView
         android:id="@+id/textvivacite"
-        android:layout_width="395dp"
-        android:layout_height="239dp"
+        android:layout_width="344dp"
+        android:layout_height="314dp"
         android:text="La vivacité est la vitesse en enchainant des mouvements variés et différents. Concrètement, la vitesse est une course en ligne droite, la vivacité est une course en slalom par exemple. La vivacité nécessite d’être complet car elle travaille la force de démarrage, la force de freinage, le déplacement du corps vers l’objectif… C’est très important de faire le distinguo entre la vitesse pure et la vivacité, il n’est pas rare que des joueurs aient une excellente vitesse mais une vivacité moins bonne. Le travail de vivacité au football peut se faire soit de manière isolée avec des changements de direction (latéraux, avant/arrière…) notamment sur du travail poly directionnel mais également avec ballon sous forme de mini-jeux à 2 contre 2 voire 3 contre 3 sur des surfaces adaptées."
         android:textAlignment="center"
         android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.745"
+        app:layout_constraintVertical_bias="0.823"
         tools:visibility="gone" />
 
     <ImageView
@@ -133,19 +134,20 @@
         app:layout_constraintStart_toStartOf="@+id/barrerouge"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.309"
-        app:srcCompat="@drawable/vitesse" />
+        app:srcCompat="@drawable/vitesse"
+        tools:visibility="gone" />
 
     <TextView
         android:id="@+id/textvitesse"
-        android:layout_width="384dp"
-        android:layout_height="218dp"
+        android:layout_width="367dp"
+        android:layout_height="266dp"
         android:text="Le football nécessite de la vitesse. Nul besoin d'être Usain Bolt pour y parvenir, mais une bonne aptitude à la course peut être utile. Effectuez des exercices de sprint ou d’accélération. Les exercices de sprint vous aideront à atteindre votre vitesse maximale et les exercices d'accélération vous aideront à courir vite et à récupérer plus efficacement après un sprint. Par exemple : Pour le sprint, courez aussi vite que vous le pourrez sur 20 ou 30 mètres puis courez lentement ou marchez pour retourner à votre point de départ à la fin du sprint et répéter cet exercice plusieurs fois.  Pour l’accélération, trottinez sur 5 à 6 m, puis accélérez. Décélérez au bout d'une dizaine de mètres, recommencez pendant plusieurs minutes. "
         android:textAlignment="center"
         android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.712" />
+        app:layout_constraintVertical_bias="0.772"
+        tools:visibility="gone" />
 </android.support.constraint.ConstraintLayout>

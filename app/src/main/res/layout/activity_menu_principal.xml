@@ -127,13 +127,13 @@
 
             <TextView
                 android:id="@+id/text_feed2"
-                android:layout_width="269dp"
-                android:layout_height="72dp"
+                android:layout_width="315dp"
+                android:layout_height="77dp"
                 android:textColor="#E3E1E1"
                 android:textSize="24sp"
 
-                android:translationX="60dp"
-                android:translationY="40dp"
+                android:translationX="40dp"
+                android:translationY="60dp"
                 android:translationZ="150dp" />
 
 
@@ -167,8 +167,8 @@
 
             <TextView
                 android:id="@+id/text_feed4"
-                android:layout_width="85dp"
-                android:layout_height="60dp"
+                android:layout_width="109dp"
+                android:layout_height="58dp"
                 android:textColor="#E3E1E1"
                 android:textSize="24sp"
 
@@ -200,7 +200,7 @@
                 android:id="@+id/textView56"
                 android:layout_width="387dp"
                 android:layout_height="wrap_content"
-                android:text="Compteur de pas journalier :"
+                android:text="Vitesse moyenne de la dernière course :"
                 android:textColor="#E3E1E1"
                 android:textSize="24sp"
                 android:translationX="20dp"
@@ -214,8 +214,8 @@
 
             <TextView
                 android:id="@+id/text_feed6"
-                android:layout_width="132dp"
-                android:layout_height="wrap_content"
+                android:layout_width="129dp"
+                android:layout_height="51dp"
                 android:textColor="#E3E1E1"
                 android:textSize="24sp"
 
@@ -239,6 +239,20 @@
                 android:alpha="0"
                 android:text="Button" />
 
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0"
+                android:text="Button" />
+
 
         </LinearLayout>
 
@@ -252,15 +266,13 @@
         android:scaleX="1.55"
         android:scaleY="1.55"
         android:translationY="8.5dp"
-        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/barre_selection2"
-        tools:visibility="invisible" />
+        app:srcCompat="@drawable/barre_selection2" />
 
     <Button
         android:id="@+id/sport_buttton"
@@ -286,7 +298,8 @@
         app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.988" />
+        app:layout_constraintVertical_bias="0.988"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/btn_health"

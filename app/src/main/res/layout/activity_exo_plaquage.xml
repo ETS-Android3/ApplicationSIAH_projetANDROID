@@ -24,29 +24,28 @@
 
     <TextView
         android:id="@+id/textView35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="365dp"
+        android:layout_height="137dp"
         android:text="Lors des offenssives de l'equipe adverse, on peut se faire deborder sur les extérieurs. C'est dans ce genre de situations que les plaquage par l'arriere est tres efficace. Il suffit de se jetter dans les jambes de l'adversaire en ceinturant ses 2 jambes,avec l'inertie le joueur adverse sera tres vite amener au sol."
         android:textColor="#DCD5D5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView36"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="341dp"
+        android:layout_height="88dp"
         android:text="Si votre adversaire vous a trop pris de vitesse sur vous, une technique appelé &quot;cuilliere&quot; consiste a crocheter une des jambes de l'adverse pour qu'il trebuche. Le timing et important!"
         android:textColor="#DCD5D5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.307"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.924" />
+        app:layout_constraintVertical_bias="0.959" />
 
     <ImageView
         android:id="@+id/imageView22"

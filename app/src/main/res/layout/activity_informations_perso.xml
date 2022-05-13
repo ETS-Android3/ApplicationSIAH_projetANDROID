@@ -181,19 +181,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.278" />
 
-    <TextView
-        android:id="@+id/textView45"
-        android:layout_width="179dp"
-        android:layout_height="45dp"
-        android:text="ICI "
-        android:textColor="#EAE5E5"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.991"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.548" />
-
     <Button
         android:id="@+id/enregistrer"
         android:layout_width="wrap_content"
