@@ -25,6 +25,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class session_sport extends AppCompatActivity implements SensorEventListener {
+
+    //Partie pour le boutton retour sur la barre d'actvité
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -41,10 +43,12 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
         }
         return true;
     }
+
+    // Initialisation des variables et objets
     SensorManager sensorManager;
 
-    boolean running = false;
-    Sensor podometre;
+
+    Sensor podometre;// initialisation du capteur podomètre
     TextView nbpas;
     Float pas;
     Float pas_capteur;
@@ -55,13 +59,13 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
     Runnable runnable;
     int seconde, minute;
     boolean cliquer,stop,annuler;
-    float km_parcourue;
-    boolean relancer;
-    ArrayList<Course> histo_course;
+
+
+    ArrayList<Course> histo_course;//liste qui stocke l'ensemble des
 
     TextView distance;
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) { // méthode qui crée l'interface visuelle
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_session_sport);
 
@@ -69,11 +73,11 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
         ImageView cercle = (ImageView) findViewById(R.id.imageView21);
         cercle.setVisibility(View.INVISIBLE);
         //tv_steps.setVisibility(View.INVISIBLE);
-        distance = findViewById(R.id.distance);
-        distance.setVisibility(View.INVISIBLE);
-        sensorManager = (SensorManager)  getSystemService(Context.SENSOR_SERVICE);
+        distance = findViewById(R.id.distance); // On attribue les différents textView avec leur identifiant
+        distance.setVisibility(View.INVISIBLE);// on rend le textView invisible
+        sensorManager = (SensorManager)  getSystemService(Context.SENSOR_SERVICE);// on récupère
         podometre = sensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
-        debut=true;
+        debut=true;// Variable qui indique le lancement du podomètre
         chronometre = (TextView) findViewById(R.id.Chrono);
         lancer = (Button) findViewById(R.id.lancer);
         pause = (Button) findViewById(R.id.pause);
@@ -83,6 +87,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
 
         TextView distance_parcou = findViewById(R.id.nb_pas2);
         distance_parcou.setVisibility(View.INVISIBLE);
+        // Runnable qui permet d'effectuer un chronomètre
         runnable = new Runnable() {
             @Override
             public void run() {
@@ -123,7 +128,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                     nbpas.setVisibility(View.VISIBLE);
                 }
                 else{
-                    annuler = true;
+                    annuler = true; // arrêt du podomètre
 
                     lancer.setText("Lancer");
                     pause.setVisibility(View.INVISIBLE);
@@ -134,37 +139,53 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                     nbpas.setVisibility(View.INVISIBLE);
                   //  tv_steps.setVisibility(View.INVISIBLE);
 
-                    /** chargement de la liste d'étudiants **/
-                    // on récupère les préférences stockées sous la clé mesPrefs :
+                    /** chargement de l'historique des courses **/
+                    // on récupère les préférences stockées sous la clé course :
                     SharedPreferences prefsStockees = getSharedPreferences("course", MODE_PRIVATE);
                     Gson gson = new Gson(); // on crée un gestionnaire de format json
-                    // on extrait la liste referencée par le mot cle_listeEtudiants qu'on avait stocké dans les
+                    // on extrait la liste referencée par le mot cle_course qu'on avait stocké dans les
                     // préférences partagées
-                    String listeEtudiantTxtJson = prefsStockees.getString("cle_listeEtudiants", "");
+
+                    String listeCourseTxtJson = prefsStockees.getString("cle_course", "");
+
                     // desormais dans listeEtudiantsTxtJson on a tous nos etudiants stockés dans un format json
-                    // on reconstruit un tableau d'objets de type étudiants grace à al liste au format json
-                    if (listeEtudiantTxtJson.equals("")) {
+                    // on reconstruit un tableau d'objets de type Course grace à la liste au format json
+
+                    if (listeCourseTxtJson.equals("")) {//si elle est vide on la créé
                          histo_course= new ArrayList<>();
                     }
                     else {
-                        Course[] tableauCoursesTemporaire = gson.fromJson(listeEtudiantTxtJson, Course[].class);
-                        // reconstitution d'une arrayList a partir du tableau tableauEtudiantsTemporaire
+                        Course[] tableauCoursesTemporaire = gson.fromJson(listeCourseTxtJson, Course[].class);
+                        // reconstitution d'une arrayList a partir du tableau tableauCourseTemporaire
                         histo_course = new ArrayList<Course>(Arrays.asList(tableauCoursesTemporaire));
                     }
-                    System.out.println(histo_course.size());
+
                     Course course = null;
+                    //Forme try catch pour gérer les éventuels erreurs
                     try{
-                         course = new Course(minute*60+seconde,pas);
+                         course = new Course(minute*60+seconde,pas);//On crée l'objet
+                        Context context = getApplicationContext();
+                        CharSequence text = "Les données sur la course ont été enregistrées";
+                        int duration = Toast.LENGTH_SHORT;
+
+                        Toast toast = Toast.makeText(context, text, duration);
+                        toast.show();
                     }
                     catch(Exception fzf){
-                        System.out.println("POR");
-                    }
-                    try{
+                        Context context = getApplicationContext();
+                        CharSequence text = "Les données sur la course n'ont pas été enregistrées";
+                        int duration = Toast.LENGTH_SHORT;
 
-                     histo_course.add(course);
-                    System.out.println("wlh");}
+                        Toast toast = Toast.makeText(context, text, duration);
+                        toast.show();
+                    }
+
+                    try {
+
+                        histo_course.add(course);
+                    }
                     catch (Exception e){
-                        System.out.println("POURQUOI");
+                        System.out.println("Erreur ajout");
                     }
 
                     SharedPreferences sharedPreferences1 = getSharedPreferences("course", MODE_PRIVATE);
@@ -187,7 +208,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
                 }
             }
         });
-        pause.setOnClickListener(new View.OnClickListener() {
+        pause.setOnClickListener(new View.OnClickListener() { // gestion du boutton pause
             @Override
             public void onClick(View view) {
                 if(stop==false){
@@ -206,7 +227,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
     @Override
     protected void onResume() {
         sensorManager.registerListener(this,podometre,SensorManager.SENSOR_DELAY_UI);
-        running=true;
+
 
         super.onResume();
     }
@@ -221,27 +242,27 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
     }
 
     @Override
-    public void onSensorChanged(SensorEvent sensorEvent) {
+    public void onSensorChanged(SensorEvent sensorEvent) { //
         boolean reprise =false ;
-        if(sensorEvent.sensor.getType()==Sensor.TYPE_STEP_COUNTER){
+        if(sensorEvent.sensor.getType()==Sensor.TYPE_STEP_COUNTER){ // on s'intéresse seulement des données de type step counter
             if(stop ==true){
-                variation_pas = sensorEvent.values[0]-pas_capteur-pas;
-
+                variation_pas = sensorEvent.values[0]-pas_capteur-pas;// si l'utilisateur met stop le compteur s'arrête
+                // variation pas correspond au pas effectué durant la pause
                 reprise=true;
             }
             if(debut==true){
-                pas_capteur=sensorEvent.values[0];
+                pas_capteur=sensorEvent.values[0];// on récupère les pas déjà enregistés par le capteur
 
-                debut=false;
+                debut=false;// on indique que le premier lancement est déjà effectué
             }
             if(stop==false && annuler == false) {
-                pas = sensorEvent.values[0] - pas_capteur   ;
+                pas = sensorEvent.values[0] - pas_capteur   ;// nombre de pas fais lors de l'activité
                 if(reprise=true){
                     pas = pas - variation_pas;
 
                     reprise=false;
                 }
-                distance.setText(String.valueOf(Math.round(pas*0.64))+" m");
+                distance.setText(String.valueOf(Math.round(pas*0.64))+" m");// conversion en nombre de pas en mètre
                 nbpas.setText("Nombre de pas : "+String.valueOf(Math.round(pas)));
             }
 
@@ -255,6 +276,7 @@ public class session_sport extends AppCompatActivity implements SensorEventListe
     public void onAccuracyChanged(Sensor sensor, int i) {
 
     }
+    //méthode pour revenir au menu précédent
     private void retour() {
         Intent intent60 = new Intent(this, Menu_principal.class);
         startActivity(intent60);

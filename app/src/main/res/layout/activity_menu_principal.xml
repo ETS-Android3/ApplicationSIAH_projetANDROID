@@ -71,10 +71,10 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056" />
+        app:layout_constraintVertical_bias="0.037" />
 
     <Button
         android:id="@+id/acces_podometre"
@@ -127,9 +127,9 @@
 
             <TextView
                 android:id="@+id/text_feed2"
-                android:layout_width="315dp"
-                android:layout_height="77dp"
-                android:textColor="#E3E1E1"
+                android:layout_width="313dp"
+                android:layout_height="93dp"
+                android:textColor="#D31B1B"
                 android:textSize="24sp"
 
                 android:translationX="40dp"
@@ -167,9 +167,9 @@
 
             <TextView
                 android:id="@+id/text_feed4"
-                android:layout_width="109dp"
-                android:layout_height="58dp"
-                android:textColor="#E3E1E1"
+                android:layout_width="186dp"
+                android:layout_height="57dp"
+                android:textColor="#D31B1B"
                 android:textSize="24sp"
 
                 android:translationX="150dp"
@@ -214,12 +214,12 @@
 
             <TextView
                 android:id="@+id/text_feed6"
-                android:layout_width="129dp"
-                android:layout_height="51dp"
-                android:textColor="#E3E1E1"
+                android:layout_width="173dp"
+                android:layout_height="68dp"
+                android:textColor="#D31B1B"
                 android:textSize="24sp"
 
-                android:translationX="130dp"
+                android:translationX="160dp"
                 android:translationY="90dp"
                 android:translationZ="150dp" />
 

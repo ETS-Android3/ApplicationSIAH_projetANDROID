@@ -39,8 +39,8 @@ public class sante_accueil extends AppCompatActivity {
          Integer taille_cm;
         float imc;
         SharedPreferences sharedPreferences = getSharedPreferences("utilisateur", MODE_PRIVATE);
-       poidskg = sharedPreferences.getInt("util_poids",1);
-       taille_cm=sharedPreferences.getInt("util_taille",2);
+         poidskg = sharedPreferences.getInt("util_poids",1);
+        taille_cm=sharedPreferences.getInt("util_taille",2);
         taille_m =( taille_cm.floatValue() )/ (100);
         imc=0;TextView text = findViewById(R.id.textView71);
         try {
@@ -59,23 +59,25 @@ public class sante_accueil extends AppCompatActivity {
         text1.setText("");
 
 
+
         if (imc <= 18.5) {
             text1.setText("Vous avez une insuffisance corporelle, il serait nécessaire d'avoir une alimentation plus importante :\n" +
                     "- privilégier les protéines \n" +
                     "- les féculents à chacun des repas \n" +
                     "- consommer des glucides\n" +
                     "- des vitamines et du fer : n’hésitez pas à entamer dès maintenant une cure de fer si vous vous sentez faible quotidiennement! \n");
+            System.out.println("LA");
         }
-        if (18.51 <= imc && imc >=24.5){
+        if (18.51 <= Math.round(imc) && Math.round(imc) <= 24.5){
             text1.setText("Vous avez une corpulence de type normale continuer à avoir une alimentation saine et équilibrée, tout en privilégiant les protéines et les sucres lents avant chaque compétition. \n" +
                     "Voici le menu du champion: un bon plat de pates et une banane à la mi-temps du match, le tout en buvant bien de l'eau. Vous possédez la morphologie idéale pour faire preuve de rapidité sur le terrain!\n");
         }
 
-        if (24.51 <= imc && imc >= 30){
+        if (24.51 <= Math.round(imc) && Math.round(imc) <= 30){
             text1.setText("Vous avez une corpulence assez dévelopée avec un léger surpoids mais ce n'est pas un problème avec une bonne alimentation et de bons exercices ! L'alimentation représente 80% de l'effort total à fournir ! Pour cela commencez par supprimer les sucreries et tous types de grignotage et adopter les protéines et les glucides à votre quotidien petit à petit !");
         }
 
-        if (imc >= 30) {
+        if (Math.round(imc) >= 30) {
             text1.setText("L’alimentation va être la clé pour une progression rapide et pour avoir des résutats visibles rapidement: il faut arretez toutes les sucreries, sucres rapides et produits trop gras. Il est necessaire d'adopter un régime stricte et méthodique; les seuls aliments autorisés :\n" +
                     "- les proteines\n" +
                     "- les glucides \n" +

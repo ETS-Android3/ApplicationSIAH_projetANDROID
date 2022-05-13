@@ -3,7 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_apropos_de_nous.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_apropos_de_nous.xml" value="0.264" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_basket_aillier_spexo.xml" value="0.264" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_basket_interieur_spe.xml" value="0.2" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_basket_meneur_spe.xml" value="0.2" />
@@ -32,6 +32,10 @@
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_foot_mdc.xml" value="0.2" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_gardien.xml" value="0.2151268115942029" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_handball.xml" value="0.264" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_hb_ailier_exo_spe.xml" value="0.4" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_hb_arriere_exo_spe.xml" value="0.1" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_hb_arriere_tactique.xml" value="0.1" />
+        <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_hb_demi_exo_spe.xml" value="0.1" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_hb_demi_tactique.xml" value="0.2" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_principal.xml" value="0.25" />
         <entry key="..\:/Users/33695/AndroidStudioProjects/ApplicationSIAH_projetANDROID/app/src/main/res/layout/activity_menu_rugby.xml" value="0.2" />

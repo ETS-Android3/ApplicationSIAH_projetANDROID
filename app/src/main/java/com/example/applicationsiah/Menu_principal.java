@@ -38,6 +38,8 @@ public class Menu_principal extends AppCompatActivity implements SensorEventList
 
         setContentView(R.layout.activity_menu_principal); //affiche l'acran
         text_vitesse= findViewById(R.id.text_feed6);
+
+        // Table conseillant avec les conseils santé
         String tab_conseilsante[] = new String[7];
         tab_conseilsante[0] = "Buvez de l'eau lors de vos pauses sans couper la respiration";
         tab_conseilsante[1] = "Etirez-vous à la fin de chaque entraînement ";
@@ -53,7 +55,7 @@ public class Menu_principal extends AppCompatActivity implements SensorEventList
         TextView textViewDate = findViewById(R.id.text_date);
         textViewDate.setText(currentDate);
         TextView text = findViewById(R.id.textView);
-        //On récupère le prénom de l'utilisateur
+        //On récupère le prénom de l'utilisateur avec les ahared preferences
         SharedPreferences sharedPreferences = getSharedPreferences("utilisateur", MODE_PRIVATE);
         String prenom = sharedPreferences.getString("util_prenom", " ");
         TextView text_pas = findViewById(R.id.text_feed4);
@@ -81,13 +83,16 @@ public class Menu_principal extends AppCompatActivity implements SensorEventList
 
 
         try {
-            text_pas.setText(String.valueOf(Math.round(listesCourse.get(listesCourse.size()-1).km)));
+            text_pas.setText(String.valueOf(Math.round(listesCourse.get(listesCourse.size()-1).km))+" pas");
             text_vitesse.setText((String.valueOf(Math.round(listesCourse.get(listesCourse.size()-1).km/listesCourse.get(listesCourse.size()-1).duree)))+" m/s");
         }catch(Exception a){
-            text_pas.setText("Pas de course encore effectuée");
+            text_pas.setText("Pas de course");
+            text_vitesse.setText("Pas de course");
         }
         text.setText("Bienvenue " + prenom);
         TextView text2 = findViewById(R.id.text_feed2);
+
+        // Tirage d'un nombre aléatoire
         int min = 0;
         int max = 6;
 
