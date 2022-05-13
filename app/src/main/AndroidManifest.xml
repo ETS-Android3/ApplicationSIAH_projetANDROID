@@ -12,6 +12,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".technique_gb"
+            android:exported="false" />
+        <activity
+            android:name=".technique_dc"
+            android:exported="false" />
+        <activity
+            android:name=".technique_dg_dd"
+            android:exported="false" />
+        <activity
+            android:name=".technique_mdc"
+            android:exported="false" />
+        <activity
+            android:name=".technique_moc"
+            android:exported="false" />
+        <activity
+            android:name=".technique_bu"
+            android:exported="false" />
+        <activity
+            android:name=".Technique_ag_ad"
+            android:exported="false" />
+        <activity
             android:name=".Physique_dg_dd"
             android:exported="false" />
         <activity

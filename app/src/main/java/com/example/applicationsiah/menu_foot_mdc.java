@@ -35,6 +35,15 @@ public class menu_foot_mdc extends AppCompatActivity {
             @Override
             public void onClick(View view) {visualiser_physique_mdc();}
         });
+        Button technique = (Button) findViewById((R.id.technique));
+        physique.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {visualiser_technique_mdc();}
+        });
+    }
+    private void visualiser_technique_mdc(){
+        Intent intent1 = new Intent(this, technique_mdc.class);
+        startActivity(intent1);
     }
 
     private void visualiser_physique_mdc() {

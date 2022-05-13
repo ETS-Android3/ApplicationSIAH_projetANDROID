@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4151515"
+    tools:context=".technique_mdc">
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="390dp"
+        android:layout_height="73dp"
+        android:text="Exercices techniques"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#ECECEC"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <ImageView
+        android:id="@+id/barrerouge"
+        android:layout_width="410dp"
+        android:layout_height="170dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069"
+        app:srcCompat="@drawable/s_p_ration_barresiah" />
+
+    <Button
+        android:id="@+id/btn_exo_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Controle de\nballe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <Button
+        android:id="@+id/btn_exo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:text="conduite de\nballe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <Button
+        android:id="@+id/btn_exo_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="passe"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <ImageView
+        android:id="@+id/imageconduite"
+        android:layout_width="371dp"
+        android:layout_height="244dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26"
+        app:srcCompat="@drawable/conduiteballe"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textconduite"
+        android:layout_width="370dp"
+        android:layout_height="224dp"
+        android:text="C'est un geste technique que l'on assimile à un moyen de progression individuelle dans un espace libre. Conduire son ballon, c'est être maître à tout moment de celui-ci. On peut la travailler à travers une multitude d'exercices en utilisant les différentes surfaces de contact des pieds. On considère que le geste est acquis on peut conduire son ballon tout en levant la tête pour une prise d'informations. Pour travailler la conduite de balle, il existe de nombreux exercices comme le slalom avec ballon ou encore des jeux ludiques à faire en équipe comme le « carré magique »."
+        android:textAlignment="center"
+        android:textColor="#ECECEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702"
+        tools:visibility="gone" />
+    <ImageView
+        android:id="@+id/imagecontrole"
+        android:layout_width="341dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253"
+        app:srcCompat="@drawable/controleballe"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textcontrole"
+        android:layout_width="368dp"
+        android:layout_height="302dp"
+        android:text="Le contrôle de balle, la première touche du porteur de balle est primordiale pour assurer la bonne continuité de l’action individuelle. Après le contrôle vient, la passe, la conduite, le dribble, la frappe donc sans contrôle efficace, impossible d’assurer une action limpide par la suite. Idéalement, le contrôle aura pour objectif d’éliminer l’adversaire, de sortir du marquage, de se mettre dans le sens du jeu. Le contrôle devra créer de l’incertitude chez l’adversaire en utilisant des feintes de corps, un jeu de corps et une variabilité de la surface du contrôle (intérieur / extérieur, pied droit / pied gauche). Un exercice tout simple, mettez-vous face à un mur, à environ 3 mètres, faites une passe au mur et attendez que la balle revienne vers vous pour la contrôler avec le plat du pied et la renvoyer vers le mur. Dosez la puissance de la passe afin qu'elle ne soit ni trop molle ni trop puissante pour être contrôlée."
+        android:textAlignment="center"
+        android:textColor="#ECECEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881"
+        tools:visibility="gone" />
+
+    <ImageView
+    android:id="@+id/imagepasse"
+    android:layout_width="381dp"
+    android:layout_height="291dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.236"
+    app:srcCompat="@drawable/passe" />
+
+    <TextView
+        android:id="@+id/textpasse"
+        android:layout_width="359dp"
+        android:layout_height="276dp"
+        android:text="Geste technique par excellence, la passe, et plus particulièrement la passe courte, est au cœur du football. Elle a pour but de conserver le ballon, bien évidemment, mais également de déplacer le bloc adverse ou encore de traverser certaines lignes de défense. D’un point de vue purement technique, une bonne passe réunit 2 ingrédients : le dosage et la précision. Pour vous entrainer, si vous êtes 2, faites-vous des passes sans contrôle, à ras de terre. Enchainez le plus de passes possibles sans avoir à contrôler le ballon et en restant toujours à la même place. Si vous êtes à l'aise, alternez les passes du pied gauche et du pied droit et écartez-vous l'un de l'autre. Si vous êtes plus, vous pouvez faire des mini jeux comme un carré avec pivot central ou encore un toro."
+        android:textAlignment="center"
+        android:textColor="#ECECEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.841" />
+</android.support.constraint.ConstraintLayout>

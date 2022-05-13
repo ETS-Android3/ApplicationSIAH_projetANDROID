@@ -35,8 +35,16 @@ public class menu_foot_ad_ag extends AppCompatActivity {
             @Override
             public void onClick(View view) {visualiser_physique_ag_ad();}
         });
+        Button technique = (Button) findViewById((R.id.technique));
+        physique.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {visualiser_technique_ag_ad();}
+        });
     }
-
+        private void visualiser_technique_ag_ad(){
+        Intent intent1 = new Intent(this, Technique_ag_ad.class);
+        startActivity(intent1);
+    }
         private void visualiser_physique_ag_ad() {
             Intent intent2 = new Intent(this, Physique_ag_ad.class);
             startActivity(intent2);
