@@ -55,10 +55,14 @@ public class Menu_principal extends AppCompatActivity implements SensorEventList
         TextView textViewDate = findViewById(R.id.text_date);
         textViewDate.setText(currentDate);
         TextView text = findViewById(R.id.textView);
-        //On récupère le prénom de l'utilisateur avec les ahared preferences
+        //On récupère le prénom de l'utilisateur avec les shared preferences
+
+
         SharedPreferences sharedPreferences = getSharedPreferences("utilisateur", MODE_PRIVATE);
         String prenom = sharedPreferences.getString("util_prenom", " ");
         TextView text_pas = findViewById(R.id.text_feed4);
+
+
         Float pas;
         // On initialise les capteurs
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
