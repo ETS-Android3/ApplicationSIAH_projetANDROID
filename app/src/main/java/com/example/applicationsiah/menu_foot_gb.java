@@ -37,7 +37,7 @@ public class menu_foot_gb extends AppCompatActivity {
             public void onClick(View view) {visualiser_physique_gb();}
         });
         Button technique = (Button) findViewById((R.id.technique));
-        physique.setOnClickListener(new View.OnClickListener() {
+        technique.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {visualiser_technique_gb();}
         });
