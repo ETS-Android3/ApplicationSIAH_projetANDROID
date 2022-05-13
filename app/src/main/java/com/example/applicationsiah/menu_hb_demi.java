@@ -9,7 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class menu_gardien extends AppCompatActivity {
+public class menu_hb_demi extends AppCompatActivity {
     boolean retour=false;
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -29,7 +29,8 @@ public class menu_gardien extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_gardien);
+        setContentView(R.layout.activity_menu_hb_demi);
+
         Button button_tactique_gb = (Button) findViewById((R.id.button_tact_gb));
         button_tactique_gb.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,7 +38,7 @@ public class menu_gardien extends AppCompatActivity {
                 visualiser_la_tactiquegb();
             }
         });
-        
+
         Button button_exo_gb = (Button) findViewById((R.id.exo_gb));
         button_exo_gb.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,15 +49,15 @@ public class menu_gardien extends AppCompatActivity {
     }
 
     private void visualiser_la_exogb() {
-        Intent intent2 = new Intent(this, menu_exo_gb.class);
+        Intent intent2 = new Intent(this, menu_hb_demi_exo_spe.class);
         startActivity(intent2);
     }
 
     private void visualiser_la_tactiquegb() {
-        Intent intent1 = new Intent(this, menu_tactique_gb.class);
+        Intent intent1 = new Intent(this, menu_hb_demi_tactique.class);
         startActivity(intent1);
-    }
-    private void retour() {
+
+    }private void retour() {
         Intent intent60 = new Intent(this, menu_handball.class);
         startActivity(intent60);
     }

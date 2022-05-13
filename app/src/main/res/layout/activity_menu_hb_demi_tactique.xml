@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".menu_demi_hb_technique"
     android:background="#E4151515"
-    android:foregroundTint="#FF0505">
+    tools:context=".menu_hb_demi_tactique">
 
     <TextView
         android:id="@+id/textView13"
@@ -113,6 +112,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.31"
         app:srcCompat="@drawable/tactique_attaque_1_5" />
-
-
 </android.support.constraint.ConstraintLayout>

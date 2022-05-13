@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationSIAH">
         <activity
+            android:name=".menu_hb_demi"
+            android:exported="false" />
+        <activity
+            android:name=".menu_hb_demi_exo_spe"
+            android:exported="false" />
+        <activity
+            android:name=".menu_hb_demi_tactique"
+            android:exported="false" />
+        <activity
             android:name=".menu_hb_arriere_exo_spe"
             android:exported="false" />
         <activity
@@ -117,9 +126,6 @@
             android:exported="false" />
         <activity
             android:name=".menu_basket_meneur_exercice"
-            android:exported="false" />
-        <activity
-            android:name=".menu_demi_hb"
             android:exported="false" />
         <activity
             android:name=".menu_basket_interieur_exercice"
