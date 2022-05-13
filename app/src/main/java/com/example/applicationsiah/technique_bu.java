@@ -32,7 +32,7 @@ public class technique_bu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_technique_bu);
-        ImageView image1 = (ImageView) findViewById(R.id.imagecontrole;
+        ImageView image1 = (ImageView) findViewById(R.id.imagecontrole);
         Button controle = (Button) findViewById(R.id.btn_exo_1);
         ImageView image2 = (ImageView) findViewById(R.id.imagetir);
         image2.setVisibility(View.INVISIBLE);
