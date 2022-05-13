@@ -30,7 +30,7 @@ public class recuperation extends AppCompatActivity {
         setContentView(R.layout.activity_recuperation);
     }
     private void retour() {
-        Intent intent60 = new Intent(this, Menu_principal.class);
+        Intent intent60 = new Intent(this, Menu_sport.class);
         startActivity(intent60);
     }
 }
