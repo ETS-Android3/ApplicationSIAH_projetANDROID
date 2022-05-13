@@ -140,14 +140,15 @@
 
     <TextView
         android:id="@+id/textcentre"
-        android:layout_width="371dp"
-        android:layout_height="272dp"
+        android:layout_width="372dp"
+        android:layout_height="286dp"
         android:text="Le but du centre est de faire une passe à un ou une partenaire lorsque tu te retrouves avec le ballon sur le côté du terrain, le long des lignes de touche. Tu peux le faire en hauteur ou à ras de terre, afin que ton coéquipier ou ta coéquipière puisse directement tenter sa chance et reprendre la balle de la tête ou du pied, pour l’envoyer en lucarne ou en tribune. Ça ne marche pas à tous les coups mais l’important, c’est d’y croire. Pour réussir à centrer malgré le changement de direction au moment de la frappe, tu dois ancrer solidement ton pied d’appui dans le sol. Pour garder l’équilibre pendant ton centre, écarte les bras de ton corps et tends-les à 90°. Si tu es à l’arrêt, à l’aise le long de la ligne de touche, la technique de frappe pour un centre est la même que pour une frappe enroulée. Pour t’entrainer il te suffit d’un ballon et d’un terrain de foot."
         android:textAlignment="center"
         android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.79" />
+        app:layout_constraintVertical_bias="0.765" />
 </android.support.constraint.ConstraintLayout>

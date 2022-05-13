@@ -43,10 +43,10 @@
         android:text="Controle de\nballe"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintHorizontal_bias="0.057"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.964" />
+        app:layout_constraintVertical_bias="0.978" />
 
     <Button
         android:id="@+id/btn_exo2"
@@ -59,7 +59,8 @@
         app:layout_constraintHorizontal_bias="0.238"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.964" />
+        app:layout_constraintVertical_bias="0.978" />
+
 
     <Button
         android:id="@+id/btn_exo_3"
@@ -68,11 +69,10 @@
         android:text="dribble"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintHorizontal_bias="0.914"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.964" />
-
+        app:layout_constraintVertical_bias="0.978" />
 
     <ImageView
         android:id="@+id/imagedribble"
@@ -109,9 +109,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.253"
-        app:srcCompat="@drawable/controleballe"
-        tools:visibility="gone" />
+        app:layout_constraintVertical_bias="0.243"
+        app:srcCompat="@drawable/controleballe" />
 
     <TextView
         android:id="@+id/textcontrole"
@@ -122,11 +121,10 @@
         android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.881"
-        tools:visibility="gone" />
+        app:layout_constraintVertical_bias="0.851" />
 
     <ImageView
         android:id="@+id/imagetir"
@@ -137,21 +135,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.233"
-        app:srcCompat="@drawable/tir" />
+        app:srcCompat="@drawable/tir"
+        tools:visibility="gone" />
 
     <TextView
         android:id="@+id/texttir"
-        android:layout_width="334dp"
-        android:layout_height="326dp"
+        android:layout_width="335dp"
+        android:layout_height="360dp"
         android:text="Comme pour toute technique de football, vous devez vous entraîner si vous voulez améliorer vos performances de tir. Heureusement, les techniques utilisées pour les tirs sont similaires à celles utilisées pour les passes. Vous pouvez donc développer deux techniques de foot essentielles en même temps. Un tir de côté sera peut-être plus précis, mais une frappe de balle avec une bonne trajectoire aura plus de puissance pour rentrer dans les cages. \n- Bien placer son pied avant de tirer dans le ballon de foot.\n- Gardez la tête baissée et les yeux rivés sur le ballon lorsque vous frappez. Vous devez être au maximum concentré sur le moment présent. Gardez votre corps bien au-dessus du ballon. \n- Ne pas céder à la panique, au stress du match et des supporters. Gardez votre sang-froid pour être maître de vos mouvements et ainsi viser juste. "
         android:textAlignment="center"
         android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.804" />
+        app:layout_constraintVertical_bias="0.832"
+        tools:visibility="gone" />
 
 
 </android.support.constraint.ConstraintLayout>

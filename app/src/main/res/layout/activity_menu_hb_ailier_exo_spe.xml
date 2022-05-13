@@ -36,8 +36,8 @@
 
     <TextView
         android:id="@+id/textView45"
-        android:layout_width="368dp"
-        android:layout_height="274dp"
+        android:layout_width="373dp"
+        android:layout_height="323dp"
         android:text="Cet exercice a pour objectif de travailler les savoir faire individuel des ailiers, notamment la réception de balle a une main. On positionne :\n- 2 colonnes d’ailiers avec chacun son ballon\n- 2 plots pour délimiter l’angle de tir des ailiers\n- 2 passeurs avec une réserve de ballons, situés derrière la ligne de but\nLe passeur fait une passe à l’ailier qui s’engage pour aller tirer. L’ailier qui a déjà un ballon dans sa bonne main, doit réceptionner la 2e balle d’une main (sa mauvaise main) et enchaîner le tir .\nRÉGULATIONS :\n- alterner côté gauche, côté droit\n- élargir ou réduire à l’aide du plot l’angle de tir ce qui aura pour effet de réduire la course de l’ailier (et donc son temps de réorganisation)"
         android:textAlignment="center"
         android:textColor="#ECECEC"

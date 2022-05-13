@@ -35,8 +35,8 @@
 
     <TextView
         android:id="@+id/textView45"
-        android:layout_width="363dp"
-        android:layout_height="287dp"
+        android:layout_width="349dp"
+        android:layout_height="328dp"
         android:text="Entraînement par postes, Accent sur les tirs d’arrière:\nPoste 1: Tir en suspension à pieds joints depuis un couvercle de caisson et par-dessus un élastique tendu.\nPoste 2: Tir en suspension par-dessus un gros tapis, avec élan sur un couvercle de caisson.\nPoste 3: Tir en suspension par-dessus un défensif passif, mains à hauteur de tête.\nPoste 4: Après une série de dribbles, feinte de corps puis tir au but.\nPoste 5: Variantes de tir (tir de base, tir en appui sur la «mauvaise» jambe, à pieds joints, sur la «mauvaise» jambe) par-dessus ou autour d’un caisson.\nPoste 6: Tir par-dessus deux défenseurs passifs.\nUn gardien dans chaque but. De son point de vue, le premier tir vient de gauche, le deuxième du milieu et le troisième de droite, etc."
         android:textAlignment="center"
         android:textColor="#ECECEC"
@@ -44,7 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.927" />
+        app:layout_constraintVertical_bias="0.912" />
 
     <ImageView
         android:id="@+id/imageView48"

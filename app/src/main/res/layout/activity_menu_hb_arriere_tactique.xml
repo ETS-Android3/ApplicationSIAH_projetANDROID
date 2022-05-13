@@ -6,17 +6,20 @@
     android:layout_height="match_parent"
     android:background="#E4151515"
     tools:context=".menu_hb_arriere_tactique">
+
     <TextView
         android:id="@+id/textView13"
         android:layout_width="409dp"
         android:layout_height="96dp"
+        android:layout_marginStart="12dp"
         android:text="Conseils techniques"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#ECECEC"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintVertical_bias="0.043" />
 
     <ImageView
         android:id="@+id/barrerouge"

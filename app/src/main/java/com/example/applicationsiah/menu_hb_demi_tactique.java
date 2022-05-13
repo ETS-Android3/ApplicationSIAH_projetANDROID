@@ -32,6 +32,36 @@ public class menu_hb_demi_tactique extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_hb_demi_tactique);
+      ImageView image1 = findViewById(R.id.imagestricte);
+      ImageView image2 = findViewById(R.id.imagetactique);
+      image2.setVisibility(View.INVISIBLE);
+      Button conseil1 = findViewById(R.id.conseil_1);
+      Button conseil2 = findViewById(R.id.conseil_2);
+      TextView text1 = findViewById(R.id.textparade_1);
+        TextView text2 = findViewById(R.id.textparade_2);
+        text2.setVisibility(View.INVISIBLE);
+      conseil1.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View view) {
+              image1.setVisibility(View.VISIBLE);
+              image2.setVisibility(View.INVISIBLE);
+              text1.setVisibility(View.VISIBLE);
+              text2.setVisibility(View.INVISIBLE);
+
+          }
+      });
+
+      conseil2.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View view) {
+              image1.setVisibility(View.INVISIBLE);
+              image2.setVisibility(View.VISIBLE);
+              text1.setVisibility(View.INVISIBLE);
+              text2.setVisibility(View.VISIBLE);
+
+          }
+      });
+
 
     }private void retour() {
         Intent intent60 = new Intent(this, menu_hb_demi.class);

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class menu_hb_demi_exo_spe extends AppCompatActivity {
     boolean retour=false;
@@ -28,7 +29,9 @@ public class menu_hb_demi_exo_spe extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_hb_demi_exo_spe);
-    }private void retour() {
+
+    }
+    private void retour() {
         Intent intent60 = new Intent(this, menu_hb_demi.class);
         startActivity(intent60);
     }

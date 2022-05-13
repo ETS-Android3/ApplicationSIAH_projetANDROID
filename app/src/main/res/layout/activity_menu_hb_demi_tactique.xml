@@ -39,10 +39,10 @@
         android:text="Conseil 1 "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintHorizontal_bias="0.179"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintVertical_bias="0.923" />
 
     <Button
         android:id="@+id/conseil_2"
@@ -52,26 +52,24 @@
         android:text="Conseil 2 "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toEndOf="@+id/conseil_1"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintVertical_bias="0.923" />
 
     <TextView
         android:id="@+id/textparade_1"
-        android:layout_width="375dp"
-        android:layout_height="161dp"
+        android:layout_width="373dp"
+        android:layout_height="187dp"
         android:text="Dans cette situtation le defenseur est en 'strict' sur le demi centre, c'est à dire qu'il lui empeche totalement d'avoir le ballon. Ne vous enervez pas si cela vous arrive, deux choix s'offre à vous :\n-Soit vous vous écartez totalement du jeu et laissez votre équipe à 5 contre 5, cela offrira plus d'espace à vos coéquipiers.\n-Soit vous rentrez en second pivot, en esperant que le defenseur va vous suivre et redescendre dans sa défense."
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#ECECEC"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.756"
-        tools:visibility="gone" />
+        app:layout_constraintVertical_bias="0.829" />
 
     <ImageView
         android:id="@+id/imagestricte"
@@ -99,7 +97,8 @@
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.826" />
+        app:layout_constraintVertical_bias="0.826"
+        tools:visibility="gone" />
 
     <ImageView
         android:id="@+id/imagetactique"
